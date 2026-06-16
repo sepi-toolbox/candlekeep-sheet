@@ -1,0 +1,31 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/305f7f5a1e8080bda38fcbba308a88e9 as of 2026-02-12T15:03:33.359Z:
+<page url="https://app.notion.com/p/305f7f5a1e8080bda38fcbba308a88e9">
+<ancestor-path>
+<parent-page url="https://app.notion.com/p/303f7f5a1e80809397f6f818d83fcbbb" title="주문 설명"/>
+<ancestor-2-data-source url="collection://212f7f5a-1e80-810e-b5af-000ba9ce2356" name="핵심 규칙 목차"/>
+<ancestor-3-database url="https://app.notion.com/p/212f7f5a1e8081bc96d1dd79daaf3234" title=""/>
+<ancestor-4-page url="https://app.notion.com/p/212f7f5a1e8081cb8e34e5493fc78409" title="핵심 규칙"/>
+<ancestor-5-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-6-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-7-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"title":""}
+</properties>
+<content>
+*방출술 7레벨*
+---
+**시전시간:** 1 행동
+**사거리/범위:** 100 ft/입방체
+**구성요소:** 음성, 동작, 물질 <span color="gray">(최소 1,500 GP 가치의 루비 가루, 주문 시전시 소모됨)</span>
+**지속시간:** 집중, 최대 1시간까지
+---
+마법적 힘으로 구성된 이동 불가능하고 <span color="green">[투명](/212f7f5a1e808181889cccb51c28dcff?pvs=25)</span>한 <span color="yellow">[입방체](/212f7f5a1e8081c4aedaf3d1fddf8ef7?pvs=25)</span> 감옥이 사거리 내 당신이 선택한 지점에 나타납니다. 이 감옥은 당신의 선택에 따라 우리나 단단한 상자 형태를 띨 수 있습니다.
+우리 형태의 감옥은 한 변의 길이가 최대 20ft이며, 지름이 1/2인치인 창살들로 구성되어 있고 막대 사이의 간격도 1/2인치입니다. 상자 형태의 감옥은 한 변의 길이가 최대 10ft이며, 물체나 크리처가 통과할 수 없을 뿐만 아니라 그 영역의 내부와 외부 사이에 주문 시전도 차단합니다.
+주문을 시전할 때, 감옥 내부에 완전히 들어있는 크리처는 갇히게 됩니다. 감옥의 범위에 일부만 걸쳐 있거나 크기가 너무 커서 들어갈 수 없는 크리처는 중심에서 밀려나 감옥 밖으로 완전히 나오게 됩니다.
+감옥에 갇힌 크리처는 비마법적 수단으로는 탈출할 수 없습니다. 크리처가 순간이동이나 차원 이동을 시도할 때는 먼저 매력 내성 굴림에 성공해야만 해당 주문을 사용하여 탈출할 수 있습니다. 실패하면 탈출하지 못하고 사용한 주문이나 효과는 낭비됩니다. 이 감옥은 에테르계까지 확장되어 있어 에테르계를 통한 이동도 차단합니다.
+이 주문은 <span color="purple">[마법 해제](/212f7f5a1e80811b905dcc0246174bb4?pvs=25)</span>로 해제할 수 없습니다.
+---
+**클래스:** 바드, 워락, 위저드
+</content>
+</page>

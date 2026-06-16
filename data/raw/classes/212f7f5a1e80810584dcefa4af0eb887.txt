@@ -1,0 +1,490 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/212f7f5a1e80810584dcefa4af0eb887 as of 2026-02-17T03:04:24.306Z:
+<page url="https://app.notion.com/p/212f7f5a1e80810584dcefa4af0eb887" icon="https://prod-files-secure.s3.us-west-2.amazonaws.com/0d976d7d-e60c-4eb7-b728-3fa22e24d31b/e2a92d72-b567-484d-b4fa-1fe7851bff99/638607457244101778.jpeg" locked>
+<ancestor-path>
+<parent-data-source url="collection://212f7f5a-1e80-817b-bb0f-000bb3dcf36a" name="클래스 표"/>
+<ancestor-2-database url="https://app.notion.com/p/212f7f5a1e80811ab89ec1526e20d5c1" title=""/>
+<ancestor-3-page url="https://app.notion.com/p/212f7f5a1e808144b375c019f33732f3" title="클래스"/>
+<ancestor-4-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-5-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-6-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"url":"https://app.notion.com/p/212f7f5a1e80810584dcefa4af0eb887","미리보기":["file://%7B%22source%22%3A%22https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0d976d7d-e60c-4eb7-b728-3fa22e24d31b%2F5ef9a645-d981-4946-8ba4-ce26b839d5fd%2F%25EB%25B0%2594%25EB%2593%259C.png%22%2C%22permissionRecord%22%3A%7B%22table%22%3A%22block%22%2C%22id%22%3A%22212f7f5a-1e80-8105-84dc-efa4af0eb887%22%2C%22spaceId%22%3A%228dffc202-0f6e-4adf-b208-fc378f0d8bf3%22%7D%7D"],"원문":"Bard","이름":"바드"}
+</properties>
+<content>
+<synced_block_reference url="https://app.notion.com/p/212f7f5a1e80810584dcefa4af0eb887#303f7f5a1e8080baa4def98953cf21e7">
+	# 핵심 특징 {color="red_bg"}
+	<table header-row="false" header-column="true">
+	<colgroup>
+	<col color="red_bg" width="96.28125">
+	<col width="418.28125">
+	</colgroup>
+<tr>
+<td>**주요 능력치**</td>
+<td>매력</td>
+</tr>
+<tr>
+<td>**히트 다이스**</td>
+<td>바드 레벨당 d8</td>
+</tr>
+<tr>
+<td>**내성 굴림**</td>
+<td>민첩 또는 매력</td>
+</tr>
+<tr>
+<td>**기술 숙련**</td>
+<td><span color="gray">*모든 기술 중 3개를 선택*</span></td>
+</tr>
+<tr>
+<td>**무기 숙련**</td>
+<td>일반 무기</td>
+</tr>
+<tr>
+<td>**도구 숙련**</td>
+<td>악기 3개 선택</td>
+</tr>
+<tr>
+<td>**방어구 훈련**</td>
+<td>경갑</td>
+</tr>
+<tr>
+<td>**시작 장비**</td>
+<td><span color="gray">*다음 중 1개를 선택*</span><span color="gray">:</span> <span color="red">**(A)**</span>** **<span color="brown">[가죽 갑옷](/212f7f5a1e808152812dd020d04a9b04?pvs=25)</span>, <span color="brown">[단검](/212f7f5a1e80815dbcf7e3b2157f0e08?pvs=25)</span> 2개, 원하는 악기, <span color="brown">[예능인의 꾸러미](/212f7f5a1e8081df8e22c5057297dd9f?pvs=25)</span>, 19 GP; <span color="red">**(B)**</span> 90 GP</td>
+</tr>
+	</table>
+	바드는 음악, 춤, 그리고 시를 통해 마법을 부르고, 다른 이들을 격려하고, 상처를 달래고, 적들을 위축시키며, 환영을 만들어내는 전문가입니다. 바드들은 멀티버스가 존재하게 된 것은 창조의 단어가 발현된 것이며, 그 말의 잔재가 여전히 모든 차원에 울려 퍼지고 빛나고 있다고 믿습니다. 바드의 마법은 그러한 언어를 활용하려는 시도입니다. 이는 모든 다른 언어를 초월합니다.
+	어떤 것도 새로운 노래나 이야기에 영감을 줄 수 있기에, 바드들은 거의 모든 것에 매료됩니다. 그들은 음악을 연주하고, 마법을 다루며, 농담을 만드는 것에 능통해집니다.
+	바드의 삶은 여행하고, 지식을 모으고, 이야기를 들려주며, 다른 예능인들과 마찬가지로 청중의 감사에 의존하며 살아갑니다. 하지만 그들의 지식의 깊이와 마법의 숙달은 그들을 다른 이들과 차별화됩니다.
+	## 바드 시작하기 {color="yellow_bg"}
+	- **1레벨 캐릭터로서** {color="red"}
+		- 핵심 특징의 모든 요소를 획득합니다.
+		- 바드 성장 표에 나열된 1레벨 바드 특성을 획득합니다.
+	- **멀티클래스 캐릭터로서** {color="red"}
+		- 핵심 특징에서 히트 다이스와 원하는 기술 하나에 대한 숙련, 원하는 악기 하나에 대한 숙련 및 경갑 훈련을 획득합니다.
+		- 바드 성장 표에 나열된 1레벨 바드 특성를 획득합니다. 사용 가능한 주문 슬롯을 결정하려면 멀티클래스 규칙을 참조하세요.
+	## 클래스 성장 {color="yellow_bg"}
+	<table header-row="true">
+	<colgroup>
+	<col width="57.640625">
+	<col width="96.28125">
+	<col width="160.6875">
+	<col width="96.28125">
+	<col width="96.28125">
+	<col width="96.28125">
+	<col width="57.640625">
+	<col width="57.640625">
+	<col width="57.640625">
+	<col width="57.640625">
+	<col width="57.640625">
+	<col width="57.640625">
+	<col width="57.640625">
+	<col width="57.640625">
+	<col width="57.640625">
+	</colgroup>
+<tr color="red_bg">
+<td>**레벨**</td>
+<td>**숙련 보너스**</td>
+<td>**클래스 특성**</td>
+<td>**바드 주사위**</td>
+<td>**소마법**</td>
+<td>**준비된 주문 **</td>
+<td>**1레벨**</td>
+<td>**2레벨**</td>
+<td>**3레벨**</td>
+<td>**4레벨**</td>
+<td>**5레벨**</td>
+<td>**6레벨**</td>
+<td>**7레벨**</td>
+<td>**8레벨**</td>
+<td>**9레벨**</td>
+</tr>
+<tr>
+<td>1</td>
+<td>+2</td>
+<td>바드의 격려, 주문시전</td>
+<td>d6</td>
+<td>2</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>2</td>
+<td>+2</td>
+<td>통달, 팔방미인</td>
+<td>d6</td>
+<td>2</td>
+<td>5</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>3</td>
+<td>+2</td>
+<td>바드 서브클래스</td>
+<td>d6</td>
+<td>2</td>
+<td>6</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>4</td>
+<td>+2</td>
+<td>능력 향상</td>
+<td>d6</td>
+<td>3</td>
+<td>7</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>5</td>
+<td>+3</td>
+<td>영감의 원천</td>
+<td>d8</td>
+<td>3</td>
+<td>9</td>
+<td>4</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>6</td>
+<td>+3</td>
+<td>서브클래스 특성</td>
+<td>d8</td>
+<td>3</td>
+<td>10</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>7</td>
+<td>+3</td>
+<td>매혹 대항</td>
+<td>d8</td>
+<td>3</td>
+<td>11</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>8</td>
+<td>+3</td>
+<td>능력 향상</td>
+<td>d8</td>
+<td>3</td>
+<td>12</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>9</td>
+<td>+4</td>
+<td>통달</td>
+<td>d8</td>
+<td>3</td>
+<td>14</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>10</td>
+<td>+4</td>
+<td>마법 비밀</td>
+<td>d10</td>
+<td>4</td>
+<td>15</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>11</td>
+<td>+4</td>
+<td>—</td>
+<td>d10</td>
+<td>4</td>
+<td>16</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>12</td>
+<td>+4</td>
+<td>능력 향상</td>
+<td>d10</td>
+<td>4</td>
+<td>16</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>13</td>
+<td>+5</td>
+<td>—</td>
+<td>d10</td>
+<td>4</td>
+<td>17</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>14</td>
+<td>+5</td>
+<td>서브클래스 특성</td>
+<td>d10</td>
+<td>4</td>
+<td>17</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>15</td>
+<td>+5</td>
+<td>—</td>
+<td>d12</td>
+<td>4</td>
+<td>18</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>16</td>
+<td>+5</td>
+<td>능력 향상</td>
+<td>d12</td>
+<td>4</td>
+<td>18</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>17</td>
+<td>+6</td>
+<td>—</td>
+<td>d12</td>
+<td>4</td>
+<td>19</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>18</td>
+<td>+6</td>
+<td>향상된 격려</td>
+<td>d12</td>
+<td>4</td>
+<td>20</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>19</td>
+<td>+6</td>
+<td>장엄한 은혜</td>
+<td>d12</td>
+<td>4</td>
+<td>21</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>20</td>
+<td>+6</td>
+<td>창조의 단어</td>
+<td>d12</td>
+<td>4</td>
+<td>22</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+</tr>
+	</table>
+	# 클래스 특성 {color="red_bg"}
+	## 1레벨: 바드의 격려 {color="yellow_bg"}
+	당신은 초자연적인 능력으로 말과 음악, 춤을 통해 다른 이들을 고양시킬 수 있습니다. 이러한 격려는 d6인 바드 주사위로 표현됩니다.
+	<span color="red">***바드의 격려.***</span> 보조 행동으로 60ft 내에서 당신을 보거나 들을 수 있는 크리처에게 영감을 줄 수 있습니다. 해당 크리처는 당신의 바드 주사위를 하나 받으며, 동시에 하나의 바드 주사위만 소지할 수 있습니다. {color="red"}
+	해당 크리처는 1시간 이내에 <span color="yellow">[D20 테스트](/212f7f5a1e8081ecb4bbc6e436491a59?pvs=25)</span>에서 실패했을 때, 바드 주사위를 굴려 그 값을 d20에 더해 실패를 성공으로 바꿀 수 있습니다. 바드 주사위는 사용하면 소모됩니다.
+	<span color="red">***사용 횟수.***</span> 매력 수정치만큼(최소 1회) 바드 주사위를 사용할 수 있으며, 긴 휴식을 완료하면 모든 소모된 사용 횟수를 회복합니다. {color="red"}
+	<span color="red">***레벨 상승.***</span><span color="red"> </span>바드 주사위는 특정 레벨에서 더 강력해집니다. 5레벨에서 d8로, 10레벨에서 d10으로, 15레벨에서 d12로 증가합니다. {color="red"}
+	## 1레벨: 주문시전 {color="yellow_bg"}
+	당신은 바드의 예술을 통해 주문을 시전하는 법을 배웠습니다.
+	<span color="red">***소마법.***</span><span color="red"> </span>바드 주문 목록에서 소마법 2개를 선택해 사용할 수 있습니다. {color="red"}
+	바드 레벨이 오를 때 습득한 소마법을 바드 주문 목록의 다른 소마법으로 교체할 수 있습니다.
+	바드 레벨 4와 10에 도달하면 바드 성장 표의 소마법 열에 표시된 만큼 바드 주문 목록에서 새로운 소마법을 습득합니다.
+	<span color="red">***주문 슬롯.***</span><span color="red">** **</span>바드 성장 표에는 1레벨 이상의 주문을 시전하는 데 사용할 수 있는 주문 슬롯의 수가 표시되어 있습니다. 긴 휴식을 완료하면 소모한 모든 주문 슬롯을 회복합니다. {color="red"}
+	<span color="red">***1레벨 이상의 준비된 주문.***</span><span color="red">* *</span>당신은 이 특성으로 시전할 수 있는 레벨 1+ 주문 목록을 준비합니다. 처음에는 바드 주문 목록에서 레벨 1 주문 4개를 선택합니다. {color="red"}
+	바드 레벨이 상승함에 따라 준비할 수 있는 주문의 수가 증가하며, 이는 바드 성장 표의 준비된 주문 열에서 확인할 수 있습니다. 한계가 증가할 때마다, 표에 표시된 제한에 도달할 때까지 바드 주문 목록에서 추가 주문을 선택합니다. 이때 선택하는 주문은 사용 가능한 주문 슬롯 레벨 이하여야 합니다. 예를 들어, 3레벨 바드라면 준비된 주문 목록에 1레벨과 2레벨 주문을 합쳐 총 6개까지 원하는 조합으로 준비할 수 있습니다.
+	다른 바드 특성을 통해 자동으로 준비되는 주문은 이 특성으로 준비할 수 있는 주문 수에 포함되지 않습니다. 단, 이러한 주문도 여전히 바드 주문으로 간주됩니다.
+	<span color="red">***준비된 주문 변경.***</span> 바드 레벨이 상승할 때마다, 준비된 주문 중 하나를 바드 주문 목록의 다른 주문으로 교체할 수 있습니다. {color="red"}
+	<span color="red">***주문시전 능력치.***</span> 바드 주문의 주문시전 능력치는 매력입니다. {color="red"}
+	<span color="red">***주문시전 매개체.***</span><span color="red"> </span>바드 주문을 시전할 때 악기를 주문시전 매개체로 사용할 수 있습니다. {color="red"}
+	## 2레벨: 통달 {color="yellow_bg"}
+	<span color="yellow">[통달](/212f7f5a1e808101a997ed46044ccdd6?pvs=25)</span>이 없는 기술 숙련 두 가지를 선택하여 해당 기술들에 통달을 얻습니다.
+	9레벨이 되면, 추가로 두 개의 기술 숙련에 통달을 얻습니다.
+	## 2레벨: 팔방미인 {color="yellow_bg"}
+	숙련을 갖추지 않은 기술로 능력 판정을 할 때나 숙련 보너스가 적용되지 않는 경우, 숙련 보너스의 절반(반올림)을 해당 판정에 추가할 수 있습니다.
+	예를 들어, 근력(<span color="green">[운동](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>) 판정을 하는데 <span color="green">[운동](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span> 숙련이 없다면, 그 판정에 숙련 보너스의 절반을 더할 수 있습니다.
+	## 3레벨: 바드 서브클래스 {color="yellow_bg"}
+	바드 서브클래스를 하나 선택하여 해당 특성을 획득합니다. 이후 레벨이 오를 때마다 해당 서브클래스의 특성을 얻습니다.
+	## 4레벨: 능력 향상 {color="yellow_bg"}
+	능력 향상이나 다른 재주 하나를 획득합니다. 8, 12, 16레벨에서 추가 획득합니다.
+	## 5레벨: 영감의 원천 {color="yellow_bg"}
+	짧은 휴식이나 긴 휴식을 끝내면 소모한 모든 바드 주사위를 회복합니다.
+	또한, 주문 슬롯 하나를 소모하여 바드 주사위 하나를 회복할 수 있습니다(행동 불필요).
+	## 7레벨: 매혹 대항 {color="yellow_bg"}
+	당신은 음악적 선율이나 힘의 단어로 정신에 영향을 미치는 효과를 방해할 수 있습니다. 당신이나 30ft 내의 크리처가 <span color="green">[매혹](/212f7f5a1e8081fb8b88c3499fce2b24?pvs=25)</span> 또는 <span color="green">[공포](/212f7f5a1e80811299daf242330968c7?pvs=25)</span> 상태를 유발하는 효과에 대한 내성 굴림에 실패할 경우, 대응을 사용해 해당 굴림을 다시 할 수 있게 해주며 새 굴림에 유리 보정을 부여합니다.
+	## 10레벨: 마법 비밀 {color="yellow_bg"}
+	당신은 다양한 마법 전통의 비밀을 습득했습니다. 바드 레벨(현재 레벨 포함)에 도달하거나 바드 성장 표의 준비된 주문 수가 증가할 때마다, 바드, 클레릭, 드루이드, 위저드 주문 목록에서 새로운 주문을 선택할 수 있습니다. 이렇게 선택한 주문은 바드 주문으로 간주됩니다(각 클래스 단락에서 주문 목록을 확인할 수 있습니다). 또한, 준비된 주문을 교체할 때도 위 목록에서 선택한 주문으로 교체할 수 있습니다.
+	## 18레벨: 향상된 격려 {color="yellow_bg"}
+	선제권을 굴릴 때, 바드 주사위를 2개 미만으로 보유하고 있다면, 바드 주사위를 2개까지 회복합니다.
+	## 19레벨: 장엄한 은혜 {color="yellow_bg"}
+	장엄한 은혜 또는 조건이 충족된 다른 재주를 획득합니다.
+	## 20레벨: 창조의 단어 {color="yellow_bg"}
+	당신은 창조의 단어 중 생명과 죽음의 단어를 터득했습니다. <span color="purple">[*권능의 단어 치유*](/212f7f5a1e80811f9d80e2edc7b10321?pvs=25)</span>와 <span color="purple">[*권능의 단어 죽음*](/212f7f5a1e808187b848d8b28f1830cd?pvs=25)</span> 주문을 항상 준비합니다. 두 주문을 시전할 때, 첫 번째 대상으로부터 10ft 내에 있는 두 번째 크리처에게도 동일한 주문을 시전할 수 있습니다.
+</synced_block_reference>
+# 주문 목록 {color="red_bg"}
+<database url="https://app.notion.com/p/212f7f5a1e8081be8441dc94713ec2b7" inline="true" icon="https://prod-files-secure.s3.us-west-2.amazonaws.com/0d976d7d-e60c-4eb7-b728-3fa22e24d31b/266c8add-d665-4d2e-a2c9-a9f0c7e8c322/638607457244101778.jpeg">바드 주문 표</database>
+# 서브클래스 {color="red_bg"}
+<database url="https://app.notion.com/p/212f7f5a1e8081e890d5c08e7b9a7ca4" inline="true" icon="https://prod-files-secure.s3.us-west-2.amazonaws.com/0d976d7d-e60c-4eb7-b728-3fa22e24d31b/597cc02f-2096-494f-9282-f043791b944d/638607457244101778.jpeg" data-source-url="collection://212f7f5a-1e80-816f-b5e1-000b99b253b8">바드 서브클래스 표</database>
+</content>
+</page>

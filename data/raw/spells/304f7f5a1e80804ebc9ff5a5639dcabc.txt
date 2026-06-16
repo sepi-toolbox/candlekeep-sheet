@@ -1,0 +1,30 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/304f7f5a1e80804ebc9ff5a5639dcabc as of 2026-02-11T15:47:51.035Z:
+<page url="https://app.notion.com/p/304f7f5a1e80804ebc9ff5a5639dcabc">
+<ancestor-path>
+<parent-page url="https://app.notion.com/p/303f7f5a1e80809397f6f818d83fcbbb" title="주문 설명"/>
+<ancestor-2-data-source url="collection://212f7f5a-1e80-810e-b5af-000ba9ce2356" name="핵심 규칙 목차"/>
+<ancestor-3-database url="https://app.notion.com/p/212f7f5a1e8081bc96d1dd79daaf3234" title=""/>
+<ancestor-4-page url="https://app.notion.com/p/212f7f5a1e8081cb8e34e5493fc78409" title="핵심 규칙"/>
+<ancestor-5-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-6-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-7-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"title":""}
+</properties>
+<content>
+*방출술 2레벨*
+---
+**시전시간:** 1 보조 행동
+**사거리/범위: **자신
+**구성요소:** 음성, 동작, 물질<span color="gray"> (옻나무 잎)</span>
+**지속시간:** 집중, 최대 10분까지
+---
+당신은 빈 손에 화염 검을 발현시킵니다. 이 검은 크기와 모양이 시미터와 비슷하며, 지속시간 동안 유지됩니다. 검을 내려놓으면 사라지지만, 보조 행동으로 다시 발현시킬 수 있습니다.
+당신은 <span color="green">[마법](/212f7f5a1e80818c96ccf2947fff33e7?pvs=25)</span> 행동을 사용해 이 화염 검으로 근거리 주문 공격을 시도할 수 있습니다. 명중 시 3d6 + 당신의 주문시전 능력 수정치에 해당하는 화염 피해를 가합니다.
+화염 검은 반경 20ft의 <span color="yellow">[밝은 빛](/212f7f5a1e8081239224f09b56e36bb4?pvs=25)</span>과 그 너머로 반경 20ft에 <span color="yellow">[약한 빛](/212f7f5a1e80816b935dfcf84e45fa93?pvs=25)</span>을 발산합니다.
+**고등 시전:** 추가 주문 레벨마다 피해가 1d6씩 증가합니다.
+---
+**클래스:** 드루이드, 소서러
+</content>
+</page>

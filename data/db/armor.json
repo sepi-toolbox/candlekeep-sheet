@@ -1,0 +1,288 @@
+[
+ {
+  "id": "212f7f5a1e8081fcbc90d3552f29c38d",
+  "en": "Breastplate",
+  "ko": "흉갑",
+  "value": 400,
+  "weight": 20,
+  "typeKo": [
+   "평갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "이 갑옷은 유연한 가죽 갑옷 위에 금속 가슴판을 덧댄 형태입니다. 팔다리는 상대적으로 보호력이 낮지만, 착용자의 주요 장기를 보호하면서도 움직임을 크게 제한하지 않습니다.",
+  "kind": "armor",
+  "armorClass": "medium",
+  "ac": 14,
+  "acBonus": null,
+  "dexCap": 2,
+  "stealthDisadvantage": false,
+  "strReq": null
+ },
+ {
+  "id": "212f7f5a1e80810d95a6c7f562c343f0",
+  "en": "Chain Mail",
+  "ko": "사슬 갑옷",
+  "value": 75,
+  "weight": 55,
+  "typeKo": [
+   "중갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "서로 연결된 금속 고리들로 만들어진 사슬 갑옷은 아래에 직조된 천을 덧대어 마찰을 방지하고 충격을 흡수합니다. 이 갑옷에는 건틀릿이 포함됩니다.\n착용자는 민첩({{ref:212f7f5a1e80813fa4afe51ccebacd81|은신}}) 판정에 불리 보정을 받습니다.\n착용자의 근력이 13 미만이면 속도가 10ft감소합니다.",
+  "kind": "armor",
+  "armorClass": "heavy",
+  "ac": 16,
+  "acBonus": null,
+  "dexCap": 0,
+  "stealthDisadvantage": true,
+  "strReq": 13
+ },
+ {
+  "id": "212f7f5a1e80818097fcd1edcc2e632c",
+  "en": "Chain Shirt",
+  "ko": "사슬 셔츠",
+  "value": 50,
+  "weight": 20,
+  "typeKo": [
+   "평갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "사슬 셔츠는 수많은 금속 고리를 서로 연결하여 만들며, 그 위에 천이나 가죽을 덧씌워 입습니다. 이 갑옷은 착용자의 상체를 효과적으로 보호하며, 겉의 천 덮개가 사슬이 부딪치며 나는 소리를 줄여줍니다.",
+  "kind": "armor",
+  "armorClass": "medium",
+  "ac": 13,
+  "acBonus": null,
+  "dexCap": 2,
+  "stealthDisadvantage": false,
+  "strReq": null
+ },
+ {
+  "id": "212f7f5a1e8081338014dce02f50de07",
+  "en": "Half Plate",
+  "ko": "경판금 갑옷",
+  "value": 750,
+  "weight": 40,
+  "typeKo": [
+   "평갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "경판금은 착용자의 몸 대부분을 보호하는 금속판들로 구성되어 있습니다. 다리 부분은 그리브(정강이받이)와 가죽끈만으로 최소한의 보호를 제공합니다.\n착용자는 민첩({{ref:212f7f5a1e80813fa4afe51ccebacd81|은신}}) 판정에 불리 보정을 받습니다.",
+  "kind": "armor",
+  "armorClass": "medium",
+  "ac": 12,
+  "acBonus": null,
+  "dexCap": 2,
+  "stealthDisadvantage": true,
+  "strReq": null
+ },
+ {
+  "id": "212f7f5a1e8081f8890fe3b5619b2f68",
+  "en": "Hide",
+  "ko": "생가죽 갑옷",
+  "value": 10,
+  "weight": 12,
+  "typeKo": [
+   "평갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "두꺼운 짐승의 가죽으로 조잡하게 만든 갑옷으로, 주로 야만인 부족이나 사악한 인간형 종족들이 사용합니다. 또한 더 정교한 갑옷을 제작할 기술이나 도구가 없는 이들도 이 갑옷을 착용합니다.",
+  "kind": "armor",
+  "armorClass": "medium",
+  "ac": 12,
+  "acBonus": null,
+  "dexCap": 2,
+  "stealthDisadvantage": false,
+  "strReq": null
+ },
+ {
+  "id": "212f7f5a1e808152812dd020d04a9b04",
+  "en": "Leather",
+  "ko": "가죽 갑옷",
+  "value": 10,
+  "weight": 10,
+  "typeKo": [
+   "경갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "가죽 갑옷의 가슴판과 어깨 보호대는 기름에 끓여서 단단하게 만든 가죽으로 제작되었으며, 나머지 부분은 더 부드럽고 유연한 재질로 되어 있습니다.",
+  "kind": "armor",
+  "armorClass": "light",
+  "ac": 11,
+  "acBonus": null,
+  "dexCap": null,
+  "stealthDisadvantage": false,
+  "strReq": null
+ },
+ {
+  "id": "212f7f5a1e8081ceaafbc48132ee2f92",
+  "en": "Padded",
+  "ko": "누비 갑옷",
+  "value": 5,
+  "weight": 8,
+  "typeKo": [
+   "경갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "여러 층의 천과 솜을 덧대어 만들어진 것입니다.",
+  "kind": "armor",
+  "armorClass": "light",
+  "ac": 11,
+  "acBonus": null,
+  "dexCap": null,
+  "stealthDisadvantage": false,
+  "strReq": null
+ },
+ {
+  "id": "212f7f5a1e808116a261cba43877dac6",
+  "en": "Plate",
+  "ko": "판금 갑옷",
+  "value": 1500,
+  "weight": 65,
+  "typeKo": [
+   "중갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "판금 갑옷은 서로 연결된 금속판들로 이루어져 몸 전체를 보호하도록 설계되어 있습니다. 이 갑옷에는 건틀릿, 무거운 가죽 장화, 눈구멍이 있는 투구, 그리고 갑옷 아래 입는 두꺼운 패딩이 포함됩니다. 갑옷의 여러 고리와 가죽띠는 무게를 전신에 고르게 분산시킵니다.\n착용자는 민첩({{ref:212f7f5a1e80813fa4afe51ccebacd81|은신}}) 판정에 불리 보정을 받습니다.\n착용자의 근력이 15 미만이면 속도가 10ft감소합니다.",
+  "kind": "armor",
+  "armorClass": "heavy",
+  "ac": 18,
+  "acBonus": null,
+  "dexCap": 0,
+  "stealthDisadvantage": true,
+  "strReq": 15
+ },
+ {
+  "id": "212f7f5a1e808111ac8dc4cdeef18946",
+  "en": "Ring Mail",
+  "ko": "고리 갑옷",
+  "value": 30,
+  "weight": 40,
+  "typeKo": [
+   "중갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "고리 갑옷은 가죽 갑옷 위에 금속 고리들을 박아 넣어 만든 갑옷입니다. 이 고리들은 갑옷을 강화하여 도검과 도끼의 공격을 막아냅니다. 하지만 사슬 갑옷보다는 방어력이 떨어져서, 주로 더 나은 갑옷을 구하지 못한 사람들이 착용합니다.\n착용자는 민첩({{ref:212f7f5a1e80813fa4afe51ccebacd81|은신}}) 판정에 불리 보정을 받습니다.",
+  "kind": "armor",
+  "armorClass": "heavy",
+  "ac": 14,
+  "acBonus": null,
+  "dexCap": 0,
+  "stealthDisadvantage": true,
+  "strReq": null
+ },
+ {
+  "id": "212f7f5a1e808167b362ec7cc3086d0d",
+  "en": "Scale Mail",
+  "ko": "비늘 갑옷",
+  "value": 50,
+  "weight": 45,
+  "typeKo": [
+   "평갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "비늘 갑옷은 물고기 비늘 모양의 작은 금속판들을 서로 연결하여 만든 상의와 하의로 구성되어 있으며, 건틀릿이 포함됩니다.\n착용자는 민첩({{ref:212f7f5a1e80813fa4afe51ccebacd81|은신}}) 판정에 불리 보정을 받습니다.",
+  "kind": "armor",
+  "armorClass": "medium",
+  "ac": 14,
+  "acBonus": null,
+  "dexCap": 2,
+  "stealthDisadvantage": true,
+  "strReq": null
+ },
+ {
+  "id": "212f7f5a1e808125b56eeaf533bf3903",
+  "en": "Shield",
+  "ko": "방패",
+  "value": 10,
+  "weight": 6,
+  "typeKo": [
+   "방패"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "방패는 나무나 금속으로 제작되며 한 손으로 사용할 수 있습니다. 방패를 사용하면 AC가 2 증가하지만, 한 번에 하나의 방패의 효과만 얻을 수 있습니다.",
+  "kind": "armor",
+  "armorClass": "shield",
+  "ac": null,
+  "acBonus": 2,
+  "dexCap": null,
+  "stealthDisadvantage": false,
+  "strReq": null
+ },
+ {
+  "id": "212f7f5a1e80815c9b78d02fa56f3acd",
+  "en": "Splint Armor",
+  "ko": "철편 갑옷",
+  "value": 200,
+  "weight": 60,
+  "typeKo": [
+   "중갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "이 갑옷은 가죽 바탕 위에 가는 금속 띠들을 연결하여 제작했으며, 관절 부위는 유연한 사슬로 보강했습니다.\n착용자는 민첩({{ref:212f7f5a1e80813fa4afe51ccebacd81|은신}}) 판정에 불리 보정을 받습니다.\n착용자의 근력이 15 미만이면 속도가 10ft감소합니다.",
+  "kind": "armor",
+  "armorClass": "heavy",
+  "ac": 17,
+  "acBonus": null,
+  "dexCap": 0,
+  "stealthDisadvantage": true,
+  "strReq": 15
+ },
+ {
+  "id": "212f7f5a1e80810abae9fe4d9075c3fd",
+  "en": "Studded Leather",
+  "ko": "징 박힌 가죽 갑옷",
+  "value": 45,
+  "weight": 13,
+  "typeKo": [
+   "경갑"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "징 박힌 가죽 갑옷은 유연한 가죽에 쇠로 된 징이나 못을 박아 단단하게 보강한 갑옷입니다.",
+  "kind": "armor",
+  "armorClass": "light",
+  "ac": 12,
+  "acBonus": null,
+  "dexCap": null,
+  "stealthDisadvantage": false,
+  "strReq": null
+ }
+]

@@ -1,0 +1,208 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/1f2f7f5a1e80802d8e27e50f541dfece as of 2026-02-16T18:32:08.895Z:
+<page url="https://app.notion.com/p/1f2f7f5a1e80802d8e27e50f541dfece" icon="https://prod-files-secure.s3.us-west-2.amazonaws.com/0d976d7d-e60c-4eb7-b728-3fa22e24d31b/09402461-3ff1-43ed-96ea-fd7347d62075/638607459373183811.jpeg" locked>
+<ancestor-path>
+<parent-data-source url="collection://212f7f5a-1e80-81bb-b6aa-000b5734d24c" name="로그 서브클래스 표"/>
+<ancestor-2-database url="https://app.notion.com/p/212f7f5a1e8081f197cdd1db409c5b87" title=""/>
+<ancestor-3-page url="https://app.notion.com/p/212f7f5a1e80816fb349cd360a013ef1" title="로그"/>
+<ancestor-4-data-source url="collection://212f7f5a-1e80-817b-bb0f-000bb3dcf36a" name="클래스 표"/>
+<ancestor-5-database url="https://app.notion.com/p/212f7f5a1e80811ab89ec1526e20d5c1" title=""/>
+<ancestor-6-page url="https://app.notion.com/p/212f7f5a1e808144b375c019f33732f3" title="클래스"/>
+<ancestor-7-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-8-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-9-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"url":"https://app.notion.com/p/1f2f7f5a1e80802d8e27e50f541dfece","미리보기":["file://%7B%22source%22%3A%22https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0d976d7d-e60c-4eb7-b728-3fa22e24d31b%2F09d71225-36e2-40ba-874f-95395e4b5413%2F%25EC%2595%2584%25EC%25BC%2580%25EC%259D%25B8.png%22%2C%22permissionRecord%22%3A%7B%22table%22%3A%22block%22%2C%22id%22%3A%221f2f7f5a-1e80-802d-8e27-e50f541dfece%22%2C%22spaceId%22%3A%228dffc202-0f6e-4adf-b208-fc378f0d8bf3%22%7D%7D"],"원문":"Arcane Trickster","이름":"비전 괴도","출처":["PHB"]}
+</properties>
+<content>
+<synced_block_reference url="https://app.notion.com/p/1f2f7f5a1e80802d8e27e50f541dfece#309f7f5a1e8080149368ff59373caab8">
+	일부 로그들은 주문을 배워 자신들의 은밀함과 기민함을 더욱 강화하고, 이를 통해 얻은 마법적 기술로 활동을 보조합니다. 비전 괴도들 중에는 이런 재능을 소매치기나 도둑질에 활용하는 이들도 있고, 장난꾼으로서 활동하는 이들도 있습니다.
+	## **3레벨: 주문시전** {color="yellow_bg"}
+	당신은 위저드 주문을 터득했습니다.
+	<span color="red">***소마법.***</span> <span color="purple">[*마법사의 손*](/212f7f5a1e8081dbb26fd67e35d7b595?pvs=25)</span>과 위저드 주문 목록에서 소마법 2개를 선택해 사용할 수 있습니다. {color="red"}
+	로그 레벨이 오를 때 마법사의 손을 제외한 습득한 소마법을 위저드 주문 목록의 다른 소마법으로 교체할 수 있습니다.
+	로그 레벨 10에 도달하면 위저드 주문 목록에서 소마법을 하나 더 습득합니다.
+	<span color="red">***주문 슬롯. ***</span>비전 괴도 주문시전 표에는 1레벨 이상의 주문을 시전하는 데 사용할 수 있는 주문 슬롯의 수가 표시되어 있습니다. 긴 휴식을 완료하면 소모한 모든 주문 슬롯을 회복합니다. {color="red"}
+	<details color="red">
+	<summary>**비전 괴도 주문시전 표**</summary>
+		<table header-row="true">
+		<colgroup>
+		<col width="96.28125">
+		<col width="96.28125">
+		<col width="57.640625">
+		<col width="57.640625">
+		<col width="57.640625">
+		<col width="57.640625">
+		</colgroup>
+<tr color="red_bg">
+<td>**로그 레벨**</td>
+<td>**준비된 주문**</td>
+<td>**1레벨**</td>
+<td>**2레벨**</td>
+<td>**3레벨**</td>
+<td>**4레벨**</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>6</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>7</td>
+<td>5</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>8</td>
+<td>6</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>9</td>
+<td>6</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>11</td>
+<td>8</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>12</td>
+<td>8</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>13</td>
+<td>9</td>
+<td>4</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>14</td>
+<td>10</td>
+<td>4</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>15</td>
+<td>10</td>
+<td>4</td>
+<td>3</td>
+<td>2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>16</td>
+<td>11</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+</tr>
+<tr>
+<td>17</td>
+<td>11</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+</tr>
+<tr>
+<td>18</td>
+<td>11</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>—</td>
+</tr>
+<tr>
+<td>19</td>
+<td>12</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>20</td>
+<td>13</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>1</td>
+</tr>
+		</table>
+	</details>
+	<span color="red">***1레벨 이상의 준비된 주문:***</span><span color="red">* *</span>당신은 이 특성으로 시전할 수 있는 레벨 1+ 주문 목록을 준비합니다. 처음에는 위저드 주문 목록에서 레벨 1 주문 3개를 선택합니다. {color="red"}
+	로그 레벨이 상승함에 따라 준비할 수 있는 주문의 수가 증가하며, 이는 비전 괴도 주문시전 표의 준비된 주문 열에서 확인할 수 있습니다. 한계가 증가할 때마다, 표에 표시된 제한에 도달할 때까지 위저드 주문 목록에서 추가 주문을 선택합니다. 이때 선택하는 주문은 사용 가능한 주문 슬롯 레벨 이하여야 합니다. 예를 들어, 7레벨 로그라면 준비된 주문 목록에 1레벨과 2레벨 주문을 합쳐 총 6개까지 원하는 조합으로 준비할 수 있습니다.
+	<span color="red">***준비된 주문 변경:***</span><span color="red">* *</span>로그 레벨이 상승할 때마다, 준비된 주문 중 하나를 사용 가능한 주문 슬롯 레벨 이하의 다른 위저드 주문으로 교체할 수 있습니다. {color="red"}
+	<span color="red">***주문시전 능력치:***</span><span color="red">* *</span>위저드 주문을 시전할 때 지능을 주문시전 능력치로 사용합니다. {color="red"}
+	<span color="red">***주문시전 매개체:***</span><span color="red">* *</span>위저드 주문을 시전할 때 <span color="brown">[비전 매개체](/212f7f5a1e8081a78d77cb0af1ab3f99?pvs=25)</span>를 주문시전 매개체로 사용할 수 있습니다. {color="red"}
+	## 3레벨: 마법사의 손 요술 {color="yellow_bg"}
+	당신이 <span color="purple">[*마법사의 손*](/212f7f5a1e8081dbb26fd67e35d7b595?pvs=25)</span> 주문을 시전할 때는 보조 행동으로 시전할 수 있으며, 소환된 손을 <span color="green">[투명](/212f7f5a1e808181889cccb51c28dcff?pvs=25)</span>하게 만들 수 있습니다. 또한 보조 행동으로 이 손을 조종하여 민첩(<span color="green">[손재주](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>) 판정을 수행할 수 있습니다.
+	## **9레벨: 마법 매복** {color="yellow_bg"}
+	당신이 <span color="green">[투명](/212f7f5a1e808181889cccb51c28dcff?pvs=25)</span> 상태일 때 주문을 크리처에게 시전하면, 해당 크리처는 그 턴에 그 주문에 대한 모든 내성 굴림에 불리 보정을 받습니다.
+	## 13레벨: 만능 기만자 {color="yellow_bg"}
+	당신은 <span color="purple">[*마법사의 손*](/212f7f5a1e8081dbb26fd67e35d7b595?pvs=25)</span>을 사용하여 적을 교란시키는 능력을 얻습니다. 비열한 수법의 넘어뜨리기 효과를 크리처에게 사용할 때, 소환된 손으로부터 5ft 내에 있는 다른 크리처에게도 같은 효과를 적용할 수 있습니다.
+	## 17레벨: 주문 도둑 {color="yellow_bg"}
+	당신은 다른 주문시전자의 주문 시전 방법에 대한 지식을 마법적으로 훔치는 능력을 얻습니다.
+	크리처가 당신을 대상으로 하거나 당신이 포함된 범위에 주문을 시전한 직후, 당신은 대응을 사용하여 해당 크리처에게 지능 내성 굴림을 요구할 수 있습니다. DC는 당신의 주문 내성 DC입니다. 내성에 실패할 경우, 그 주문의 효과는 당신에게 적용되지 않으며, 해당 주문이 레벨 1 이상이고 당신이 시전할 수 있는 레벨이라면 그 주문을 훔칠 수 있습니다(위저드 주문일 필요는 없습니다). 이후 8시간 동안 그 주문은 당신의 준비된 주문이 되며, 해당 크리처는 그 주문을 시전할 수 없습니다.
+	이 능력으로 주문을 한 번 훔치고 나면, 긴 휴식을 마칠 때까지 다시 사용할 수 없습니다.
+</synced_block_reference>
+</content>
+</page>

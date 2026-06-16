@@ -1,0 +1,28 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/305f7f5a1e80800b91a2e74c3e9268e2 as of 2026-02-12T15:06:26.867Z:
+<page url="https://app.notion.com/p/305f7f5a1e80800b91a2e74c3e9268e2">
+<ancestor-path>
+<parent-page url="https://app.notion.com/p/303f7f5a1e80809397f6f818d83fcbbb" title="주문 설명"/>
+<ancestor-2-data-source url="collection://212f7f5a-1e80-810e-b5af-000ba9ce2356" name="핵심 규칙 목차"/>
+<ancestor-3-database url="https://app.notion.com/p/212f7f5a1e8081bc96d1dd79daaf3234" title=""/>
+<ancestor-4-page url="https://app.notion.com/p/212f7f5a1e8081cb8e34e5493fc78409" title="핵심 규칙"/>
+<ancestor-5-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-6-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-7-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"title":""}
+</properties>
+<content>
+*사령술 7레벨*
+---
+**시전시간:** 1 행동
+**사거리/범위:** 60 ft
+**구성요소:** 음성, 동작
+**지속시간:** 즉시
+---
+당신은 부정적인 에너지를 사거리 내에서 볼 수 있는 크리처 하나를 향해 방출합니다. 대상은 건강 내성 굴림을 해야 하며, 실패 시 7d8+30의 사령 피해를 받고, 성공 시에도 여전히 절반의 피해를 받습니다.
+이 주문에 의해 사망한 인간형 크리처는 다음 당신의 턴이 시작될 때 <span color="red">[좀비](/1f5f7f5a1e808017b392d3d028cdfa44?pvs=25)</span>로 부활하여 당신의 언어적 명령을 따릅니다.
+---
+**클래스:** 소서러, 워락, 위저드
+</content>
+</page>

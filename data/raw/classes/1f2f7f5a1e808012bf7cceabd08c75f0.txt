@@ -1,0 +1,36 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/1f2f7f5a1e808012bf7cceabd08c75f0 as of 2026-02-17T04:39:41.841Z:
+<page url="https://app.notion.com/p/1f2f7f5a1e808012bf7cceabd08c75f0" icon="https://prod-files-secure.s3.us-west-2.amazonaws.com/0d976d7d-e60c-4eb7-b728-3fa22e24d31b/55a28646-7570-4234-a826-75b7ec533afb/638607460390730233.jpeg" locked>
+<ancestor-path>
+<parent-data-source url="collection://212f7f5a-1e80-81b3-9f84-000bbfc4481a" name="위저드 서브클래스 표"/>
+<ancestor-2-database url="https://app.notion.com/p/212f7f5a1e8081e098b7ed7f081e8363" title=""/>
+<ancestor-3-page url="https://app.notion.com/p/212f7f5a1e808174b717de089915cb88" title="위저드"/>
+<ancestor-4-data-source url="collection://212f7f5a-1e80-817b-bb0f-000bb3dcf36a" name="클래스 표"/>
+<ancestor-5-database url="https://app.notion.com/p/212f7f5a1e80811ab89ec1526e20d5c1" title=""/>
+<ancestor-6-page url="https://app.notion.com/p/212f7f5a1e808144b375c019f33732f3" title="클래스"/>
+<ancestor-7-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-8-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-9-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"url":"https://app.notion.com/p/1f2f7f5a1e808012bf7cceabd08c75f0","미리보기":["file://%7B%22source%22%3A%22https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0d976d7d-e60c-4eb7-b728-3fa22e24d31b%2F804d3d05-40ea-4ea8-8980-e7e0805275b2%2F%25EB%25B0%25A9%25ED%2598%25B8.png%22%2C%22permissionRecord%22%3A%7B%22table%22%3A%22block%22%2C%22id%22%3A%221f2f7f5a-1e80-8012-bf7c-ceabd08c75f0%22%2C%22spaceId%22%3A%228dffc202-0f6e-4adf-b208-fc378f0d8bf3%22%7D%7D"],"원문":"Abjurer","이름":"방호술사","출처":["PHB"]}
+</properties>
+<content>
+<synced_block_reference url="https://app.notion.com/p/1f2f7f5a1e808012bf7cceabd08c75f0#30af7f5a1e80802ba1a5f91ff23474c6">
+	마법을 연구하는 당신은 방호, 추방, 보호에 특화되어 있습니다. 유해한 효과를 종결시키고, 악의적 영향력을 추방하며, 약자를 보호하는 것이 당신의 전문 분야입니다. 방호 주문에 능통한 방호술사는 악령을 퇴치하거나, 장소를 마법적으로 수호하거나, 이계로 통하는 차원문을 봉인해야 할 때 필수적입니다. 모험가들은 적대적인 마법과 공격으로부터의 보호를 위해 방호술사를 귀중한 동료로 여깁니다.
+	## **3레벨: 방호학자** {color="yellow_bg"}
+	주문서에 방호술 위저드 주문 2개를 추가합니다. 각 주문은 2레벨 이하여야 합니다.
+	또한, 이 클래스에서 더 높은 레벨의 주문 슬롯을 획득할 때마다 방호술 위저드 주문 하나를 주문서에 추가할 수 있습니다. 추가하는 주문은 당신이 사용할 수 있는 주문 슬롯의 레벨 이하여야 합니다.
+	## **3레벨: 비전 보호막** {color="yellow_bg"}
+	마법을 사용하여 자신을 보호할 수 있습니다. 방호술 주문을 시전하기 위해 주문 슬롯을 사용할 때, 그 주문의 여분의 힘으로 자신에게 마법 보호막을 생성할 수 있습니다. 이 보호막은 긴 휴식을 마칠 때까지 지속됩니다. 보호막의 HP는 위저드 레벨의 두 배와 지능 수정치를 합한 값입니다. 피해를 받을 때 보호막이 대신 피해를 흡수하며, 저항이나 취약이 있다면 보호막의 HP가 감소하기 전에 적용됩니다. 피해로 인해 보호막의 HP가 0이 되면 남은 피해는 당신이 받습니다. 보호막의 HP가 0이 되어도 마법은 계속 유지됩니다.
+	방호술 주문을 시전하기 위해 주문 슬롯을 사용할 때마다 보호막은 시전한 주문 슬롯 레벨의 두 배만큼 HP를 회복합니다. 또한, 보조 행동으로 주문 슬롯을 소모하여 그 슬롯 레벨의 두 배만큼 보호막의 HP를 회복할 수 있습니다.
+	보호막은 긴 휴식을 마칠 때까지 다시 생성할 수 없습니다.
+	## **6레벨: 보호막 투영** {color="yellow_bg"}
+	대응을 사용하여 30ft 내에 있는, 당신이 볼 수 있는 크리처가 피해를 받을 때 당신의 비전 보호막으로 그 피해를 흡수할 수 있습니다. 보호막의 HP가 0이 되는 피해를 받으면, 크리처는 남은 피해를 받습니다. 크리처에게 저항이나 취약이 있다면 보호막의 HP가 감소하기 전에 적용됩니다.
+	## **10레벨: 주문 파괴자** {color="yellow_bg"}
+	<span color="purple">[*주문 방해*](/212f7f5a1e80819cb6b2dbf6c8b3dc09?pvs=25)</span><span color="purple">* *</span>및 <span color="purple">[*마법 해제*](/212f7f5a1e80811b905dcc0246174bb4?pvs=25)</span>* *주문을 항상 준비합니다. 마법 해제 주문을 보조 행동으로 시전할 수 있으며, 주문의 능력 판정에 숙련 보너스를 추가할 수 있습니다.
+	이러한 주문을 주문 슬롯을 사용해 시전 했을 때 마법을 막는 데 실패하더라도 주문 슬롯은 소모되지 않습니다.
+	## **14레벨: 주문 내성** {color="yellow_bg"}
+	주문에 대한 내성 굴림에서 유리 보정을 얻으며, 주문으로 인한 모든 피해에 저항을 가집니다.
+</synced_block_reference>
+</content>
+</page>

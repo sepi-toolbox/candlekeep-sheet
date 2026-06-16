@@ -1,0 +1,62 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/1f2f7f5a1e8080a7a1c1c5d5cbca05e8 as of 2026-02-17T07:21:23.827Z:
+<page url="https://app.notion.com/p/1f2f7f5a1e8080a7a1c1c5d5cbca05e8" icon="https://prod-files-secure.s3.us-west-2.amazonaws.com/0d976d7d-e60c-4eb7-b728-3fa22e24d31b/645be232-fe37-41c8-b27a-2404ecb41656/638607458268123998.jpeg" locked>
+<ancestor-path>
+<parent-data-source url="collection://212f7f5a-1e80-815a-a7a7-000b03d75251" name="파이터 서브클래스 표"/>
+<ancestor-2-database url="https://app.notion.com/p/212f7f5a1e8081b1b125e9726e7fa056" title=""/>
+<ancestor-3-page url="https://app.notion.com/p/212f7f5a1e808107ba72f2ab3a413064" title="파이터"/>
+<ancestor-4-data-source url="collection://212f7f5a-1e80-817b-bb0f-000bb3dcf36a" name="클래스 표"/>
+<ancestor-5-database url="https://app.notion.com/p/212f7f5a1e80811ab89ec1526e20d5c1" title=""/>
+<ancestor-6-page url="https://app.notion.com/p/212f7f5a1e808144b375c019f33732f3" title="클래스"/>
+<ancestor-7-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-8-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-9-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"url":"https://app.notion.com/p/1f2f7f5a1e8080a7a1c1c5d5cbca05e8","미리보기":["file://%7B%22source%22%3A%22https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0d976d7d-e60c-4eb7-b728-3fa22e24d31b%2F973dc7e0-fd0c-435c-b644-3279a89193f7%2F%25EB%25B0%25B0%25EB%25A7%2588.png%22%2C%22permissionRecord%22%3A%7B%22table%22%3A%22block%22%2C%22id%22%3A%221f2f7f5a-1e80-80a7-a1c1-c5d5cbca05e8%22%2C%22spaceId%22%3A%228dffc202-0f6e-4adf-b208-fc378f0d8bf3%22%7D%7D"],"원문":"Battle Master","이름":"전투 대가","출처":["PHB"]}
+</properties>
+<content>
+<synced_block_reference url="https://app.notion.com/p/1f2f7f5a1e8080a7a1c1c5d5cbca05e8#30af7f5a1e80802aaa47d66bdad5f7a7">
+	전투 대가들은 전투를 하나의 예술로 여기며 세대를 거쳐 전승된 전투 기술을 연마합니다. 가장 뛰어난 전투 대가들은 정제된 전투 기술과 역사, 이론, 예술에 대한 학문적 연구를 조화롭게 결합한 인물들입니다.
+	## 3레벨: 전투 우월성 {color="yellow_bg"}
+	전장에서의 경험으로 전투 기술이 더욱 정교해졌습니다. 특별한 우월성 주사위로 기교를 사용합니다.
+	<span color="red">***기교.***</span><span color="red"> </span>이 서브클래스의 기교 부분에서 세 가지 기교를 선택해 배웁니다. 대부분의 기교는 공격을 강화하며, 한 번의 공격에 하나의 기교만 사용할 수 있습니다. {color="red"}
+	파이터 레벨 7, 10, 15에서 각각 두 가지 기교를 추가로 배웁니다. 새 기교를 배울 때마다 이미 알고 있는 기교 하나를 다른 것으로 교체할 수 있습니다.
+	<span color="red">***우월성 주사위.***</span> d8 우월성 주사위를 네 개 보유합니다. 주사위를 사용하면 소모되며, 짧은 휴식이나 긴 휴식을 마치면 모든 소모된 주사위를 회복합니다. {color="red"}
+	파이터 레벨 7에서 우월성 주사위가 다섯 개로, 15레벨에서 여섯 개로 증가합니다.
+	<span color="red">***내성 굴림.***</span> 기교가 내성 굴림을 요구할 경우, DC는 8 + 근력 또는 민첩 수정치(선택) + 숙련 보너스입니다. {color="red"}
+	## 3레벨: 전장의 생도 {color="yellow_bg"}
+	원하는 장인의 도구 하나와 파이터가 1레벨에서 제공하는 기술 중 하나에 숙련을 얻습니다.
+	## **7레벨: 적 파악하기** {color="yellow_bg"}
+	보조 행동으로, 30ft 내에서 볼 수 있는 크리처의 강점과 약점을 파악할 수 있습니다. 해당 크리처가 가진 면역, 저항, 취약점이 무엇인지 알아낼 수 있습니다.
+	이 특성은 한 번 사용한 후 긴 휴식을 마치기 전까지 다시 사용할 수 없습니다. 다만 우월성 주사위 하나를 소모하면 행동 없이 즉시 재사용할 수 있습니다.
+	## **10레벨: 향상된 전투 우월성** {color="yellow_bg"}
+	우월성 주사위가 d10으로 향상됩니다.
+	## **15레벨: 집요함** {color="yellow_bg"}
+	턴당 한 번, 기교를 사용할 때 우월성 주사위를 소모하지 않고 대신 1d8을 굴려 그 결과값을 사용할 수 있습니다.
+	## **18레벨: 궁극의 전투 우월성** {color="yellow_bg"}
+	우월성 주사위가 d12로 향상됩니다.
+	# 기교 {color="red_bg"}
+	<span color="red">***매복. ***</span>민첩(<span color="green">[은신](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>) 판정이나 선제권 굴림에 우월성 주사위 하나를 소모하여 그 결과를 더할 수 있습니다. 이는 <span color="green">[행동불능](/212f7f5a1e8081aa8c00f5f8ac0b511c?pvs=25)</span> 상태가 아닐 때만 가능합니다. {color="red"}
+	<span color="red">***미끼 전술. ***</span>당신의 턴에 5ft 내의 크리처와 자리를 바꿀 수 있습니다. 최소 5ft 이동이 필요하며, 상대가 <span color="green">[행동불능](/212f7f5a1e8081aa8c00f5f8ac0b511c?pvs=25)</span> 상태가 아니고 동의해야 합니다. 이 이동은 <span color="green">[허점 공격](/212f7f5a1e8081b0a6d5c91cb05d8ead?pvs=25)</span>을 유발하지 않습니다. {color="red"}
+	우월성 주사위를 굴려 그 결과만큼의 AC 보너스를 당신이나 대상 크리처(선택) 중 하나에게 당신의 다음 턴 시작까지 부여합니다.
+	<span color="red">***사령관의 일격.***</span>** **당신의 턴에 <span color="green">[공격](/212f7f5a1e8081d09ce9fe10c371eb15?pvs=25)</span> 행동을 취할 때, 공격 하나를 동료에게 지시하는 것으로 대체할 수 있습니다. 우월성 주사위를 소모하고 대상 크리처를 선택하면, 그 크리처는 대응으로 무기나 비무장 공격을 한 번 할 수 있습니다. 공격이 명중하면 우월성 주사위를 피해에 추가합니다. {color="red"}
+	<span color="red">***사령관의 권위.***</span>** **<span color="green">[위협](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>, <span color="green">[공연](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>, <span color="green">[설득](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span> 판정에 우월성 주사위 하나를 소모하여 그 결과를 더할 수 있습니다. {color="red"}
+	<span color="red">***무장 해제 공격.***</span>** **크리처에 대한 명중 굴림이 성공하면, 우월성 주사위를 소모하여 무장 해제를 시도할 수 있습니다. 주사위 결과를 피해에 추가하고, 대상은 근력 내성 굴림을 합니다. 실패하면 들고 있던 물체 하나를 자신의 공간에 떨어뜨립니다. {color="red"}
+	<span color="red">***교란의 일격.***</span>** **크리처에 대한 명중 굴림이 성공하면, 우월성 주사위를 소모하여 대상을 혼란시킬 수 있습니다. 주사위 결과를 피해에 추가합니다. 다음 당신의 턴 시작 전에 다른 공격자가 대상을 공격할 때 유리 보정을 받습니다. {color="red"}
+	<span color="red">***날렵한 발놀림. ***</span>보조 행동으로 우월성 주사위 하나를 소모하여 <span color="green">[철수](/212f7f5a1e808161bdaae6d07b42450b?pvs=25)</span> 행동을 취할 수 있습니다. 또한 주사위를 굴려 다음 당신의 턴 시작까지 그 결과만큼 자신의 AC가 증가합니다. {color="red"}
+	<span color="red">***속임수 공격. ***</span>보조 행동으로 우월성 주사위 하나를 소모하여 페인트를 취하고, 5ft 내의 크리처 하나를 선택합니다. 이번 턴에 그 대상에 대한 다음 명중 굴림에 유리 보정을 받습니다. 공격이 명중하면 우월성 주사위를 피해에 추가합니다. {color="red"}
+	<span color="red">***도발 공격. ***</span>크리처에 대한 명중 굴림이 성공했을 때, 우월성 주사위 하나를 소모하여 대상을 도발할 수 있습니다. 우월성 주사위를 피해에 추가합니다. 대상은 지혜 내성 굴림을 해야 하며, 실패 시 당신의 다음 턴이 끝날 때까지 당신이 아닌 대상을 공격할 때 불리 보정을 받습니다. {color="red"}
+	<span color="red">***돌진 공격. ***</span>보조 행동으로 우월성 주사위 하나를 소모하여 <span color="green">[질주](/212f7f5a1e8081448a58d5a5a9bd50ee?pvs=25)</span> 행동을 취할 수 있습니다. 이 턴에 일직선으로 최소 5ft를 이동한 후 근거리 공격이 명중하면, 우월성 주사위를 피해에 추가할 수 있습니다. {color="red"}
+	<span color="red">***전투 기술 공격. ***</span>크리처에 대한 명중 굴림이 성공했을 때, 우월성 주사위 하나를 소모하여 동료를 이동시킬 수 있습니다. 우월성 주사위를 피해에 추가하고, 당신을 보거나 들을 수 있는 크리처 하나를 선택합니다. 그 크리처는 대응을 사용하여 <span color="green">[허점 공격](/212f7f5a1e8081b0a6d5c91cb05d8ead?pvs=25)</span>을 유발하지 않고 자신의 속도의 절반까지 이동할 수 있습니다. {color="red"}
+	<span color="red">***위협 공격.***</span>** **크리처를 대상으로 한 명중 굴림이 성공했을 때, 우월성 주사위 하나를 소모하여 대상을 위협할 수 있습니다. 우월성 주사위 결과를 공격의 피해 굴림에 추가합니다. 대상은 지혜 내성 굴림을 해야 하며, 실패 시 다음 당신의 턴이 끝날 때까지 <span color="green">[공포](/212f7f5a1e80811299daf242330968c7?pvs=25)</span> 상태가 됩니다. {color="red"}
+	<span color="red">***막기. ***</span>다른 크리처가 근거리 명중 굴림으로 당신에게 피해를 줄 때, 대응을 사용하여 우월성 주사위 하나를 소모할 수 있습니다. 우월성 주사위 결과에 근력 또는 민첩 수정치(선택)를 더한 만큼 피해가 감소합니다. {color="red"}
+	<span color="red">***정밀 공격.***</span>** **명중 굴림에 실패했을 때, 우월성 주사위 하나를 소모하여 그 결과를 명중 굴림에 더함으로써 공격을 명중시킬 수 있습니다. {color="red"}
+	<span color="red">***밀치기 공격.***</span>** **무기 또는 비무장 공격으로 명중했을 때, 우월성 주사위 하나를 소모하여 대상을 밀어낼 수 있습니다. 우월성 주사위를 피해 굴림에 추가합니다. 대상이 대형 이하 체격이라면, 근력 내성 굴림을 해야 하며, 실패 시 당신으로부터 최대 15ft까지 밀려납니다. {color="red"}
+	<span color="red">***고양. ***</span>보조 행동으로 우월성 주사위 하나를 소모하여 동료의 결의를 다질 수 있습니다. 30ft 내에서 당신을 보거나 들을 수 있는 동료를 선택합니다. 그 크리처는 우월성 주사위 결과에 당신의 파이터 레벨 절반(반올림)을 더한 만큼의 임시 HP를 얻습니다. {color="red"}
+	<span color="red">***응수.***</span>** **크리처가 당신에 대한 근거리 명중 굴림에 실패했을 때, 대응을 사용하고 우월성 주사위 하나를 소모하여 그 크리처에게 무기 또는 비무장 공격을 할 수 있습니다. 공격이 명중하면 우월성 주사위를 피해 굴림에 추가합니다. {color="red"}
+	<span color="red">***휩쓸기 공격.***</span>** **무기 또는 비무장 공격으로 근거리 명중 굴림이 성공했을 때, 우월성 주사위 하나를 소모하여 추가 대상을 공격할 수 있습니다. 원래 대상의 5ft 내에 있으며 당신의 사거리 안에 있는 다른 크리처를 선택합니다. 원래의 명중 굴림이 두 번째 크리처에게도 명중한다면, 우월성 주사위 결과만큼 피해를 입힙니다. 피해 유형은 원래 공격과 같습니다. {color="red"}
+	<span color="red">***전술 평가. ***</span>지능(<span color="green">[역사](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span> 또는 <span color="green">[조사](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>) 판정이나 지혜(<span color="green">[통찰](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>) 판정을 할 때, 우월성 주사위 하나를 소모하여 그 결과를 능력 판정에 더할 수 있습니다. {color="red"}
+	<span color="red">***다리 걸기 공격. ***</span>무기 또는 비무장 공격으로 명중 굴림이 성공했을 때, 우월성 주사위 하나를 소모하여 그 결과를 피해 굴림에 추가합니다. 대상이 대형 이하 체격이라면, 근력 내성 굴림을 해야 하며, 실패 시 넘어짐 상태가 됩니다. {color="red"}
+</synced_block_reference>
+</content>
+</page>

@@ -1,0 +1,65 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/1f2f7f5a1e80802daaa3ee2a62b68da2 as of 2026-02-17T04:16:18.894Z:
+<page url="https://app.notion.com/p/1f2f7f5a1e80802daaa3ee2a62b68da2" icon="https://prod-files-secure.s3.us-west-2.amazonaws.com/0d976d7d-e60c-4eb7-b728-3fa22e24d31b/bb04c1f5-a470-49e9-b9ca-e0a9b4c7a9f1/638607460049450769.jpeg" locked>
+<ancestor-path>
+<parent-data-source url="collection://212f7f5a-1e80-8152-8210-000b48148927" name="워락 서브클래스 표"/>
+<ancestor-2-database url="https://app.notion.com/p/212f7f5a1e8081d79e17e1957d8510a8" title=""/>
+<ancestor-3-page url="https://app.notion.com/p/212f7f5a1e8081b8afaefe31deb97bcb" title="워락"/>
+<ancestor-4-data-source url="collection://212f7f5a-1e80-817b-bb0f-000bb3dcf36a" name="클래스 표"/>
+<ancestor-5-database url="https://app.notion.com/p/212f7f5a1e80811ab89ec1526e20d5c1" title=""/>
+<ancestor-6-page url="https://app.notion.com/p/212f7f5a1e808144b375c019f33732f3" title="클래스"/>
+<ancestor-7-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-8-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-9-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"url":"https://app.notion.com/p/1f2f7f5a1e80802daaa3ee2a62b68da2","미리보기":["file://%7B%22source%22%3A%22https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0d976d7d-e60c-4eb7-b728-3fa22e24d31b%2F493b81ac-f254-4da4-92da-9966834da005%2F%25EC%2595%2584%25EC%25B9%2598%25ED%258E%2598%25EC%259D%25B4.png%22%2C%22permissionRecord%22%3A%7B%22table%22%3A%22block%22%2C%22id%22%3A%221f2f7f5a-1e80-802d-aaa3-ee2a62b68da2%22%2C%22spaceId%22%3A%228dffc202-0f6e-4adf-b208-fc378f0d8bf3%22%7D%7D"],"원문":"Archfey Patron","이름":"대요정 후원자","출처":["PHB"]}
+</properties>
+<content>
+<synced_block_reference url="https://app.notion.com/p/1f2f7f5a1e80802daaa3ee2a62b68da2#30af7f5a1e808011b5c2f406a11ad15a">
+	당신의 계약은 페이와일드의 힘에서 비롯됩니다. 이 서브클래스를 선택할 때, 프린스 오브 프로스트(Prince of Frost), 글로밍 궁정의 여왕 에어 앤 다크니스(Queen of Air and Darkness), 여름 궁정의 티타니아(Titania), 또는 고대의 마녀와 같은 대요정과 계약을 맺을 수 있습니다. 아니면 여러 요정들과 협약을 맺어 호의와 빚의 복잡한 관계망을 형성할 수도 있습니다. 어떤 존재와 계약을 맺든, 당신의 후원자는 본질적으로 예측하기 어렵고 변덕스러운 성향을 지닙니다.
+	## 3레벨: 대요정 주문 {color="yellow_bg"}
+	특정 워락 레벨에 도달하면 해당 레벨의 주문들이 자동으로 준비된 상태가 됩니다.
+	<table header-row="true">
+	<colgroup>
+	<col width="96.28125">
+	<col width="289.484375">
+	</colgroup>
+<tr color="red_bg">
+<td>**워락 레벨**</td>
+<td>**주문**</td>
+</tr>
+<tr>
+<td>3</td>
+<td><span color="purple">[*평정심*](/212f7f5a1e8081058fd1f4560aa359af?pvs=25)</span>*, *<span color="purple">[*요정불*](/212f7f5a1e80817eb337f0fe23a8fd60?pvs=25)</span>*, *<span color="purple">[*안개 걸음*](/212f7f5a1e8081dcb57fe8fc259c43cb?pvs=25)</span>*, *<span color="purple">[*환영력*](/212f7f5a1e8081338ed0e9602d37ac4c?pvs=25)</span>*, *<span color="purple">[*수면*](/212f7f5a1e8081dc9880f66a14a5c896?pvs=25)</span></td>
+</tr>
+<tr>
+<td>5</td>
+<td><span color="purple">[*점멸*](/212f7f5a1e8081828d72d40879c21893?pvs=25)</span>*, *<span color="purple">[*식물 성장*](/212f7f5a1e80815e8995e713fdbcd8bd?pvs=25)</span></td>
+</tr>
+<tr>
+<td>7</td>
+<td><span color="purple">[*야수 지배*](/212f7f5a1e80819abbdce0bfc5808375?pvs=25)</span>*, *<span color="purple">[*상급 투명화*](/212f7f5a1e8081649459eb8563187859?pvs=25)</span></td>
+</tr>
+<tr>
+<td>9</td>
+<td><span color="purple">[*인간형 지배*](/212f7f5a1e8081f6bf46c53d4482da21?pvs=25)</span>*, *<span color="purple">[*외견*](/212f7f5a1e8081ffa3abf07bba7d5903?pvs=25)</span></td>
+</tr>
+	</table>
+	## **3레벨: 요정의 걸음** {color="yellow_bg"}
+	당신의 후원자는 당신에게 차원의 경계를 넘나드는 능력을 부여합니다. 당신은 매력 수정치만큼의 횟수로(최소 1회) <span color="purple">[*안개 걸음*](/212f7f5a1e8081dcb57fe8fc259c43cb?pvs=25)</span>을 주문 슬롯 없이 시전할 수 있으며, 긴 휴식을 완료하면 모든 소모한 사용 횟수가 회복됩니다.
+	또한, 이 주문을 시전할 때 다음 중 하나의 추가 효과를 선택할 수 있습니다.
+	<span color="red">***재충전 걸음.***</span><span color="red">* *</span>순간이동 직후, 당신이나 당신이 볼 수 있는 10ft 이내의 크리처 하나가 1d10의 임시 HP를 얻습니다. {color="red"}
+	<span color="red">***도발 걸음.***</span><span color="red">* *</span>당신이 떠난 공간의 5ft 이내에 있는 크리처들은 당신의 주문 내성 DC에 대한 지혜 내성 굴림을 해야 합니다. 실패 시 다음 당신의 턴이 시작될 때까지 당신이 아닌 다른 크리처를 대상으로 하는 명중 굴림에 불리 보정을 받습니다. {color="red"}
+	## 6레벨: 안개 탈출 {color="yellow_bg"}
+	당신은 피해를 입었을 때 대응으로 <span color="purple">[*안개 걸음*](/212f7f5a1e8081dcb57fe8fc259c43cb?pvs=25)</span>을 시전할 수 있습니다.
+	또한, 다음의 효과들이 요정의 걸음 요소에 추가됩니다.
+	<span color="red">***소멸 걸음.***</span><span color="red">* *</span>다음 턴 시작 전까지, 또는 명중 굴림이나 피해를 주거나 주문을 시전하기 전까지 <span color="green">[투명](/212f7f5a1e808181889cccb51c28dcff?pvs=25)</span> 상태가 됩니다. {color="red"}
+	<span color="red">***공포 걸음.***</span> 당신이 떠난 공간이나 나타난 공간(선택) 5ft 이내의 크리처들은 당신의 주문 내성 DC에 대한 지혜 내성 굴림을 해야 합니다. 실패 시 2d10 정신 피해를 입습니다. {color="red"}
+	## 10레벨: 속임수 방어 {color="yellow_bg"}
+	당신의 후원자는 마음과 몸을 지키는 방법을 가르쳐줍니다. 당신은 매혹 상태에 면역이 됩니다.
+	또한, 당신이 볼 수 있는 크리처의 공격이 명중했을 때 대응으로 받는 피해를 반으로 줄일 수 있으며(소수점 내림), 공격자에게 당신의 주문 내성 DC를 목표로 지혜 내성 굴림을 요구할 수 있습니다. 내성에 실패한 경우, 공격자는 당신이 받은 피해만큼의 정신 피해를 받습니다. 이 대응은 긴 휴식을 완료할 때까지 한 번만 사용할 수 있습니다. 소모한 후에는 계약 마법 슬롯을 소비하여 재사용할 수 있으며, 이때 행동은 필요하지 않습니다.
+	## 14레벨: 홀리는 마법 {color="yellow_bg"}
+	당신의 후원자는 순간이동과 마법을 결합하는 능력을 부여합니다. 환혹술이나 환영술 주문을 시전하기 위해 행동과 주문 슬롯을 사용한 직후, 같은 행동의 일부로 <span color="purple">[*안개 걸음*](/212f7f5a1e8081dcb57fe8fc259c43cb?pvs=25)</span>을 시전할 수 있습니다. 이때는 주문 슬롯을 소모하지 않습니다.
+</synced_block_reference>
+</content>
+</page>

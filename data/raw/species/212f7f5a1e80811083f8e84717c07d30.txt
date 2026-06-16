@@ -1,0 +1,30 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/212f7f5a1e80811083f8e84717c07d30 as of 2026-02-10T15:55:23.060Z:
+<page url="https://app.notion.com/p/212f7f5a1e80811083f8e84717c07d30" icon="notion://custom_emoji/8dffc202-0f6e-4adf-b208-fc378f0d8bf3/213f7f5a-1e80-80c7-a34d-007ac47a2d1f" locked>
+<ancestor-path>
+<parent-data-source url="collection://212f7f5a-1e80-8107-9106-000b8ecbb0d1" name="종족 표"/>
+<ancestor-2-database url="https://app.notion.com/p/212f7f5a1e8081558fd8e3509d05c61d" title=""/>
+<ancestor-3-page url="https://app.notion.com/p/212f7f5a1e8081788869fe8abbf06140" title="종족"/>
+<ancestor-4-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-5-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-6-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"url":"https://app.notion.com/p/212f7f5a1e80811083f8e84717c07d30","미리보기":["file://%7B%22source%22%3A%22https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0d976d7d-e60c-4eb7-b728-3fa22e24d31b%2F68eeb2df-6b89-410a-b478-59753134c8b2%2F05-026.human.png%22%2C%22permissionRecord%22%3A%7B%22table%22%3A%22block%22%2C%22id%22%3A%22212f7f5a-1e80-8110-83f8-e84717c07d30%22%2C%22spaceId%22%3A%228dffc202-0f6e-4adf-b208-fc378f0d8bf3%22%7D%7D"],"원문":"Human","이름":"인간","출처":["SRD","PHB"]}
+</properties>
+<content>
+<synced_block_reference url="https://app.notion.com/p/212f7f5a1e80811083f8e84717c07d30#303f7f5a1e808016aa3dec8212f96aa0">
+	멀티버스 전역에 걸쳐 발견되는 인간은 그 수만큼이나 다양하며, 주어진 시간 동안 가능한 많은 것을 성취하기 위해 노력합니다. 그들의 야망과 재치 있는 성향은 많은 세계에서 칭송과 존경, 때로는 두려움의 대상이 됩니다.
+	인간의 외모는 지구의 사람들만큼 다양하며, 다양한 신들을 섬깁니다. 인간의 기원에 대해서는 학자들 사이에 의견이 분분하지만, 알려진 최초의 인간 모임 중 하나는 시길(Sigil)이라는 멀티버스의 중심에 있는 원환 모양의 도시에서 이루어졌다고 합니다. 이곳은 공용어가 탄생한 곳이기도 합니다. 여기에서부터 인간은 우주의 모든 부분으로 퍼져 나가 문들의 도시(City of Doors)의 세계주의를 함께 가져갔을지도 모릅니다.
+	## 인간 특성 {color="yellow_bg"}
+	<span color="red">**크리처 유형:**</span> 인간형 {color="red"}
+	<span color="red">**체격:**</span><span color="red"> </span>중형 (약 4–7ft) 또는 소형(약 2–4ft), 종족을 선택할 때 결정 {color="red"}
+	<span color="red">**속도:**</span><span color="red"> </span>30ft {color="red"}
+	### 재치 {color="yellow"}
+	긴 휴식을 마칠 때마다 영웅적 영감을 얻습니다.
+	### 능숙함 {color="yellow"}
+	원하는 기술 하나에 대한 숙련을 얻습니다.
+	### 다재다능 {color="yellow"}
+	원하는 기원 재주 하나를 추가로 얻습니다.
+</synced_block_reference>
+</content>
+</page>

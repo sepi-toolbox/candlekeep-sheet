@@ -1,0 +1,304 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/212f7f5a1e80811a8eb1d58a0eee455f as of 2026-02-17T03:03:55.182Z:
+<page url="https://app.notion.com/p/212f7f5a1e80811a8eb1d58a0eee455f" icon="notion://custom_emoji/8dffc202-0f6e-4adf-b208-fc378f0d8bf3/305f7f5a-1e80-80de-8e1f-007a7c4b0a4d" locked>
+<ancestor-path>
+<parent-data-source url="collection://212f7f5a-1e80-817b-bb0f-000bb3dcf36a" name="클래스 표"/>
+<ancestor-2-database url="https://app.notion.com/p/212f7f5a1e80811ab89ec1526e20d5c1" title=""/>
+<ancestor-3-page url="https://app.notion.com/p/212f7f5a1e808144b375c019f33732f3" title="클래스"/>
+<ancestor-4-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-5-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-6-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"url":"https://app.notion.com/p/212f7f5a1e80811a8eb1d58a0eee455f","미리보기":["file://%7B%22source%22%3A%22https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0d976d7d-e60c-4eb7-b728-3fa22e24d31b%2Fad6c844e-7eda-4df2-9b18-f766e6862b2b%2Fbaba.png%22%2C%22permissionRecord%22%3A%7B%22table%22%3A%22block%22%2C%22id%22%3A%22212f7f5a-1e80-811a-8eb1-d58a0eee455f%22%2C%22spaceId%22%3A%228dffc202-0f6e-4adf-b208-fc378f0d8bf3%22%7D%7D"],"원문":"Barbarian","이름":"바바리안"}
+</properties>
+<content>
+<synced_block_reference url="https://app.notion.com/p/212f7f5a1e80811a8eb1d58a0eee455f#303f7f5a1e808035adf9f78bbe747b83">
+	# 핵심 특징 {color="red_bg"}
+	<table header-column="true">
+	<colgroup>
+	<col color="red_bg" width="86.6875">
+	<col width="418.28125">
+	</colgroup>
+<tr>
+<td>**주요 능력치**</td>
+<td>근력</td>
+</tr>
+<tr>
+<td>**히트 다이스**</td>
+<td>바바리안 레벨당 d12</td>
+</tr>
+<tr>
+<td>**내성 굴림**</td>
+<td>근력 또는 건강</td>
+</tr>
+<tr>
+<td>**기술 숙련**</td>
+<td><span color="gray">*다음 중 2개를 선택:*</span> <span color="green">[동물 조련](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>, <span color="green">[운동](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>, <span color="green">[위협](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>, <span color="green">[자연](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>, <span color="green">[포착](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>, <span color="green">[생존](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span></td>
+</tr>
+<tr>
+<td>**무기 숙련**</td>
+<td>일반 무기와 군용 무기</td>
+</tr>
+<tr>
+<td>**방어구 숙련**</td>
+<td>경갑, 평갑 및 방패</td>
+</tr>
+<tr>
+<td>**시작 장비**</td>
+<td><span color="gray">*다음 중 1개를 선택: *</span><span color="red">**(A) **</span><span color="brown">[대형 도끼](/212f7f5a1e8081b090d8f2ff08182a4d?pvs=25)</span>, <span color="brown">[손도끼](/212f7f5a1e80814e8cb9f958a34c75b8?pvs=25)</span> 4개, <span color="brown">[탐험가의 꾸러미](/212f7f5a1e80811b9fb5e3ce87754b4c?pvs=25)</span>, 15 GP; <span color="red">**(B)**</span> 75 GP</td>
+</tr>
+	</table>
+	바바리안은 멀티버스의 원시적인 힘에 의해 강력한 전사가 되며, 이러한 힘은 격노로 나타납니다. 단순한 감정 이상의 것이며 신체적인 분노에만 국한되지 않는 이 분노는 포식자의 사나움, 폭풍의 격노, 그리고 바다의 소란스러움이 구현된 모습입니다.
+	어떤 바바리안들은 그들의 분노를 사나운 정령이나 숭배하는 조상의 현현으로 여깁니다. 다른 이들은 그것을 세상의 고통과 비탄과의 연결고리로 보거나, 무인격적인 야생 마법의 뒤엉킴으로 간주하거나, 자신의 가장 깊은 본성의 표현으로 봅니다. 모든 바바리안에게 있어 그들의 분노는 전투 능력뿐만 아니라 날카로운 반사신경과 예리한 감각을 돋우는 힘의 원천입니다.
+	바바리안은 종종 자신들의 공동체에서 수호자이자 지도자의 역할을 수행합니다. 그들은 자신이 보호하는 사람들이 위험을 감수하지 않아도 되도록 맨 앞에서 위험에 뛰어듭니다. 이러한 용맹함은 바바리안들이 모험에 완벽하게 어울리는 이유입니다.
+	## 바바리안 시작하기 {color="yellow_bg"}
+	- <span color="red">**1레벨 캐릭터로서**</span> {color="red"}
+		- 핵심 특징의 모든 요소를 획득합니다.
+		- 바바리안 성장 표에 나열된 1레벨 바바리안 특성을 획득합니다.
+	- <span color="red">**멀티클래스 캐릭터로서**</span> {color="red"}
+		- 핵심 특징에서 히트 다이스와 군용 무기 숙련 및 방패 훈련을 획득합니다.
+		- 바바리안 성장 표에 나열된 1레벨 바바리안 특성을 획득합니다.
+	## 클래스 성장 {color="yellow_bg"}
+	<table header-row="true">
+	<colgroup>
+	<col width="57.640625">
+	<col width="96.28125">
+	<col width="225.09375">
+	<col width="96.28125">
+	<col width="96.28125">
+	<col width="96.28125">
+	</colgroup>
+<tr color="red_bg">
+<td>**레벨**</td>
+<td>**숙련 보너스**</td>
+<td>**클래스 특성**</td>
+<td>**격노 횟수**</td>
+<td>**격노 피해**</td>
+<td>**무기 전문화**</td>
+</tr>
+<tr>
+<td>1</td>
+<td>+2</td>
+<td>격노, 비무장 방어, 무기 전문화</td>
+<td>2</td>
+<td>+2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>+2</td>
+<td>위험 감지, 무모한 공격</td>
+<td>2</td>
+<td>+2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>+2</td>
+<td>바바리안 서브클래스, 원초적 지식</td>
+<td>3</td>
+<td>+2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>4</td>
+<td>+2</td>
+<td>능력 향상</td>
+<td>3</td>
+<td>+2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>5</td>
+<td>+3</td>
+<td>추가 공격, 빠른 이동</td>
+<td>3</td>
+<td>+2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>6</td>
+<td>+3</td>
+<td>서브클래스 특성</td>
+<td>4</td>
+<td>+2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>7</td>
+<td>+3</td>
+<td>야생 본능, 본능적 돌진</td>
+<td>4</td>
+<td>+2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>8</td>
+<td>+3</td>
+<td>능력 향상</td>
+<td>4</td>
+<td>+2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>9</td>
+<td>+4</td>
+<td>잔혹한 일격</td>
+<td>4</td>
+<td>+3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>10</td>
+<td>+4</td>
+<td>서브클래스 특성</td>
+<td>4</td>
+<td>+3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>11</td>
+<td>+4</td>
+<td>끈질긴 격노</td>
+<td>4</td>
+<td>+3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>12</td>
+<td>+4</td>
+<td>능력 향상</td>
+<td>5</td>
+<td>+3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>13</td>
+<td>+5</td>
+<td>향상된 잔혹한 일격</td>
+<td>5</td>
+<td>+3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>14</td>
+<td>+5</td>
+<td>서브클래스 특성</td>
+<td>5</td>
+<td>+3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>15</td>
+<td>+5</td>
+<td>지속적인 격노</td>
+<td>5</td>
+<td>+3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>16</td>
+<td>+5</td>
+<td>능력 향상</td>
+<td>5</td>
+<td>+4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>17</td>
+<td>+6</td>
+<td>향상된 잔혹한 일격</td>
+<td>6</td>
+<td>+4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>18</td>
+<td>+6</td>
+<td>불굴의 힘</td>
+<td>6</td>
+<td>+4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>19</td>
+<td>+6</td>
+<td>장엄한 은혜</td>
+<td>6</td>
+<td>+4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>20</td>
+<td>+6</td>
+<td>원시의 용사</td>
+<td>6</td>
+<td>+4</td>
+<td>4</td>
+</tr>
+	</table>
+	# 클래스 특성 {color="red_bg"}
+	## 1레벨: 격노 {color="yellow_bg"}
+	당신은 격노라 불리는 원시의 힘을 통해 놀라운 힘과 회복력을 얻습니다. 중갑을 착용하지 않은 상태에서 보조 행동으로 격노 상태에 돌입할 수 있습니다.
+	바바리안 성장 표에 명시된 격노 횟수만큼 격노할 수 있으며, 이는 바바리안 레벨에 따라 결정됩니다. 짧은 휴식 후에는 사용한 격노 횟수 중 1회를, 긴 휴식 후에는 모든 격노 횟수를 회복합니다.
+	격노 상태에서는 다음 규칙이 적용됩니다:
+	***피해 저항.*** 타격, 관통, 참격 피해에 대한 저항을 얻습니다. {color="red"}
+	***분노 피해.*** 근력 기반 공격(무기 또는 비무장 공격)으로 가하는 피해에 바바리안 성장 표의 격노 피해만큼 추가 피해를 줍니다. {color="red"}
+	***근력 보정.*** 근력 판정과 근력 내성 굴림에 유리 보정을 받습니다. {color="red"}
+	***집중 및 주문 금지.*** 집중을 유지할 수 없으며, 주문을 시전할 수 없습니다. {color="red"}
+	***지속시간.*** 격노는 다음 턴 종료 시까지 지속되며, 중갑을 착용하거나 <span color="green">[행동불능](/212f7f5a1e8081aa8c00f5f8ac0b511c?pvs=25)</span> 상태가 되면 즉시 종료됩니다. 격노를 다음 턴에도 유지하려면 다음 중 하나를 수행해야 합니다: {color="red"}
+	- 적에게 명중 굴림을 합니다. {color="red"}
+	- 적에게 내성 굴림을 요구합니다. {color="red"}
+	- 보조 행동을 사용해 분노를 연장합니다. {color="red"}
+	격노를 연장할 때마다 다음 턴 종료 시까지 지속되며, 최대 10분까지 연장할 수 있습니다. {color="red"}
+	## **1레벨: 비무장 방어** {color="yellow_bg"}
+	아무런 갑옷을 착용하지 않은 상태라면, 기본 AC는 10 + 민첩 수정치 + 건강 수정치입니다. 방패를 사용해도 이 혜택을 받을 수 있습니다.
+	## **1레벨: 무기 전문화** {color="yellow_bg"}
+	전문 속성을 일반 또는 군용 무기 세 가지에 대해 획득합니다. 긴 휴식 시에 선택한 무기를 다른 것으로 교체할 수 있습니다.
+	바바리안 레벨이 높아질수록, 바바리안 성장 표의 무기 전문화 열에 명시된 것처럼 더 많은 무기에 대한 전문 속성을 얻을 수 있습니다.
+	## **2레벨: 위험 감지** {color="yellow_bg"}
+	당신은 위험을 감지할 수 있는 예리한 감각을 얻어 주변 환경의 이상한 변화를 알아차릴 수 있습니다. <span color="green">[행동불능](/212f7f5a1e8081aa8c00f5f8ac0b511c?pvs=25)</span> 상태가 아닐 때 민첩 내성 굴림에 유리 보정을 받습니다.
+	## **2레벨: 무모한 공격** {color="yellow_bg"}
+	당신은 치명적인 공격을 위해 방어를 희생할 수 있습니다. 턴에 첫 번째 명중 굴림을 할 때 무모한 공격을 선택할 수 있으며, 이 경우 다음 턴이 시작될 때까지 근력을 사용한 명중 굴림에 <span color="yellow">[유리 보정](/212f7f5a1e80818abe4bec29f0f0f914?pvs=25)</span>을 받습니다. 단, 이 기간 동안 당신을 대상으로 하는 모든 명중 굴림도 유리 보정을 받게 됩니다.
+	## **3레벨: 바바리안** 서브클래스 {color="yellow_bg"}
+	바바리안 서브클래스를 하나 선택하여 해당 특성을 획득합니다. 이후 레벨이 오를 때마다 해당 서브클래스의 특성을 얻습니다.
+	## **3레벨: 원초적 지식** {color="yellow_bg"}
+	1레벨 바바리안의 기술 목록에서 추가로 기술 1개에 대한 숙련을 획득합니다.
+	또한, 격노 상태에서는 원시적인 힘을 특정 작업에 활용할 수 있습니다. <span color="green">[곡예](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>, <span color="green">[위협](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>, <span color="green">[포착](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>, <span color="green">[은신](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span>, <span color="green">[생존](/212f7f5a1e80812b8613e0c3ff08ff55?pvs=25)</span> 중 하나의 능력 판정을 할 때, 해당 기술이 다른 능력치를 사용하더라도 근력 판정으로 대체할 수 있습니다. 이는 당신의 기민함, 태도, 감각에 원초적인 힘이 흐르고 있음을 의미합니다.
+	## **4레벨: **능력 향상 {color="yellow_bg"}
+	능력 향상이나 다른 재주 하나를 획득합니다. 8, 12, 16레벨에서 추가 획득합니다.
+	## **5레벨: **추가 공격 {color="yellow_bg"}
+	당신의 턴에 <span color="green">[공격](/212f7f5a1e8081d09ce9fe10c371eb15?pvs=25)</span> 행동을 취할 때마다 한 번이 아닌 두 번 공격할 수 있습니다.
+	## **5레벨: 빠른** 이동 {color="yellow_bg"}
+	중장 갑옷을 착용하고 있지 않다면 속도가 10ft 증가합니다.
+	## **7레벨: 야생 본능** {color="yellow_bg"}
+	당신의 날카로워진 본능으로 선제권 굴림에 유리 보정을 받습니다.
+	## 7레벨: 본능적 돌진 {color="yellow_bg"}
+	분노에 돌입하기 위해 보조 행동을 사용할 때 속도의 절반만큼 이동할 수 있습니다.
+	## 9레벨: 잔혹한 일격 {color="yellow_bg"}
+	무모한 공격 사용 시, 턴당 한 번의 근력 기반 명중 굴림에서 유리 보정을 포기할 수 있습니다. 이때 선택된 명중 굴림에는 불리 보정이 적용되어 있지 않아야 합니다. 공격이 명중하면 대상은 무기나 비무장 공격의 피해 유형과 동일한 추가 피해 1d10을 받으며, 다음 잔혹한 일격 효과 중 하나가 적용됩니다.
+	<span color="red">***강한 일격.***</span><span color="red">* *</span>대상이 직선으로 15ft 밀려납니다. 이후 <span color="green">[허점 공격](/212f7f5a1e8081b0a6d5c91cb05d8ead?pvs=25)</span>을 유발하지 않고 대상을 향해 속도의 절반만큼 직선으로 이동할 수 있습니다. {color="red"}
+	<span color="red">***절단 일격.***</span><span color="red">* *</span>대상의 속도가 다음 당신의 턴 시작까지 15ft 감소합니다. 한 대상에게는 가장 최근의 절단 일격 효과만 적용됩니다. {color="red"}
+	## 11레벨: 끈질긴 격노 {color="yellow_bg"}
+	격노 상태일 때 치명적인 상처를 입어도 전투를 계속할 수 있습니다. 격노 중에 HP가 0이 되었을 때, 즉사하지 않는다면 DC 10 건강 내성 굴림을 할 수 있습니다. 성공 시 HP가 바바리안 레벨의 두 배만큼 회복됩니다.
+	이 특성을 사용할 때마다 DC가 5씩 증가합니다. 짧은 휴식이나 긴 휴식을 마치면 DC는 10으로 초기화됩니다.
+	## 13레벨: 향상된 잔혹한 일격 {color="yellow_bg"}
+	더 강력하게 공격할 수 있는 새로운 방법을 습득합니다. 다음 효과는 잔혹한 일격 옵션에 추가됩니다.
+	<span color="red">***위압 일격.***</span><span color="red">* *</span>대상은 다음 내성 굴림에 불리 보정을 가지며, 다음 턴 시작 시까지 <span color="green">[허점 공격](/212f7f5a1e8081b0a6d5c91cb05d8ead?pvs=25)</span>을 할 수 없습니다. {color="red"}
+	<span color="red">***파쇄 일격.***</span><span color="red">* *</span>다음 턴이 시작되기 전에 대상에 대한 다른 크리처의 명중 굴림이 +5 보너스를 받습니다. 한 번의 명중 굴림은 한 번의 파쇄 일격 보너스만 받을 수 있습니다. {color="red"}
+	## 15레벨: 지속적인 격노 {color="yellow_bg"}
+	선제권 굴림을 할 때 소진한 격노 횟수를 모두 회복할 수 있습니다. 단, 이 특성으로 격노를 회복한 뒤에는 긴 휴식을 마칠 때까지 다시 회복할 수 없습니다.
+	또한 격노가 한층 강력해져서 라운드마다 연장할 필요 없이 10분간 지속됩니다. 격노는 <span color="green">[무의식](/212f7f5a1e8081d59549e1cd737f848e?pvs=25)</span>(<span color="green">[행동불능](/212f7f5a1e8081aa8c00f5f8ac0b511c?pvs=25)</span> 상태뿐만 아니라) 상태가 되거나 중장 갑옷을 착용하면 즉시 종료됩니다.
+	## 17레벨: 향상된 잔혹한 일격 {color="yellow_bg"}
+	잔혹한 일격으로 가하는 추가 피해가 2d10으로 증가합니다. 또한 잔혹한 일격을 사용할 때 서로 다른 효과를 2개까지 적용할 수 있습니다.
+	## 18레벨: 불굴의 힘 {color="yellow_bg"}
+	근력 판정이나 근력 내성 굴림의 결과가 자신의 근력 점수보다 낮을 경우, 해당 결과 대신 근력 점수를 사용할 수 있습니다.
+	## 19레벨: 장엄한 은혜 {color="yellow_bg"}
+	장엄한 은혜 또는 조건이 충족된 다른 재주를 획득합니다.
+	## **20레벨: 원시의 용사** {color="yellow_bg"}
+	당신은 원시의 힘의 화신이 됩니다. 근력과 건 점수가 각각 4씩 증가하며, 최대 25까지 상승할 수 있습니다.
+</synced_block_reference>
+# 서브클래스 {color="red_bg"}
+<database url="https://app.notion.com/p/212f7f5a1e8081718380f50ed65a54f5" inline="true" icon="https://s3-us-west-2.amazonaws.com/public.notion-static.com/af9e91ec-ba9f-4e62-a03e-522bd95f3340/638607453021957927.webp" data-source-url="collection://212f7f5a-1e80-812c-a25b-000b99bd0989">바바리안 서브클래스 표</database>
+</content>
+</page>

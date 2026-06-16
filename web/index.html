@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Candlekeep Sheet — D&D 5e 한국어 캐릭터 시트</title>
+<style>
+:root{
+  --bg:#191512; --bg2:#221d18; --bg3:#2a241d; --bg4:#332b22;
+  --text:#e8e0d4; --text2:#a89a86; --border:#3d342a; --border2:#52463a;
+  --gold:#d4af57; --gold2:#b8943f; --red:#c0563a; --green:#6a9a5b; --blue:#5a8ab0;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI',Roboto,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:14px;line-height:1.5;padding-bottom:64px}
+a{color:var(--gold)}
+h2{color:var(--gold);font-size:18px;margin:14px 0 8px;border-bottom:1px solid var(--border);padding-bottom:4px}
+h3{color:var(--gold2);font-size:15px;margin:12px 0 6px}
+.muted{color:var(--text2)}
+button{font-family:inherit;cursor:pointer}
+input,select{font-family:inherit;background:var(--bg3);color:var(--text);border:1px solid var(--border2);border-radius:6px;padding:6px 8px;font-size:14px}
+input:focus,select:focus{outline:none;border-color:var(--gold2)}
+
+/* 헤더 */
+header{background:linear-gradient(180deg,var(--bg3),var(--bg2));border-bottom:2px solid var(--gold2);padding:10px 14px;position:sticky;top:0;z-index:30}
+.hdr-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.brand{color:var(--gold);font-weight:700;font-size:16px;letter-spacing:.5px}
+.brand small{color:var(--text2);font-weight:400;font-size:11px}
+#charName{font-size:18px;font-weight:700;background:transparent;border:none;border-bottom:1px dashed var(--border2);color:var(--gold);min-width:120px;flex:1}
+.statbar{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.stat{background:var(--bg4);border:1px solid var(--border);border-radius:8px;padding:5px 10px;text-align:center;min-width:56px}
+.stat .v{font-size:18px;font-weight:700;color:var(--gold)}
+.stat .l{font-size:10px;color:var(--text2)}
+
+/* 탭 (데스크톱) */
+.tabs{display:flex;gap:2px;background:var(--bg2);border-bottom:1px solid var(--border);overflow-x:auto;position:sticky;top:0;z-index:20}
+.tab{padding:11px 16px;color:var(--text2);white-space:nowrap;border-bottom:2px solid transparent;font-size:14px;background:none;border-top:none;border-left:none;border-right:none}
+.tab.active{color:var(--gold);border-bottom-color:var(--gold)}
+
+main{max-width:880px;margin:0 auto;padding:14px}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:12px;margin-bottom:10px}
+.grid{display:grid;gap:8px}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.field{display:flex;flex-direction:column;gap:3px;margin-bottom:8px}
+.field label{font-size:12px;color:var(--text2)}
+.field select,.field input{width:100%}
+
+/* 능력치 박스 */
+.abils{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.abil{background:var(--bg3);border:1px solid var(--border2);border-radius:10px;padding:8px;text-align:center}
+.abil .name{font-size:11px;color:var(--text2)}
+.abil .mod{font-size:22px;font-weight:700;color:var(--gold)}
+.abil input{width:48px;text-align:center;margin-top:4px;font-size:13px;padding:3px}
+
+/* 목록 행 */
+.line{display:flex;justify-content:space-between;align-items:center;padding:7px 4px;border-bottom:1px solid var(--border)}
+.line:last-child{border-bottom:none}
+.bonus{font-weight:700;color:var(--gold);min-width:34px;text-align:right}
+.pill{display:inline-block;font-size:10px;padding:1px 6px;border-radius:10px;background:var(--bg4);color:var(--text2);border:1px solid var(--border)}
+.tag{font-size:11px;color:var(--blue)}
+.btn{background:var(--bg4);border:1px solid var(--border2);color:var(--text);border-radius:6px;padding:5px 10px;font-size:13px}
+.btn.gold{background:var(--gold2);color:#1a1410;border-color:var(--gold);font-weight:600}
+.btn.sm{padding:3px 8px;font-size:12px}
+.chk{width:18px;height:18px;accent-color:var(--gold2)}
+details{border:1px solid var(--border);border-radius:8px;margin-bottom:6px;background:var(--bg2)}
+details summary{padding:8px 10px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:8px;align-items:center}
+details summary::-webkit-details-marker{display:none}
+details .body{padding:0 10px 10px;color:var(--text);white-space:pre-wrap;border-top:1px solid var(--border)}
+.ref{color:var(--gold);border-bottom:1px dotted var(--gold2)}
+.search{width:100%;margin-bottom:8px}
+
+/* 모바일 하단 네비 */
+.bnav{display:none}
+@media(max-width:760px){
+  .tabs{display:none}
+  .abils{grid-template-columns:repeat(3,1fr)}
+  .bnav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--bg2);border-top:1px solid var(--gold2);z-index:40}
+  .bnav button{flex:1;background:none;border:none;color:var(--text2);padding:8px 2px;font-size:10px;display:flex;flex-direction:column;align-items:center;gap:2px}
+  .bnav button.active{color:var(--gold)}
+  .bnav .ic{font-size:18px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="hdr-top">
+    <span class="brand">📜 Candlekeep<br><small>D&D 5e (2024) KR</small></span>
+    <input id="charName" value="새 캐릭터">
+    <span id="charMeta" class="muted"></span>
+  </div>
+  <div class="statbar" id="statbar"></div>
+</header>
+
+<nav class="tabs" id="tabs"></nav>
+<main id="view"></main>
+<nav class="bnav" id="bnav"></nav>
+
+<script src="data.js"></script>
+<script src="cs_data.js"></script>
+<script src="cs_calc.js"></script>
+<script src="cs_ui.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

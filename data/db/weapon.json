@@ -1,0 +1,1262 @@
+[
+ {
+  "id": "212f7f5a1e8081bfbacafd0245b1773a",
+  "en": "Battleaxe",
+  "ko": "전투 도끼",
+  "value": 10,
+  "weight": 4,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "전투 도끼에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***넘어뜨리기.*** 이 무기로 크리처를 명중시키면, 대상이 건강 내성 굴림을 하도록 할 수 있습니다(DC 8 + 명중 굴림에 사용한 능력 수정치 + 숙련 보너스). 내성에 실패하면 대상은 {{ref:212f7f5a1e8081c4ac12fa28fd154a11|넘어짐}} 상태가 됩니다.",
+  "kind": "weapon",
+  "damage": "1d8",
+  "damageType": "참격",
+  "properties": [
+   {
+    "name": "다용도",
+    "param": "1d10"
+   },
+   {
+    "name": "넘어뜨리기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081f2b474dbef5f9f769c",
+  "en": "Blowgun",
+  "ko": "바람총",
+  "value": 10,
+  "weight": 1,
+  "typeKo": [
+   "군용 원거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "바람총에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***교란.* **이 무기로 크리처를 명중시켜 피해를 입히면, 다음 당신의 턴이 끝나기 전까지 해당 크리처에 대한 다음 명중 굴림에 유리 보정을 받습니다.",
+  "kind": "weapon",
+  "damage": "1",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "탄환",
+    "param": "사거리 25/100; {{ref:1def7f5a1e8081e0894ae33ea0a6f908|바늘}}"
+   },
+   {
+    "name": "장전",
+    "param": null
+   },
+   {
+    "name": "교란",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "ranged"
+ },
+ {
+  "id": "212f7f5a1e80816db7aad12f932ac773",
+  "en": "Club",
+  "ko": "곤봉",
+  "value": 0.1,
+  "weight": 2,
+  "typeKo": [
+   "일반 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "곤봉에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***늦추기.** *이 무기로 크리처를 명중시켜 피해를 입히면, 다음 턴이 시작되기 전까지 해당 크리처의 속도를 10ft 감소시킬 수 있습니다. 같은 속성을 가진 여러 무기로 명중시켜도 속도 감소는 10ft를 넘지 않습니다.",
+  "kind": "weapon",
+  "damage": "1d4",
+  "damageType": "타격",
+  "properties": [
+   {
+    "name": "경량",
+    "param": null
+   },
+   {
+    "name": "늦추기",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081628045f237c21e5759",
+  "en": "Crossbow, hand",
+  "ko": "손쇠뇌",
+  "value": 75,
+  "weight": 3,
+  "typeKo": [
+   "군용 원거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "손쇠뇌에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***교란.***** **이 무기로 크리처를 명중시켜 피해를 입히면, 다음 당신의 턴이 끝나기 전까지 해당 크리처에 대한 다음 명중 굴림에 유리 보정을 받습니다.",
+  "kind": "weapon",
+  "damage": "1d6",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "탄환",
+    "param": "사거리 30/120; {{ref:1def7f5a1e8081e0894ae33ea0a6f908|볼트}}"
+   },
+   {
+    "name": "장전",
+    "param": null
+   },
+   {
+    "name": "경량",
+    "param": null
+   },
+   {
+    "name": "교란",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "ranged"
+ },
+ {
+  "id": "212f7f5a1e808120aed5f6cf9d6e5959",
+  "en": "Crossbow, heavy",
+  "ko": "중쇠뇌",
+  "value": 50,
+  "weight": 18,
+  "typeKo": [
+   "군용 원거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "중쇠뇌에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***밀치기.**** *이 무기로 대형 이하 체격의 크리처를 명중시키면, 해당 크리처를 최대 10ft까지 직선으로 밀어낼 수 있습니다.",
+  "kind": "weapon",
+  "damage": "1d10",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "탄환",
+    "param": "거리 100/400; {{ref:1def7f5a1e8081e0894ae33ea0a6f908|볼트}}"
+   },
+   {
+    "name": "장전",
+    "param": null
+   },
+   {
+    "name": "중량",
+    "param": null
+   },
+   {
+    "name": "밀치기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "ranged"
+ },
+ {
+  "id": "212f7f5a1e80811da400f9f3f7cfae4e",
+  "en": "Crossbow, light",
+  "ko": "경쇠뇌",
+  "value": 25,
+  "weight": 5,
+  "typeKo": [
+   "일반 원거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "경쇠뇌에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***늦추기.***** **이 무기로 크리처를 명중시켜 피해를 입히면, 다음 턴이 시작되기 전까지 해당 크리처의 속도를 10ft 감소시킬 수 있습니다. 같은 속성을 가진 여러 무기로 명중시켜도 속도 감소는 10ft를 넘지 않습니다.",
+  "kind": "weapon",
+  "damage": "1d8",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "탄환",
+    "param": "사거리 80/320; {{ref:1def7f5a1e8081e0894ae33ea0a6f908|볼트}}"
+   },
+   {
+    "name": "장전",
+    "param": null
+   },
+   {
+    "name": "양손",
+    "param": null
+   },
+   {
+    "name": "늦추기",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "ranged"
+ },
+ {
+  "id": "212f7f5a1e80815dbcf7e3b2157f0e08",
+  "en": "Dagger",
+  "ko": "단검",
+  "value": 2,
+  "weight": 1,
+  "typeKo": [
+   "일반 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "단검에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***얕은 공격.*** {{ref:212f7f5a1e8081a393cdc1f939dee741|경량}} 무기로 추가 공격을 할 때, 보조 행동 대신 {{ref:212f7f5a1e8081d09ce9fe10c371eb15|공격}} 행동의 일부로 공격할 수 있습니다. 이 추가 공격은 턴당 한 번만 가능합니다.",
+  "kind": "weapon",
+  "damage": "1d4",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "기교",
+    "param": null
+   },
+   {
+    "name": "경량",
+    "param": null
+   },
+   {
+    "name": "투척",
+    "param": "사거리 20/60"
+   },
+   {
+    "name": "얕은 공격",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081a98b1bdd2e1f4d90ca",
+  "en": "Dart",
+  "ko": "다트",
+  "value": 0.05,
+  "weight": 0.25,
+  "typeKo": [
+   "일반 원거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "다트에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***제압. ***이 무기로 크리처를 명중시키면, 다음 당신의 턴이 시작되기 전에 해당 크리처가 처음으로 수행하는 명중 굴림에 불리 보정이 적용됩니다.",
+  "kind": "weapon",
+  "damage": "1d4",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "기교",
+    "param": null
+   },
+   {
+    "name": "투척",
+    "param": "거리 20/60"
+   },
+   {
+    "name": "제압",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "ranged"
+ },
+ {
+  "id": "212f7f5a1e80818ca0a6d78b96495886",
+  "en": "Flail",
+  "ko": "도리깨",
+  "value": 10,
+  "weight": 2,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "도리깨에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***제압. ***이 무기로 크리처를 명중시키면, 다음 당신의 턴이 시작되기 전에 해당 크리처가 처음으로 수행하는 명중 굴림에 불리 보정이 적용됩니다.",
+  "kind": "weapon",
+  "damage": "1d8",
+  "damageType": "타격",
+  "properties": [
+   {
+    "name": "제압",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e808156b89bef6ae67c8e61",
+  "en": "Glaive",
+  "ko": "협도",
+  "value": 20,
+  "weight": 6,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "협도에 숙련이 있다면 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***빗겨치기.**** *이 무기로 크리처를 공격할 때 명중 굴림이 실패하면, 명중 굴림에 사용한 능력 수정치만큼 피해를 입힐 수 있습니다. 이 피해는 무기와 같은 유형이며, 능력 수정치가 증가할 때만 피해가 증가합니다.",
+  "kind": "weapon",
+  "damage": "1d10",
+  "damageType": "참격",
+  "properties": [
+   {
+    "name": "중량",
+    "param": null
+   },
+   {
+    "name": "간격",
+    "param": null
+   },
+   {
+    "name": "양손",
+    "param": null
+   },
+   {
+    "name": "빗겨치기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081b090d8f2ff08182a4d",
+  "en": "Greataxe",
+  "ko": "대형 도끼",
+  "value": 30,
+  "weight": 7,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "대형 도끼에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***가르기. ***이 무기로 근거리 명중 굴림에 성공하면, 명중한 크리처로부터 5ft 내에 있으며 당신의 공격 사거리 안에 있는 다른 크리처에게 추가 근거리 명중 굴림을 할 수 있습니다. 두 번째 크리처를 명중시키면 무기 피해를 입히지만, 능력 수정치가 음수가 아니라면 피해 굴림에 능력 수정치를 더하지 않습니다. 이 추가 공격은 턴당 한 번만 가능합니다.",
+  "kind": "weapon",
+  "damage": "1d12",
+  "damageType": "참격",
+  "properties": [
+   {
+    "name": "중량",
+    "param": null
+   },
+   {
+    "name": "양손",
+    "param": null
+   },
+   {
+    "name": "가르기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081eebb90f0b0f3304dc6",
+  "en": "Greatclub",
+  "ko": "대형 곤봉",
+  "value": 0.2,
+  "weight": 10,
+  "typeKo": [
+   "일반 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "대곤봉에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***밀치기.**** *이 무기로 대형 이하 체격의 크리처를 명중시키면, 해당 크리처를 최대 10ft까지 직선으로 밀어낼 수 있습니다.",
+  "kind": "weapon",
+  "damage": "1d8",
+  "damageType": "타격",
+  "properties": [
+   {
+    "name": "양손",
+    "param": null
+   },
+   {
+    "name": "밀치기",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081e9b48ff039422c53fe",
+  "en": "Greatsword",
+  "ko": "대검",
+  "value": 50,
+  "weight": 6,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "대검에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***빗겨치기.**** *이 무기로 크리처를 공격할 때 명중 굴림이 실패하면, 명중 굴림에 사용한 능력 수정치만큼 피해를 입힐 수 있습니다. 이 피해는 무기와 같은 유형이며, 능력 수정치가 증가할 때만 피해가 증가합니다.",
+  "kind": "weapon",
+  "damage": "2d6",
+  "damageType": "참격",
+  "properties": [
+   {
+    "name": "중량",
+    "param": null
+   },
+   {
+    "name": "양손",
+    "param": null
+   },
+   {
+    "name": "빗겨치기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081dbbb64db9fc576fa27",
+  "en": "Halberd",
+  "ko": "미늘창",
+  "value": 20,
+  "weight": 6,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "미늘창에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***가르기.**** *이 무기로 근거리 명중 굴림에 성공하면, 명중한 크리처로부터 5ft 내에 있으며 당신의 공격 사거리 안에 있는 다른 크리처에게 추가 근거리 명중 굴림을 할 수 있습니다. 두 번째 크리처를 명중시키면 무기 피해를 입히지만, 능력 수정치가 음수가 아니라면 피해 굴림에 능력 수정치를 더하지 않습니다. 이 추가 공격은 턴당 한 번만 가능합니다.",
+  "kind": "weapon",
+  "damage": "1d10",
+  "damageType": "참격",
+  "properties": [
+   {
+    "name": "중량",
+    "param": null
+   },
+   {
+    "name": "간격",
+    "param": null
+   },
+   {
+    "name": "양손",
+    "param": null
+   },
+   {
+    "name": "가르기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e80814e8cb9f958a34c75b8",
+  "en": "Handaxe",
+  "ko": "손도끼",
+  "value": 5,
+  "weight": 2,
+  "typeKo": [
+   "일반 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "손도끼에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***교란.***** **이 무기로 크리처를 명중시켜 피해를 입히면, 다음 당신의 턴이 끝나기 전까지 해당 크리처에 대한 다음 명중 굴림에 유리 보정을 받습니다.",
+  "kind": "weapon",
+  "damage": "1d6",
+  "damageType": "참격",
+  "properties": [
+   {
+    "name": "경량",
+    "param": null
+   },
+   {
+    "name": "투척",
+    "param": "사거리 20/60"
+   },
+   {
+    "name": "교란",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081ce93ded53b3a6c30d6",
+  "en": "Javelin",
+  "ko": "투창",
+  "value": 0.5,
+  "weight": 2,
+  "typeKo": [
+   "일반 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "투창에 숙련이 있다면 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***늦추기.**** *이 무기로 크리처를 명중시켜 피해를 입히면, 다음 턴이 시작되기 전까지 해당 크리처의 속도를 10ft 감소시킬 수 있습니다. 같은 속성을 가진 여러 무기로 명중시켜도 속도 감소는 10ft를 넘지 않습니다.",
+  "kind": "weapon",
+  "damage": "1d6",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "투척",
+    "param": "사거리 30/120"
+   },
+   {
+    "name": "늦추기",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e80815b9c4dee0393a84f66",
+  "en": "Lance",
+  "ko": "기병창",
+  "value": 10,
+  "weight": 6,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "기병창에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다. 탈것에 타지 않은 상태에서 기병창을 사용하려 할 경우 양손이 필요합니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***넘어뜨리기.*** 이 무기로 크리처를 명중시키면, 대상이 건강 내성 굴림을 하도록 할 수 있습니다(DC 8 + 명중 굴림에 사용한 능력 수정치 + 숙련 보너스). 내성에 실패하면 대상은 {{ref:212f7f5a1e8081c4ac12fa28fd154a11|넘어짐}} 상태가 됩니다.",
+  "kind": "weapon",
+  "damage": "1d12",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "간격",
+    "param": null
+   },
+   {
+    "name": "특별",
+    "param": null
+   },
+   {
+    "name": "양손",
+    "param": "기승하지 않았을 때"
+   },
+   {
+    "name": "넘어뜨리기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081199d1ef2e99082c09c",
+  "en": "Light Hammer",
+  "ko": "경량 망치",
+  "value": 2,
+  "weight": 2,
+  "typeKo": [
+   "일반 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "경량 망치에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***얕은 공격.***** **{{ref:212f7f5a1e8081a393cdc1f939dee741|경량}} 무기로 추가 공격을 할 때, 보조 행동 대신 {{ref:212f7f5a1e8081d09ce9fe10c371eb15|공격}} 행동의 일부로 공격할 수 있습니다. 이 추가 공격은 턴당 한 번만 가능합니다.",
+  "kind": "weapon",
+  "damage": "1d4",
+  "damageType": "타격",
+  "properties": [
+   {
+    "name": "경량",
+    "param": null
+   },
+   {
+    "name": "투척",
+    "param": "거리 20/60"
+   },
+   {
+    "name": "얕은 공격",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081b3be5cd453f20b62c0",
+  "en": "Longbow",
+  "ko": "장궁",
+  "value": 50,
+  "weight": 2,
+  "typeKo": [
+   "군용 원거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "장궁에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***늦추기.**** *이 무기로 크리처를 명중시켜 피해를 입히면, 다음 턴이 시작되기 전까지 해당 크리처의 속도를 10ft 감소시킬 수 있습니다. 같은 속성을 가진 여러 무기로 명중시켜도 속도 감소는 10ft를 넘지 않습니다.",
+  "kind": "weapon",
+  "damage": "1d8",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "탄환",
+    "param": "사거리 80/320; {{ref:1def7f5a1e8081e0894ae33ea0a6f908|화살}}"
+   },
+   {
+    "name": "중량",
+    "param": null
+   },
+   {
+    "name": "양손",
+    "param": null
+   },
+   {
+    "name": "늦추기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "ranged"
+ },
+ {
+  "id": "212f7f5a1e8081f4829cee00f810a0a1",
+  "en": "Longsword",
+  "ko": "장검",
+  "value": 15,
+  "weight": 3,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "장검에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***제압.*** 이 무기로 크리처를 명중시키면, 다음 당신의 턴이 시작되기 전에 해당 크리처가 처음으로 수행하는 명중 굴림에 불리 보정이 적용됩니다.",
+  "kind": "weapon",
+  "damage": "1d8",
+  "damageType": "참격",
+  "properties": [
+   {
+    "name": "다용도",
+    "param": "1d10"
+   },
+   {
+    "name": "제압",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081bf831ef176ff74e303",
+  "en": "Mace",
+  "ko": "철퇴",
+  "value": 5,
+  "weight": 4,
+  "typeKo": [
+   "일반 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "철퇴에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***제압.**** *이 무기로 크리처를 명중시키면, 다음 당신의 턴이 시작되기 전에 해당 크리처가 처음으로 수행하는 명중 굴림에 불리 보정이 적용됩니다.",
+  "kind": "weapon",
+  "damage": "1d6",
+  "damageType": "타격",
+  "properties": [
+   {
+    "name": "제압",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081cc91a0e79dded1ebae",
+  "en": "Maul",
+  "ko": "대형 망치",
+  "value": 10,
+  "weight": 10,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "대형 망치에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***넘어뜨리기.**** *이 무기로 크리처를 명중시키면, 대상이 건강 내성 굴림을 하도록 할 수 있습니다(DC 8 + 명중 굴림에 사용한 능력 수정치 + 숙련 보너스). 내성에 실패하면 대상은 {{ref:212f7f5a1e8081c4ac12fa28fd154a11|넘어짐}} 상태가 됩니다.",
+  "kind": "weapon",
+  "damage": "2d6",
+  "damageType": "타격",
+  "properties": [
+   {
+    "name": "중량",
+    "param": null
+   },
+   {
+    "name": "양손",
+    "param": null
+   },
+   {
+    "name": "넘어뜨리기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081c5af2ceb3d145ac799",
+  "en": "Morningstar",
+  "ko": "모닝스타",
+  "value": 15,
+  "weight": 4,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "모닝스타에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***제압.**** *이 무기로 크리처를 명중시키면, 다음 당신의 턴이 시작되기 전에 해당 크리처가 처음으로 수행하는 명중 굴림에 불리 보정이 적용됩니다.",
+  "kind": "weapon",
+  "damage": "1d8",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "제압",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081bfbf2ff1751ac36a1d",
+  "en": "Musket",
+  "ko": "머스킷",
+  "value": 500,
+  "weight": 10,
+  "typeKo": [
+   "군용 원거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "머스킷에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***늦추기.*** 이 무기로 크리처를 명중시켜 피해를 입히면, 다음 턴이 시작되기 전까지 해당 크리처의 속도를 10ft 감소시킬 수 있습니다. 같은 속성을 가진 여러 무기로 명중시켜도 속도 감소는 10ft를 넘지 않습니다.",
+  "kind": "weapon",
+  "damage": "1d12",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "탄환",
+    "param": "거리 40/120; {{ref:1def7f5a1e8081e0894ae33ea0a6f908|총탄}}"
+   },
+   {
+    "name": "장전",
+    "param": null
+   },
+   {
+    "name": "양손",
+    "param": null
+   },
+   {
+    "name": "늦추기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "ranged"
+ },
+ {
+  "id": "212f7f5a1e808133bebbf69086fb4272",
+  "en": "Pike",
+  "ko": "장창",
+  "value": 5,
+  "weight": 18,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "장창에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***밀치기.*** 이 무기로 대형 이하 체격의 크리처를 명중시키면, 해당 크리처를 최대 10ft까지 직선으로 밀어낼 수 있습니다.",
+  "kind": "weapon",
+  "damage": "1d10",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "중량",
+    "param": null
+   },
+   {
+    "name": "간격",
+    "param": null
+   },
+   {
+    "name": "양손",
+    "param": null
+   },
+   {
+    "name": "밀치기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081689f0be96f9b28ec7e",
+  "en": "Pistol",
+  "ko": "권총",
+  "value": 250,
+  "weight": 3,
+  "typeKo": [
+   "군용 원거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "권총에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***교란. ***이 무기로 크리처를 명중시켜 피해를 입히면, 다음 당신의 턴이 끝나기 전까지 해당 크리처에 대한 다음 명중 굴림에 유리 보정을 받습니다.",
+  "kind": "weapon",
+  "damage": "1d10",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "탄환",
+    "param": "거리 30/90; {{ref:165a87ea4377814993dcf642def31cc6|총탄}}"
+   },
+   {
+    "name": "장전",
+    "param": null
+   },
+   {
+    "name": "교란",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "ranged"
+ },
+ {
+  "id": "212f7f5a1e8081aa9c12cd3e70467b2b",
+  "en": "Quarterstaff",
+  "ko": "육척봉",
+  "value": 0.2,
+  "weight": 4,
+  "typeKo": [
+   "일반 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "육척봉에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***넘어뜨리기.*** 이 무기로 크리처를 명중시키면, 대상이 건강 내성 굴림을 하도록 할 수 있습니다(DC 8 + 명중 굴림에 사용한 능력 수정치 + 숙련 보너스). 내성에 실패하면 대상은 {{ref:212f7f5a1e8081c4ac12fa28fd154a11|넘어짐}} 상태가 됩니다.",
+  "kind": "weapon",
+  "damage": "1d6",
+  "damageType": "타격",
+  "properties": [
+   {
+    "name": "다용도",
+    "param": "1d8"
+   },
+   {
+    "name": "넘어리기",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081cba1b2cdef754990b6",
+  "en": "Rapier",
+  "ko": "레이피어",
+  "value": 25,
+  "weight": 2,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "레이피어에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***교란.****** ***이 무기로 크리처를 명중시켜 피해를 입히면, 다음 당신의 턴이 끝나기 전까지 해당 크리처에 대한 다음 명중 굴림에 유리 보정을 받습니다.",
+  "kind": "weapon",
+  "damage": "1d8",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "기교",
+    "param": null
+   },
+   {
+    "name": "교란",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081d89047da554f4ed499",
+  "en": "Scimitar",
+  "ko": "시미터",
+  "value": 25,
+  "weight": 3,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "시미터에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***얕은 공격.*** {{ref:212f7f5a1e8081a393cdc1f939dee741|경량}} 무기로 추가 공격을 할 때, 보조 행동 대신 {{ref:212f7f5a1e8081d09ce9fe10c371eb15|공격}} 행동의 일부로 공격할 수 있습니다. 이 추가 공격은 턴당 한 번만 가능합니다.",
+  "kind": "weapon",
+  "damage": "1d6",
+  "damageType": "참격",
+  "properties": [
+   {
+    "name": "기교",
+    "param": null
+   },
+   {
+    "name": "경량",
+    "param": null
+   },
+   {
+    "name": "얕은 공격",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e80812f80bbc6650f1105b2",
+  "en": "Shortbow",
+  "ko": "단궁",
+  "value": 25,
+  "weight": 2,
+  "typeKo": [
+   "일반 원거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "단궁에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***교란. ***이 무기로 크리처를 명중시켜 피해를 입히면, 다음 당신의 턴이 끝나기 전까지 해당 크리처에 대한 다음 명중 굴림에 유리 보정을 받습니다.",
+  "kind": "weapon",
+  "damage": "1d6",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "탄환",
+    "param": "사거리 80/320; {{ref:1def7f5a1e8081e0894ae33ea0a6f908|화살}}"
+   },
+   {
+    "name": "양손",
+    "param": null
+   },
+   {
+    "name": "교란",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "ranged"
+ },
+ {
+  "id": "212f7f5a1e8081a6bc74d184bd18b23e",
+  "en": "Shortsword",
+  "ko": "소검",
+  "value": 10,
+  "weight": 2,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "소검에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***교란.****** ***이 무기로 크리처를 명중시켜 피해를 입히면, 다음 당신의 턴이 끝나기 전까지 해당 크리처에 대한 다음 명중 굴림에 유리 보정을 받습니다.",
+  "kind": "weapon",
+  "damage": "1d6",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "기교",
+    "param": null
+   },
+   {
+    "name": "경량",
+    "param": null
+   },
+   {
+    "name": "교란",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e80816db8e6d21a5bdd04b9",
+  "en": "Sickle",
+  "ko": "낫",
+  "value": 1,
+  "weight": 2,
+  "typeKo": [
+   "일반 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "낫에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***얕은 공격.*** {{ref:212f7f5a1e8081a393cdc1f939dee741|경량}} 무기로 추가 공격을 할 때, 보조 행동 대신 {{ref:212f7f5a1e8081d09ce9fe10c371eb15|공격}} 행동의 일부로 공격할 수 있습니다. 이 추가 공격은 턴당 한 번만 가능합니다.",
+  "kind": "weapon",
+  "damage": "1d4",
+  "damageType": "참격",
+  "properties": [
+   {
+    "name": "경량",
+    "param": null
+   },
+   {
+    "name": "얕은 공격",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e80818da898c6af13b4dbc3",
+  "en": "Sling",
+  "ko": "무릿매",
+  "value": 0.1,
+  "weight": 0,
+  "typeKo": [
+   "일반 원거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "무릿매에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***늦추기.**** *이 무기로 크리처를 명중시켜 피해를 입히면, 다음 턴이 시작되기 전까지 해당 크리처의 속도를 10ft 감소시킬 수 있습니다. 같은 속성을 가진 여러 무기로 명중시켜도 속도 감소는 10ft를 넘지 않습니다.",
+  "kind": "weapon",
+  "damage": "1d6",
+  "damageType": "타격",
+  "properties": [
+   {
+    "name": "탄환",
+    "param": "사거리 30/120; {{ref:1def7f5a1e8081e0894ae33ea0a6f908|무릿매 탄환}}"
+   },
+   {
+    "name": "늦추기",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "ranged"
+ },
+ {
+  "id": "212f7f5a1e80813687c8f9312442f2bf",
+  "en": "Spear",
+  "ko": "창",
+  "value": 1,
+  "weight": 3,
+  "typeKo": [
+   "일반 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "창에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***제압.**** *이 무기로 크리처를 명중시키면, 다음 당신의 턴이 시작되기 전에 해당 크리처가 처음으로 수행하는 명중 굴림에 불리 보정이 적용됩니다.",
+  "kind": "weapon",
+  "damage": "1d6",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "투척",
+    "param": "사거리 20/60"
+   },
+   {
+    "name": "다용도",
+    "param": "1d8"
+   },
+   {
+    "name": "제압",
+    "param": null
+   }
+  ],
+  "category": "simple",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081b7b42ad855bd8c67b3",
+  "en": "Trident",
+  "ko": "삼지창",
+  "value": 5,
+  "weight": 4,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "삼지창에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***넘어뜨리기. ***이 무기로 크리처를 명중시키면, 대상이 건강 내성 굴림을 하도록 할 수 있습니다(DC 8 + 명중 굴림에 사용한 능력 수정치 + 숙련 보너스). 내성에 실패하면 대상은 {{ref:212f7f5a1e8081c4ac12fa28fd154a11|넘어짐}} 상태가 됩니다.",
+  "kind": "weapon",
+  "damage": "1d6",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "투척",
+    "param": "거리 20/60"
+   },
+   {
+    "name": "다용도",
+    "param": "1d8"
+   },
+   {
+    "name": "넘어뜨리기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081818ab8fdc26e23cbdc",
+  "en": "War Pick",
+  "ko": "전쟁 곡괭이",
+  "value": 5,
+  "weight": 2,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "전쟁 곡괭이에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***제압.*** 이 무기로 크리처를 명중시키면, 다음 당신의 턴이 시작되기 전에 해당 크리처가 처음으로 수행하는 명중 굴림에 불리 보정이 적용됩니다.",
+  "kind": "weapon",
+  "damage": "1d8",
+  "damageType": "관통",
+  "properties": [
+   {
+    "name": "제압",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e8081268803e2dc3e546735",
+  "en": "Warhammer",
+  "ko": "전쟁 망치",
+  "value": 15,
+  "weight": 2,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "전쟁 망치에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***밀치기.** *이 무기로 대형 이하 체격의 크리처를 명중시키면, 해당 크리처를 최대 10ft까지 직선으로 밀어낼 수 있습니다.",
+  "kind": "weapon",
+  "damage": "1d8",
+  "damageType": "타격",
+  "properties": [
+   {
+    "name": "다용도",
+    "param": "1d10"
+   },
+   {
+    "name": "밀치기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ },
+ {
+  "id": "212f7f5a1e80812f909bff0e458cfd78",
+  "en": "Whip",
+  "ko": "채찍",
+  "value": 2,
+  "weight": 3,
+  "typeKo": [
+   "군용 근거리 무기"
+  ],
+  "source": [
+   "SRD",
+   "PHB"
+  ],
+  "desc": "채찍에 대한 숙련이 있다면, 이 무기로 공격할 때 명중 굴림에 숙련 보너스를 더할 수 있습니다.\n이 무기에는 전문 속성이 있으며, 이 속성을 사용하려면 전문화 특성이 필요합니다.\n***늦추기. ***이 무기로 크리처를 명중시켜 피해를 입히면, 다음 턴이 시작되기 전까지 해당 크리처의 속도를 10ft 감소시킬 수 있습니다. 같은 속성을 가진 여러 무기로 명중시켜도 속도 감소는 10ft를 넘지 않습니다.",
+  "kind": "weapon",
+  "damage": "1d4",
+  "damageType": "참격",
+  "properties": [
+   {
+    "name": "기교",
+    "param": null
+   },
+   {
+    "name": "간격",
+    "param": null
+   },
+   {
+    "name": "늦추기",
+    "param": null
+   }
+  ],
+  "category": "martial",
+  "range": "melee"
+ }
+]

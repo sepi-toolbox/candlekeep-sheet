@@ -1,0 +1,36 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/1f2f7f5a1e808062906ffc5f06c26403 as of 2026-02-16T18:32:20.542Z:
+<page url="https://app.notion.com/p/1f2f7f5a1e808062906ffc5f06c26403" icon="https://prod-files-secure.s3.us-west-2.amazonaws.com/0d976d7d-e60c-4eb7-b728-3fa22e24d31b/146cab23-c309-4d71-84c5-d1dfd89d21da/638607459373183811.jpeg" locked>
+<ancestor-path>
+<parent-data-source url="collection://212f7f5a-1e80-81bb-b6aa-000b5734d24c" name="로그 서브클래스 표"/>
+<ancestor-2-database url="https://app.notion.com/p/212f7f5a1e8081f197cdd1db409c5b87" title=""/>
+<ancestor-3-page url="https://app.notion.com/p/212f7f5a1e80816fb349cd360a013ef1" title="로그"/>
+<ancestor-4-data-source url="collection://212f7f5a-1e80-817b-bb0f-000bb3dcf36a" name="클래스 표"/>
+<ancestor-5-database url="https://app.notion.com/p/212f7f5a1e80811ab89ec1526e20d5c1" title=""/>
+<ancestor-6-page url="https://app.notion.com/p/212f7f5a1e808144b375c019f33732f3" title="클래스"/>
+<ancestor-7-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-8-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-9-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"url":"https://app.notion.com/p/1f2f7f5a1e808062906ffc5f06c26403","미리보기":["file://%7B%22source%22%3A%22https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0d976d7d-e60c-4eb7-b728-3fa22e24d31b%2F89bee111-02e1-43a3-8614-0aec4fc1da91%2F%25EC%2596%25B4%25EC%2583%2588%25EC%258B%25A0.png%22%2C%22permissionRecord%22%3A%7B%22table%22%3A%22block%22%2C%22id%22%3A%221f2f7f5a-1e80-8062-906f-fc5f06c26403%22%2C%22spaceId%22%3A%228dffc202-0f6e-4adf-b208-fc378f0d8bf3%22%7D%7D"],"원문":"Assassin","이름":"암살자","출처":["PHB"]}
+</properties>
+<content>
+<synced_block_reference url="https://app.notion.com/p/1f2f7f5a1e808062906ffc5f06c26403#309f7f5a1e808040bf9bf42f62ae494d">
+	암살자의 훈련은 은신, 독, 변장을 사용하여 적을 치명적이고 효율적으로 제거하는 데 초점을 맞춥니다. 이 길을 따르는 로그들은 주로 고용된 암살자, 스파이, 현상금 사냥꾼으로 활동하지만, 이 서브 클래스의 능력은 다양한 몬스터와 맞서 싸우는 모험가들에게도 유용합니다.
+	## **3레벨: 암살** {color="yellow_bg"}
+	당신은 적을 기습하는 데 능숙하여 다음의 혜택을 얻습니다.
+	<span color="red">***선제권.***</span><span color="red">* *</span>선제권 굴림에 유리 보정을 가집니다. {color="red"}
+	<span color="red">***매복.***</span> 전투의 첫 번째 라운드에서, 아직 턴을 가지지 않은 크리처에 대한 명중 굴림에 유리 보정을 가집니다. 이 라운드에 당신의 암습 공격이 명중하면, 로그 레벨만큼 무기의 피해 유형으로 추가 피해를 줍니다. {color="red"}
+	## **3레벨: 암살자의 도구** {color="yellow_bg"}
+	당신은 <span color="brown">[변장 키트](/212f7f5a1e8081a6ad43c9e0f27ef8df?pvs=25)</span>와 <span color="brown">[독 제작자의 도구](/212f7f5a1e8081ca9a8de390131bdb23?pvs=25)</span>를 획득하고 이를 사용하는 데 숙련을 얻습니다.
+	## **9레벨: 침투 전문가** {color="yellow_bg"}
+	당신은 잠입을 위한 다음의 기술들에 숙련되어 있습니다.
+	<span color="red">***숙련된 모방.***</span> 다른 사람의 말투나 필체를 1시간 이상 관찰하면 이를 완벽하게 모방할 수 있습니다. {color="red"}
+	<span color="red">***유연한 조준.***</span> 정밀한 조준을 사용할 때도 속도가 0이 되지 않습니다. {color="red"}
+	## **13레벨: 맹독성 무기** {color="yellow_bg"}
+	당신이 비열한 수법의 독 효과를 사용할 때마다 대상이 내성 굴림에 실패하면 2d6의 추가 독성 피해를 받습니다. 이 추가 피해는 독성 피해에 대한 저항을 무시합니다.
+	## **17레벨: 죽음의 일격** {color="yellow_bg"}
+	전투의 첫 번째 라운드에 당신의 암습 공격이 적중하면, 대상은 건강 내성 굴림을 해야 합니다(DC 8 + 당신의 민첩 수정치 + 숙련 보너스). 실패하면 그 대상에게 가하는 모든 공격 피해가 두 배가 됩니다.
+</synced_block_reference>
+</content>
+</page>

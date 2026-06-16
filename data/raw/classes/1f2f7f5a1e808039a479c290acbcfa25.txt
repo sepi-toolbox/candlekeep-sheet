@@ -1,0 +1,229 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/1f2f7f5a1e808039a479c290acbcfa25 as of 2026-02-16T18:13:05.850Z:
+<page url="https://app.notion.com/p/1f2f7f5a1e808039a479c290acbcfa25" icon="https://prod-files-secure.s3.us-west-2.amazonaws.com/0d976d7d-e60c-4eb7-b728-3fa22e24d31b/84f9921f-0594-47c9-ba86-77c547812096/638607458994233790.jpeg" locked>
+<ancestor-path>
+<parent-data-source url="collection://212f7f5a-1e80-8120-8695-000b7c978885" name="레인저 서브클래스 표"/>
+<ancestor-2-database url="https://app.notion.com/p/212f7f5a1e80817ab52ce2108d500198" title=""/>
+<ancestor-3-page url="https://app.notion.com/p/212f7f5a1e80817e8d1dfd0f30f0c9cf" title="레인저"/>
+<ancestor-4-data-source url="collection://212f7f5a-1e80-817b-bb0f-000bb3dcf36a" name="클래스 표"/>
+<ancestor-5-database url="https://app.notion.com/p/212f7f5a1e80811ab89ec1526e20d5c1" title=""/>
+<ancestor-6-page url="https://app.notion.com/p/212f7f5a1e808144b375c019f33732f3" title="클래스"/>
+<ancestor-7-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-8-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-9-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"url":"https://app.notion.com/p/1f2f7f5a1e808039a479c290acbcfa25","미리보기":["file://%7B%22source%22%3A%22https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0d976d7d-e60c-4eb7-b728-3fa22e24d31b%2Fc2c35f24-e429-4f17-9e14-80aad03adf89%2F%25EB%25B9%2584%25EB%25A7%2588.png%22%2C%22permissionRecord%22%3A%7B%22table%22%3A%22block%22%2C%22id%22%3A%221f2f7f5a-1e80-8039-a479-c290acbcfa25%22%2C%22spaceId%22%3A%228dffc202-0f6e-4adf-b208-fc378f0d8bf3%22%7D%7D"],"원문":"Beast Master","이름":"야수 조련사","출처":["PHB"]}
+</properties>
+<content>
+<synced_block_reference url="https://app.notion.com/p/1f2f7f5a1e808039a479c290acbcfa25#309f7f5a1e8080b2bc4bdbb6b7c45d3d">
+	야수 조련사는 특별한 동물과 신비로운 유대를 맺으며, 원시적인 마법과 자연 세계와의 깊은 연결을 형성합니다.
+	## 3레벨: 원시 동료 {color="yellow_bg"}
+	당신은 자연과의 유대를 통해 원시 야수를 마법으로 소환합니다. 야수의 스텟 블록을 선택합니다: 육지의 야수, 바다의 야수 또는 하늘의 야수 선택한 스텟 블록에 맞는 동물의 종류도 결정합니다. 어떤 야수를 선택하든 초자연적 기원을 나타내는 원시적 표식을 지니게 됩니다.
+	야수는 당신과 동료들에게 <span color="yellow">[우호적](/212f7f5a1e8081a391cef81b21703923?pvs=25)</span>이며 당신의 명령에 따릅니다. 당신이 죽으면 야수는 사라집니다.
+	***전투 시의 야수.*** 전투에서 야수는 당신의 턴에 행동합니다. 야수는 자유롭게 이동하고 대응을 사용할 수 있지만, 당신이 보조 행동으로 야수에게 스텟 블록의 행동이나 다른 행동을 지시하지 않는 한 오직 <span color="green">[회피](/212f7f5a1e80817784f1c5d72b75c82d?pvs=25)</span> 행동만 할 수 있습니다. 당신이 <span color="green">[공격](/212f7f5a1e8081d09ce9fe10c371eb15?pvs=25)</span> 행동을 취할 때, 자신의 공격 하나를 포기하여 야수에게 야수의 일격 행동을 명령할 수 있습니다. 당신이 <span color="green">[행동불능](/212f7f5a1e8081aa8c00f5f8ac0b511c?pvs=25)</span> 상태가 되면 야수는 자유롭게 행동하며 회피 행동으로 제한되지 않습니다. {color="red"}
+	***야수의 회복 또는 교체.** *지난 1시간 내에 죽은 야수는 <span color="green">[마법](/212f7f5a1e80818c96ccf2947fff33e7?pvs=25)</span> 행동으로 손을 대고 주문 슬롯을 소모하여 부활시킬 수 있습니다. 야수는 1분 후 모든 HP가 회복된 채로 돌아옵니다. {color="red"}
+	긴 휴식을 마칠 때마다 새로운 원시 야수를 소환할 수 있으며, 이는 당신으로부터 5ft 내의 비점유 공간에 나타납니다. 야수의 스텟 블록과 외형을 선택할 수 있습니다. 이미 이 특성으로 얻은 야수가 있다면 새로운 야수가 나타날 때 기존 야수는 사라집니다.
+	<details color="red">
+	<summary>**육지의 야수**</summary>
+		<callout icon="/icons/table_gray.svg">
+			<span color="gray">*중형 야수, 중립*</span>
+			---
+			**AC** 13 + 시전자의 지혜 수정치 {color="red"}
+			**HP** 5 \* 레인저 레벨 (야수는 레인저 레벨과 동일한 히트 다이스 d8을 가지고 있음) {color="red"}
+			**속도** 40ft, 등반 40ft {color="red"}
+			---
+			<table header-row="true">
+			<colgroup>
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			</colgroup>
+<tr color="red_bg">
+<td>**근력**</td>
+<td>**민첩**</td>
+<td>**건강**</td>
+<td>**지능**</td>
+<td>**지혜**</td>
+<td>**매력**</td>
+</tr>
+<tr color="yellow_bg">
+<td>14</td>
+<td>14</td>
+<td>15</td>
+<td>8</td>
+<td>14</td>
+<td>11</td>
+</tr>
+<tr color="purple_bg">
+<td>+2</td>
+<td>+2</td>
+<td>+2</td>
+<td>-1</td>
+<td>+2</td>
+<td>+0</td>
+</tr>
+<tr color="purple_bg">
+<td>+2</td>
+<td>+2</td>
+<td>+2</td>
+<td>-1</td>
+<td>+2</td>
+<td>+0</td>
+</tr>
+			</table>
+			---
+			**감각** <span color="green">[암시야](/212f7f5a1e8081c2b8bfc4f3225cb597?pvs=25)</span> 60ft, 상시 포착 12 {color="red"}
+			**언어** 시전자가 알고 있는 언어를 이해합니다. {color="red"}
+			**CR** 0 (XP 0, 시전자의 숙련 보너스와 동일) {color="red"}
+			---
+			### **특성** {color="brown_bg"}
+			<span color="red">***원초적 유대.***</span><span color="red">* *</span>시전자의 숙련 보너스를 야수의 모든 능력 판정과 내성 굴림에 추가합니다.
+			---
+			### **행동** {color="brown_bg"}
+			<span color="red">***야수의 일격.***</span><span color="red">* *</span><span color="gray">*근거리 명중 굴림:*</span> 시전자의 주문 명중 수정치를 명중 보너스로 사용, 간격 5ft. <span color="gray">*명중:*</span><span color="gray"> </span>1d8+2에 시전자의 지혜 수정치를 더한 타격, 관통, 참격 피해(야수 소환 시 선택).
+			공격하기 전 대상을 향해 20ft 이상 직선으로 이동했고 대상이 대형 이하 체격의 크리처라면, 대상은 <span color="green">[넘어짐](/212f7f5a1e8081c4ac12fa28fd154a11?pvs=25)</span> 상태가 되며 추가로 1d6만큼 같은 유형의 피해를 받습니다.
+		</callout>
+		<empty-block/>
+	</details>
+	<details color="red">
+	<summary>**바다의 야수**</summary>
+		<callout icon="/icons/table_gray.svg">
+			<span color="gray">*중형 야수, 중립*</span>
+			---
+			**AC** 13 + 시전자의 지혜 수정치 {color="red"}
+			**HP** 5 \* 레인저 레벨 (야수는 레인저 레벨과 동일한 히트 다이스 d8을 가지고 있음) {color="red"}
+			**속도** 5ft, 수영 60ft {color="red"}
+			---
+			<table header-row="true">
+			<colgroup>
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			</colgroup>
+<tr color="red_bg">
+<td>**근력**</td>
+<td>**민첩**</td>
+<td>**건강**</td>
+<td>**지능**</td>
+<td>**지혜**</td>
+<td>**매력**</td>
+</tr>
+<tr color="yellow_bg">
+<td>14</td>
+<td>14</td>
+<td>15</td>
+<td>8</td>
+<td>14</td>
+<td>11</td>
+</tr>
+<tr color="purple_bg">
+<td>+2</td>
+<td>+2</td>
+<td>+2</td>
+<td>-1</td>
+<td>+2</td>
+<td>+0</td>
+</tr>
+<tr color="purple_bg">
+<td>+2</td>
+<td>+2</td>
+<td>+2</td>
+<td>-1</td>
+<td>+2</td>
+<td>+0</td>
+</tr>
+			</table>
+			---
+			**감각** <span color="green">[암시야](/212f7f5a1e8081c2b8bfc4f3225cb597?pvs=25)</span> 90ft, 상시 포착 12 {color="red"}
+			**언어** 시전자가 알고 있는 언어를 이해합니다. {color="red"}
+			**CR** 0 (XP 0, 시전자의 숙련 보너스와 동일) {color="red"}
+			---
+			### **특성** {color="brown_bg"}
+			<span color="red">***수륙양용. ***</span>공기와 수중 양쪽에서 호흡할 수 있습니다.
+			<span color="red">***원초적 유대.***</span><span color="red">* *</span>시전자의 숙련 보너스를 야수의 모든 능력 판정과 내성 굴림에 추가합니다.
+			---
+			### 행동 {color="brown_bg"}
+			<span color="red">***야수의 일격. ***</span><span color="gray">*근거리 명중 굴림:*</span> 시전자의 주문 명중 수정치를 명중 보너스로 사용, 간격 5ft. <span color="gray">*명중:*</span><span color="gray"> </span>1d6+2에 시전자의 지혜 수정치를 더한 타격, 관통 피해(야수 소환 시 선택), 대상은 <span color="green">[붙잡힘](/212f7f5a1e808155abe1e3860361696f?pvs=25)</span> 상태가 됩니다(탈출 DC는 주문 내성 DC와 동일)
+		</callout>
+	</details>
+	<details color="red">
+	<summary>**하늘의 야수**</summary>
+		<callout icon="/icons/table_gray.svg">
+			<span color="gray">*소형 야수, 중립*</span>
+			---
+			**AC** 13 + 시전자의 지혜 수정치 {color="red"}
+			**HP** 4 \* 레인저 레벨 (야수는 레인저 레벨과 동일한 히트 다이스 d8을 가지고 있음) {color="red"}
+			**속도** 10ft, 비행 60ft {color="red"}
+			---
+			<table header-row="true">
+			<colgroup>
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			<col width="54.5">
+			</colgroup>
+<tr color="red_bg">
+<td>근력</td>
+<td>민첩</td>
+<td>건강</td>
+<td>지능</td>
+<td>지혜</td>
+<td>매력</td>
+</tr>
+<tr color="yellow_bg">
+<td>6</td>
+<td>16</td>
+<td>13</td>
+<td>8</td>
+<td>14</td>
+<td>11</td>
+</tr>
+<tr color="purple_bg">
+<td>-2</td>
+<td>+3</td>
+<td>+1</td>
+<td>-1</td>
+<td>+2</td>
+<td>+0</td>
+</tr>
+<tr color="purple_bg">
+<td>-2</td>
+<td>+3</td>
+<td>+1</td>
+<td>-1</td>
+<td>+2</td>
+<td>+0</td>
+</tr>
+			</table>
+			---
+			**감각** <span color="green">[암시야](/212f7f5a1e8081c2b8bfc4f3225cb597?pvs=25)</span> 60ft, 상시 포착 12 {color="red"}
+			**언어** 시전자가 알고 있는 언어를 이해합니다. {color="red"}
+			**CR** 0 (XP 0, 시전자의 숙련 보너스와 동일) {color="red"}
+			---
+			### 특성 {color="brown_bg"}
+			<span color="red">***근접 비행. ***</span>적의 간격에서 비행으로 빠져나올 때 <span color="green">[허점 공격](/212f7f5a1e8081b0a6d5c91cb05d8ead?pvs=25)</span>을 유발하지 않습니다.
+			<span color="red">***원초적 유대.***</span><span color="red">* *</span>시전자의 숙련 보너스를 야수의 모든 능력 판정과 내성 굴림에 추가합니다.
+			---
+			### **행동** {color="brown_bg"}
+			<span color="red">***야수의 일격.***</span><span color="red"> </span><span color="gray">*근거리 명중 굴림:*</span> 시전자의 주문 명중 수정치를 명중 보너스로 사용, 간격 5ft. <span color="gray">*명중:*</span><span color="gray"> </span>1d4+3에 시전자의 지혜 수정치를 더한 참격 피해.
+		</callout>
+	</details>
+	## 7레벨: 뛰어난 훈련 {color="yellow_bg"}
+	당신이 보조 행동으로 원시 동료 야수에게 행동을 지시할 때, 야수는 추가로 보조 행동으로 <span color="green">[질주](/212f7f5a1e8081448a58d5a5a9bd50ee?pvs=25)</span>, <span color="green">[철수](/212f7f5a1e808161bdaae6d07b42450b?pvs=25)</span>, <span color="green">[회피](/212f7f5a1e80817784f1c5d72b75c82d?pvs=25)</span>, 또는 <span color="green">[돕기](/212f7f5a1e80814cab75dbd23eec1df4?pvs=25)</span> 행동을 할 수 있습니다.
+	또한, 야수가 명중 굴림에 성공하여 피해를 줄 때마다 해당 피해의 속성을 역장 피해나 원래의 피해 유형 중에서 선택할 수 있습니다.
+	## 11레벨: 야수의 분노 {color="yellow_bg"}
+	당신이 원시 동료 야수에게 야수의 일격 행동을 지시할 때, 야수는 이 행동을 두 번 사용할 수 있습니다.
+	또한, 야수가 매 턴 처음으로 <span color="purple">[*사냥꾼의 표식*](/212f7f5a1e80817691ddc08ffbc5295f?pvs=25)</span> 주문의 영향을 받은 크리처를 명중시킬 때, 해당 주문의 추가 피해와 동일한 양의 역장 피해를 추가로 가합니다.
+	## 15레벨: 주문 공유 {color="yellow_bg"}
+	당신이 자신을 대상으로 주문을 시전할 때, 원시 동료 야수가 당신으로부터 30ft 이내에 있다면 해당 야수도 그 주문의 영향을 받을 수 있습니다.
+</synced_block_reference>
+</content>
+</page>

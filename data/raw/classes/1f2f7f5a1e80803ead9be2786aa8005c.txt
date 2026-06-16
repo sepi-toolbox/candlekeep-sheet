@@ -1,0 +1,66 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/1f2f7f5a1e80803ead9be2786aa8005c as of 2026-02-17T06:31:35.240Z:
+<page url="https://app.notion.com/p/1f2f7f5a1e80803ead9be2786aa8005c" icon="https://prod-files-secure.s3.us-west-2.amazonaws.com/0d976d7d-e60c-4eb7-b728-3fa22e24d31b/742c1733-bb8d-4b72-895c-509a88257d21/638607459719752506.jpeg" locked>
+<ancestor-path>
+<parent-data-source url="collection://212f7f5a-1e80-8150-8274-000bec5f6a0a" name="소서러 서브클래스 표"/>
+<ancestor-2-database url="https://app.notion.com/p/212f7f5a1e8081e69187ee41fb977baf" title=""/>
+<ancestor-3-page url="https://app.notion.com/p/212f7f5a1e80812295b9c0c46e2fd984" title="소서러"/>
+<ancestor-4-data-source url="collection://212f7f5a-1e80-817b-bb0f-000bb3dcf36a" name="클래스 표"/>
+<ancestor-5-database url="https://app.notion.com/p/212f7f5a1e80811ab89ec1526e20d5c1" title=""/>
+<ancestor-6-page url="https://app.notion.com/p/212f7f5a1e808144b375c019f33732f3" title="클래스"/>
+<ancestor-7-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-8-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-9-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"url":"https://app.notion.com/p/1f2f7f5a1e80803ead9be2786aa8005c","미리보기":["file://%7B%22source%22%3A%22https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0d976d7d-e60c-4eb7-b728-3fa22e24d31b%2Fae6dd905-fb91-4c91-a36f-a7cdf2a66d33%2F%25EB%2593%259C%25EB%259E%2598%25EA%25B3%25A4.png%22%2C%22permissionRecord%22%3A%7B%22table%22%3A%22block%22%2C%22id%22%3A%221f2f7f5a-1e80-803e-ad9b-e2786aa8005c%22%2C%22spaceId%22%3A%228dffc202-0f6e-4adf-b208-fc378f0d8bf3%22%7D%7D"],"원문":"Aberrant Sorcery","이름":"기괴한 마법","출처":["PHB"]}
+</properties>
+<content>
+<synced_block_reference url="https://app.notion.com/p/1f2f7f5a1e80803ead9be2786aa8005c#30af7f5a1e8080a893add29f913cf3f9">
+	이질적인 초자연의 힘이 당신의 정신을 휘감아 초능력을 주입했습니다. 이제 당신은 그 힘으로 타인의 마음을 다루고 주변 세계를 변화시킬 수 있습니다. 이 힘은 다른 이들에게 희망의 등대가 될까요? 아니면 당신의 정신에 찔린 자들에게 공포의 존재가 될까요?
+	이 힘의 근원은 아스트랄계의 정신의 바람일 수도 있고, 파 렐름의 뒤틀린 에너지에 노출된 결과일 수도 있습니다. 혹은 당신의 몸에 심어졌던 마인드 플레이어의 유충이 변이를 완료하지 못한 채, 그 초능력이 당신의 것이 되었을 수도 있습니다. 어떤 경로로 얻었든, 이제 당신의 정신은 그 힘으로 불타오르고 있습니다.
+	## 3레벨: 초능력 주문 {color="yellow_bg"}
+	특정 소서러 레벨에 도달하면 해당 레벨의 주문들이 자동으로 준비된 상태가 됩니다.
+	<table header-row="true">
+	<colgroup>
+	<col width="96.28125">
+	<col width="289.484375">
+	</colgroup>
+<tr color="red_bg">
+<td>**소서러 레벨**</td>
+<td>**주문**</td>
+</tr>
+<tr>
+<td>3</td>
+<td><span color="purple">[*하다르의 팔*](/30af7f5a1e8080d6bcb4db1a7b8f967d?pvs=25)</span>*, *<span color="purple">[*평정심*](/212f7f5a1e8081058fd1f4560aa359af?pvs=25)</span>*, *<span color="purple">[*생각 탐지*](/212f7f5a1e8081d6974af45b81689fce?pvs=25)</span>*, *<span color="purple">[*불협화음의 속삭임*](/212f7f5a1e8081ecb733e827284cc49f?pvs=25)</span>*, *<span color="purple">[*정신 파편*](/30af7f5a1e808077be8ae9762a692768?pvs=25)</span></td>
+</tr>
+<tr>
+<td>5</td>
+<td><span color="purple">[*하다르의 굶주림*](/30af7f5a1e8080b4a38add51f2f47871?pvs=25)</span>*, *<span color="purple">[*전음*](/212f7f5a1e8081eeb389e566d68402ce?pvs=25)</span></td>
+</tr>
+<tr>
+<td>7</td>
+<td><span color="purple">[*에바드의 검은 촉수*](/30af7f5a1e808038a41bc0e0a11f2745?pvs=25)</span>*, *<span color="purple">[*이형체 소환*](/30af7f5a1e8080ce83c5c7fe045d52a9?pvs=25)</span></td>
+</tr>
+<tr>
+<td>9</td>
+<td><span color="purple">[*래리의 정신 유대*](/30af7f5a1e808004978cc26f4431060a?pvs=25)</span>*, *<span color="purple">[*염력*](/212f7f5a1e80819f82f3df2547806715?pvs=25)</span></td>
+</tr>
+	</table>
+	## 3레벨: 정신적 연설 {color="yellow_bg"}
+	당신은 다른 사람의 마음과 정신적으로 연결할 수 있는 능력을 지녔습니다. 보조 행동으로 30ft 이내에서 볼 수 있는 크리처 하나를 선택합니다. 당신과 그 크리처는 각자의 언어로 정신적 대화를 나눌 수 있으며, 시전자의 매력 수정치만큼의 마일 범위 내에서 소통할 수 있습니다(최소 1마일). 이 연결은 소서러 레벨만큼의 분 동안 지속되며, 다른 크리처와 새로운 연결을 맺으면 즉시 종료됩니다.
+	## 6레벨: 초능력 술법 {color="yellow_bg"}
+	당신은 초능력 주문 특성으로 준비한 1레벨 이상의 주문을 시전할 때, 주문 슬롯을 소비하거나 주문 레벨과 동일한 수의 소서러 포인트를 소비하여 시전할 수 있습니다. 소서러 포인트로 주문을 시전할 경우, 언어나 동작 구성요소가 필요하지 않으며, 물질 구성요소도 소모되거나 특정 비용이 있는 경우를 제외하면 필요하지 않습니다.
+	## 6레벨: 정신 방어 {color="yellow_bg"}
+	당신은 정신 피해에 저항을 지니며, <span color="green">[매혹](/212f7f5a1e8081fb8b88c3499fce2b24?pvs=25)</span> 또는 <span color="green">[공포](/212f7f5a1e80811299daf242330968c7?pvs=25)</span> 상태에 대한 내성 굴림을 할 때나 해당 상태를 종료하려 할 때 유리 보정을 받습니다.
+	## 14레벨: 육체의 계시 {color="yellow_bg"}
+	당신은 자신 안에 숨겨진 기이한 진실을 발견할 수 있습니다. 보조 행동으로 1 소서러 포인트 이상을 소비하여 10분간 몸을 마법적으로 변화시킵니다. 소비한 소서러 포인트의 수만큼 아래의 혜택 중에서 선택할 수 있으며, 이 혜택들은 변형이 끝날 때까지 지속됩니다.
+	<span color="red">***수중 적응. ***</span>당신은 자신의 속도의 두 배에 해당하는 수영 속도를 얻고 수중 호흡이 가능합니다. 목에서 아가미가 자라나거나 귀 뒤에서 피어오르며, 손가락이 물갈퀴가 되거나 주름진 섬모가 자랍니다. {color="red"}
+	<span color="red">***반짝이는 비행.***</span> 당신은 자신의 속도와 동일한 비행 속도를 얻으며 공중에 부유할 수 있습니다. 비행하는 동안 피부는 점액질이나 이계의 빛으로 반짝입니다. {color="red"}
+	<span color="red">***보이지 않는 것을 보다.***</span> 당신은 <span color="yellow">[완전 엄폐](/212f7f5a1e8081c7be06ced217650998?pvs=25)</span>를 받고 있지 않은 60ft 이내의 <span color="green">[투명](/212f7f5a1e808181889cccb51c28dcff?pvs=25)</span>한 크리처를 볼 수 있습니다. 당신의 눈은 검게 변하거나 꿈틀거리는 감각 촉수가 됩니다. {color="red"}
+	<span color="red">***벌레 같은 움직임.***</span><span color="red">* *</span>당신의 몸과 착용하거나 소지한 장비는 점액질이 되어 유연해집니다. 1인치 너비의 좁은 공간도 통과할 수 있으며, 비마법적 구속이나 <span color="green">[붙잡힘](/212f7f5a1e808155abe1e3860361696f?pvs=25)</span> 상태에서 벗어나는 데 5ft의 속도만 사용하면 됩니다. {color="red"}
+	## 18레벨: 뒤틀린 폭발 {color="yellow_bg"}
+	당신은 공간을 왜곡하는 현상을 일으킬 수 있습니다. <span color="green">[마법](/212f7f5a1e80818c96ccf2947fff33e7?pvs=25)</span> 행동으로 120ft 이내의 볼 수 있는 비점유 공간으로 순간이동합니다. 순간이동 직후, 당신이 떠난 공간으로부터 30ft 이내에 있는 모든 크리처는 당신의 주문 내성 DC를 목표로 근력 내성 굴림을 해야 합니다. 내성 굴림에 실패한 크리처는 3d10 역장 피해를 받고 떠난 공간에서 가장 가까운 비점유 공간으로 끌려갑니다. 내성 굴림에 성공한 크리처도 여전히 절반의 피해를 받습니다.
+	이 특성은 긴 휴식을 마칠 때까지 한 번만 사용할 수 있습니다. 또는 5 소서러 포인트를 소비하여 추가로 사용할 수 있습니다(행동 불필요).
+</synced_block_reference>
+</content>
+</page>

@@ -1,0 +1,29 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/304f7f5a1e8080469da1e7061e571372 as of 2026-02-11T12:51:18.699Z:
+<page url="https://app.notion.com/p/304f7f5a1e8080469da1e7061e571372">
+<ancestor-path>
+<parent-page url="https://app.notion.com/p/303f7f5a1e80809397f6f818d83fcbbb" title="주문 설명"/>
+<ancestor-2-data-source url="collection://212f7f5a-1e80-810e-b5af-000ba9ce2356" name="핵심 규칙 목차"/>
+<ancestor-3-database url="https://app.notion.com/p/212f7f5a1e8081bc96d1dd79daaf3234" title=""/>
+<ancestor-4-page url="https://app.notion.com/p/212f7f5a1e8081cb8e34e5493fc78409" title="핵심 규칙"/>
+<ancestor-5-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-6-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-7-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"title":""}
+</properties>
+<content>
+*창조술 1레벨*
+---
+**시전시간:** 의식, 1 행동
+**사거리/범위:** 30 ft
+**구성요소:** 음성, 동작, 물질 <span color="gray">(수은 한 방울)</span>
+**지속시간:** 1시간
+---
+이 주문은 반지름 3ft, 두께 1인치의 동그란 수평 역장 원반을 만듭니다. 이 원반은 사거리 내에서 당신이 볼 수 있는 비점유 공간에 지면으로부터 3ft 높이에 부유하여 생성됩니다. 원반은 지속시간 동안 유지되며 최대 500lbs까지의 무게를 지탱할 수 있습니다. 그 이상의 무게가 실리면 주문은 종료되고, 원반 위에 있던 모든 것이 지면으로 떨어집니다.
+당신이 원반에서 20ft 이내에 있는 동안에는 원반이 움직이지 않습니다. 당신이 20ft 이상 떨어지면 원반은 당신을 따라 20ft 이내에 머물도록 이동합니다. 원반은 고르지 않은 지형, 계단, 경사 등을 따라 움직일 수 있지만, 10ft 이상의 고저차를 넘을 수 없습니다. 예를 들어, 원반은 10ft 깊이의 구덩이를 건너갈 수 없으며, 구덩이 바닥에서 생성된 경우 그곳을 벗어날 수 없습니다.
+당신이 원반에서 100ft 이상 떨어지면(대개 장애물 때문에 원반이 따라올 수 없을 때) 주문은 종료됩니다.
+---
+**클래스:** 위저드
+</content>
+</page>

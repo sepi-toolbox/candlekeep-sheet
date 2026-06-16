@@ -1,0 +1,30 @@
+Here is the result of "view" for the Page with URL https://app.notion.com/p/305f7f5a1e80804c87b7fa34cf10f216 as of 2026-02-12T14:26:05.760Z:
+<page url="https://app.notion.com/p/305f7f5a1e80804c87b7fa34cf10f216">
+<ancestor-path>
+<parent-page url="https://app.notion.com/p/303f7f5a1e80809397f6f818d83fcbbb" title="주문 설명"/>
+<ancestor-2-data-source url="collection://212f7f5a-1e80-810e-b5af-000ba9ce2356" name="핵심 규칙 목차"/>
+<ancestor-3-database url="https://app.notion.com/p/212f7f5a1e8081bc96d1dd79daaf3234" title=""/>
+<ancestor-4-page url="https://app.notion.com/p/212f7f5a1e8081cb8e34e5493fc78409" title="핵심 규칙"/>
+<ancestor-5-data-source url="collection://212f7f5a-1e80-81d6-a33a-000be30b79a1" name="플레이어 가이드 표"/>
+<ancestor-6-database url="https://app.notion.com/p/212f7f5a1e80803b8ea9f4f9a048db79" title=""/>
+<ancestor-7-page url="https://app.notion.com/p/212f7f5a1e80806fa543e0304a27ac58" title="Candlekeep"/>
+</ancestor-path>
+<properties>
+{"title":""}
+</properties>
+<content>
+*방호술 6레벨*
+---
+**시전시간:** 의식, 10분
+**사거리/범위: **접촉/40,000ft²
+**구성요소:** 음성, 동작, 물질 <span color="gray">(최소 1,000 GP 상당의 루비 분말)</span>
+**지속시간:** 1일
+---
+당신은 최대 40,000ft² 공간을 보호하는 마법적 방어를 만듭니다. 이 영역은 지면에서 30ft 높이까지 보호됩니다. 주문이 지속되는 동안, 크리처는 이 영역으로 순간이동하거나 <span color="purple">[관문](/212f7f5a1e80812da3caf742741109aa?pvs=25)</span><span color="purple"> </span>주문을 사용하거나 영역 내부로 차원 이동할 수 없습니다. 이는 크리처가 아스트랄계, 에테르계, 페이와일드, 섀도펠 또는 <span color="purple">[차원 전송](/212f7f5a1e808184b279f6e7499d7c7c?pvs=25)</span> 주문을 통해 영역에 접근하는 것을 방지합니다.
+또한 이 주문은 시전 시 선택한 유형의 크리처에게 피해를 줍니다. 이형체, 천족, 정령, 요정, 마족, 언데드 중에서 하나 이상을 선택합니다. 선택된 유형의 크리처가 매 턴 처음으로 주문의 영역에 들어가거나 그곳에서 턴을 마칠 때마다 5d10 광휘 피해 또는 사령 피해를 받습니다(주문을 시전할 때 선택).
+주문을 시전할 때 암호를 지정할 수 있습니다. 크리처가 이 영역에 들어갈 때 암호를 말하면 주문의 피해를 받지 않습니다.
+이 주문의 영역은 다른 금제 주문의 영역과 겹칠 수 없습니다. 만약 같은 장소에서 30일 동안 매일 금제 주문을 시전하면, 주문은 해제될 때까지 지속됩니다. 이때 물질 구성요소는 마지막 시전에만 소모됩니다.
+---
+**클래스:** 클레릭
+</content>
+</page>
