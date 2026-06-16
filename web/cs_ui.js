@@ -1,14 +1,15 @@
 /* Candlekeep Sheet — 렌더링 + 빌더 UI */
 
+// 패스포지 구성: 빌더 / 기본정보 / 탭별 정보(전투·주문·특성·장비)
 const TABS = [
-  { id: 'build', ko: '빌더', ic: '🛠' },
-  { id: 'abilities', ko: '능력', ic: '📊' },
-  { id: 'combat', ko: '전투', ic: '⚔️' },
-  { id: 'spells', ko: '주문', ic: '✨' },
-  { id: 'features', ko: '특성', ic: '⭐' },
-  { id: 'inventory', ko: '장비', ic: '🎒' },
+  { id: 'build', ko: '빌더', ic: '🛠', group: 'builder' },
+  { id: 'info', ko: '기본정보', ic: '📋', group: 'info' },
+  { id: 'combat', ko: '전투', ic: '⚔️', group: 'detail' },
+  { id: 'spells', ko: '주문', ic: '✨', group: 'detail' },
+  { id: 'features', ko: '특성', ic: '⭐', group: 'detail' },
+  { id: 'inventory', ko: '장비', ic: '🎒', group: 'detail' },
 ];
-let activeTab = 'build';
+let activeTab = 'info';
 
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 // {{ref:id|label}} → 골드 span (별표 이탤릭 제거)
@@ -16,8 +17,11 @@ const refs = (s) => esc(s || '').replace(/\{\{ref:[0-9a-f]+\|([^}]+)\}\}/g, (_, 
 
 // ───────── 헤더 / 탭 ─────────
 function renderShell() {
-  document.getElementById('tabs').innerHTML = TABS.map(t =>
-    `<button class="tab ${t.id === activeTab ? 'active' : ''}" data-tab="${t.id}">${t.ko}</button>`).join('');
+  let prev = null;
+  document.getElementById('tabs').innerHTML = TABS.map(t => {
+    const sep = (prev && prev !== t.group) ? '<span class="tab-sep"></span>' : ''; prev = t.group;
+    return sep + `<button class="tab ${t.id === activeTab ? 'active' : ''}" data-tab="${t.id}">${t.ko}</button>`;
+  }).join('');
   document.getElementById('bnav').innerHTML = TABS.map(t =>
     `<button class="${t.id === activeTab ? 'active' : ''}" data-tab="${t.id}"><span class="ic">${t.ic}</span>${t.ko}</button>`).join('');
 }
@@ -78,10 +82,17 @@ function tabBuild() {
   return h;
 }
 
-// ───────── 능력/내성/기술 ─────────
-function tabAbilities() {
+// ───────── 기본정보 (정체성 + 능력치 + 내성 + 기술) ─────────
+function tabInfo() {
   const d = derived();
-  let h = `<div class="card"><h2>능력치</h2><div class="abils">` + ABILITIES.map(a =>
+  const cls = getClass(state.classId), sub = getSubclass(state.subclassId), sp = getSpecies(state.speciesId), bg = getBackground(state.backgroundId);
+  let h = `<div class="card"><h2>기본 정보</h2>
+    <div class="line"><span class="muted">이름</span><span>${esc(state.name)}</span></div>
+    <div class="line"><span class="muted">종족</span><span>${sp ? esc(sp.ko) : '<span class="muted">미설정</span>'}</span></div>
+    <div class="line"><span class="muted">클래스</span><span>${cls ? esc(cls.ko) + (sub ? ' / ' + esc(sub.ko) : '') : '<span class="muted">미설정</span>'} · ${state.level}레벨</span></div>
+    <div class="line"><span class="muted">배경</span><span>${bg ? esc(bg.ko) : '<span class="muted">미설정</span>'}</span></div>
+  </div>`;
+  h += `<div class="card"><h2>능력치</h2><div class="abils">` + ABILITIES.map(a =>
     `<div class="abil"><div class="name">${ABILITY_KO[a]}</div><div class="mod">${sgn(d.mods[a])}</div><div class="muted">${state.abilities[a]}</div></div>`).join('') + `</div></div>`;
   h += `<div class="card"><h2>내성 굴림</h2>` + ABILITIES.map(a =>
     `<div class="line"><span>${ABILITY_KO[a]} ${state.saveProf[a] ? '<span class="pill">숙련</span>' : ''}</span><span class="bonus">${sgn(d.saves[a])}</span></div>`).join('') + `</div>`;
@@ -210,7 +221,7 @@ function equipListHTML(q) {
 // ───────── 메인 렌더 ─────────
 function render() {
   renderShell(); renderHeader();
-  const R = { build: tabBuild, abilities: tabAbilities, combat: tabCombat, spells: tabSpells, features: tabFeatures, inventory: tabInventory };
-  document.getElementById('view').innerHTML = (R[activeTab] || tabBuild)();
+  const R = { build: tabBuild, info: tabInfo, combat: tabCombat, spells: tabSpells, features: tabFeatures, inventory: tabInventory };
+  document.getElementById('view').innerHTML = (R[activeTab] || tabInfo)();
   if (typeof wireView === 'function') wireView();
 }
