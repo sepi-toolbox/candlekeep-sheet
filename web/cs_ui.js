@@ -20,18 +20,18 @@ const refs = (s) => esc(s || '').replace(/\{\{ref:[0-9a-f]+\|([^}]+)\}\}/g, (_, 
 // 패스빌더식 단일 컬럼: 탭 분할 없음. 모든 시트 정보를 한 컬럼에 스택.
 // PC(≥901px): 좌측=빌더(항상) + 우측=시트 한 컬럼. 모바일: 빌더(접이식) + 시트 한 컬럼.
 function isDesktop() { return !!(typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(min-width:901px)').matches); }
+// 상단 헤더 = 기본정보(정체성): 종족·클래스/서브·레벨·배경
 function renderHeader() {
-  const d = derived();
-  const cls = getClass(state.classId), sp = getSpecies(state.speciesId);
+  const cls = getClass(state.classId), sub = getSubclass(state.subclassId), sp = getSpecies(state.speciesId), bg = getBackground(state.backgroundId);
   document.getElementById('charMeta').textContent =
-    [sp && sp.ko, cls && cls.ko, `${state.level}레벨`].filter(Boolean).join(' · ') || '미설정';
-  const stats = [
-    ['AC', d.ac.value], ['HP', d.hp || '-'], ['선제권', sgn(d.init)],
-    ['속도', d.speed + 'ft'], ['숙련', sgn(d.pb)], ['수동 감지', d.passivePerc],
-  ];
-  if (d.spellDC) stats.push(['주문 DC', d.spellDC], ['주문 명중', sgn(d.spellAtk)]);
-  document.getElementById('statbar').innerHTML = stats.map(([l, v]) =>
-    `<div class="stat"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+    [sp && sp.ko, cls && (cls.ko + (sub ? '/' + sub.ko : '')), `${state.level}레벨`, bg && bg.ko].filter(Boolean).join(' · ') || '미설정';
+}
+// 중앙 상단 스탯 칩바 (구 상단바 정보)
+function statChips() {
+  const d = derived();
+  const stats = [['AC', d.ac.value], ['HP', d.hp || '-'], ['선제권', sgn(d.init)], ['속도', d.speed + 'ft'], ['숙련', sgn(d.pb)], ['수동 감지', d.passivePerc]];
+  if (d.spellDC) stats.push(['주문 DC', d.spellDC], ['주문 명중', sgn(d.spellAtk)], ['시전', ABILITY_KO[d.castAbility]]);
+  return `<div class="statbar statchips">` + stats.map(([l, v]) => `<div class="stat"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('') + `</div>`;
 }
 
 // ───────── 빌더 ─────────
@@ -80,14 +80,7 @@ function tabBuild() {
 // ───────── 기본정보 (정체성 + 능력치 + 내성 + 기술) ─────────
 function tabInfo() {
   const d = derived();
-  const cls = getClass(state.classId), sub = getSubclass(state.subclassId), sp = getSpecies(state.speciesId), bg = getBackground(state.backgroundId);
-  let h = `<div class="card"><h2>기본 정보</h2>
-    <div class="line"><span class="muted">이름</span><span>${esc(state.name)}</span></div>
-    <div class="line"><span class="muted">종족</span><span>${sp ? esc(sp.ko) : '<span class="muted">미설정</span>'}</span></div>
-    <div class="line"><span class="muted">클래스</span><span>${cls ? esc(cls.ko) + (sub ? ' / ' + esc(sub.ko) : '') : '<span class="muted">미설정</span>'} · ${state.level}레벨</span></div>
-    <div class="line"><span class="muted">배경</span><span>${bg ? esc(bg.ko) : '<span class="muted">미설정</span>'}</span></div>
-  </div>`;
-  h += `<div class="card"><h2>능력치</h2><div class="abils">` + ABILITIES.map(a =>
+  let h = `<div class="card"><h2>능력치</h2><div class="abils">` + ABILITIES.map(a =>
     `<div class="abil"><div class="name">${ABILITY_KO[a]}</div><div class="mod">${sgn(d.mods[a])}</div><div class="muted">${state.abilities[a]}</div></div>`).join('') + `</div></div>`;
   h += `<div class="card"><h2>내성 굴림</h2>` + ABILITIES.map(a =>
     `<div class="line"><span>${ABILITY_KO[a]} ${state.saveProf[a] ? '<span class="pill">숙련</span>' : ''}</span><span class="bonus">${sgn(d.saves[a])}</span></div>`).join('') + `</div>`;
@@ -98,24 +91,18 @@ function tabInfo() {
   return h;
 }
 
-// ───────── 중앙: 방어 + 주문시전 stats (기본정보의 일부, 항상 표시) ─────────
-function centerDefense() {
+// ───────── 중앙: 체력 관리 (현재/임시 HP) ─────────
+function centerHP() {
   const d = derived();
-  let h = `<div class="card"><h2>방어</h2>
+  return `<div class="card"><h2>체력 · 방어</h2>
     <div class="line"><span>AC <span class="muted">(${esc(d.ac.label)})</span></span><span class="bonus">${d.ac.value}</span></div>
     <div class="line"><span>최대 HP</span><span class="bonus">${d.hp}</span></div>
-    <div class="row" style="margin-top:6px"><label class="muted">현재 HP</label><input type="number" id="hp-cur" value="${state.hpCurrent == null ? d.hp : state.hpCurrent}" style="width:70px">
-      <label class="muted">임시</label><input type="number" id="hp-temp" value="${state.hpTemp}" style="width:60px"></div>
-    <div class="line"><span>선제권</span><span class="bonus">${sgn(d.init)}</span></div>
-    <div class="line"><span>속도</span><span class="bonus">${d.speed}ft</span></div>
-    <div class="line"><span>숙련 보너스</span><span class="bonus">${sgn(d.pb)}</span></div>
+    <div class="row" style="margin-top:6px"><label class="muted">현재</label><input type="number" id="hp-cur" value="${state.hpCurrent == null ? d.hp : state.hpCurrent}" style="width:80px">
+      <label class="muted">임시</label><input type="number" id="hp-temp" value="${state.hpTemp}" style="width:70px"></div>
   </div>`;
-  if (d.spellDC) h += `<div class="card"><h2>주문시전</h2>
-    <div class="line"><span>시전 능력치</span><span>${ABILITY_KO[d.castAbility]}</span></div>
-    <div class="line"><span>주문 내성 DC</span><span class="bonus">${d.spellDC}</span></div>
-    <div class="line"><span>주문 명중</span><span class="bonus">${sgn(d.spellAtk)}</span></div></div>`;
-  return h;
 }
+// 중앙 컬럼 전체 = 스탯칩 + 능력/내성/기술 + 체력·방어
+function centerContent() { return statChips() + tabInfo() + centerHP(); }
 
 // ───────── 우측 패널: 공격 (장착 무기) ─────────
 function tabAttacks() {
@@ -230,7 +217,7 @@ function renderTabs() {
 function panelFor(id) {
   switch (id) {
     case 'build': return tabBuild();
-    case 'info': return tabInfo() + centerDefense();
+    case 'info': return centerContent();
     case 'attacks': return tabAttacks();
     case 'spells': return tabSpells();
     case 'features': return tabFeatures();
@@ -244,7 +231,7 @@ function render() {
   document.getElementById('right-tabs').innerHTML = renderTabs();
   if (isDesktop()) {
     document.getElementById('sidebar').innerHTML = `<h2 style="margin-top:0">🛠 빌더</h2>` + tabBuild();
-    document.getElementById('center-col').innerHTML = tabInfo() + centerDefense();
+    document.getElementById('center-col').innerHTML = centerContent();
     document.getElementById('right-content').innerHTML = panelFor(RIGHT_IDS.includes(activeTab) ? activeTab : 'attacks');
   } else {
     document.getElementById('sidebar').innerHTML = '';
