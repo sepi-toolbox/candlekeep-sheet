@@ -29,7 +29,7 @@ function renderHeader() {
 // 중앙 상단 스탯 칩바 (구 상단바 정보)
 function statChips() {
   const d = derived();
-  const stats = [['AC', d.ac.value], ['HP', d.hp || '-'], ['선제권', sgn(d.init)], ['속도', d.speed + 'ft'], ['숙련', sgn(d.pb)], ['수동 감지', d.passivePerc]];
+  const stats = [['AC', d.ac.value], ['선제권', sgn(d.init)], ['속도', d.speed + 'ft'], ['숙련', sgn(d.pb)], ['수동 감지', d.passivePerc]];
   if (d.spellDC) stats.push(['주문 DC', d.spellDC], ['주문 명중', sgn(d.spellAtk)], ['시전', ABILITY_KO[d.castAbility]]);
   return `<div class="statbar statchips">` + stats.map(([l, v]) => `<div class="stat"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('') + `</div>`;
 }
@@ -91,18 +91,38 @@ function tabInfo() {
   return h;
 }
 
-// ───────── 중앙: 체력 관리 (현재/임시 HP) ─────────
+// ───────── 중앙: HP 박스 (직접 제어: 피해/회복/임시) ─────────
 function centerHP() {
   const d = derived();
-  return `<div class="card"><h2>체력 · 방어</h2>
-    <div class="line"><span>AC <span class="muted">(${esc(d.ac.label)})</span></span><span class="bonus">${d.ac.value}</span></div>
-    <div class="line"><span>최대 HP</span><span class="bonus">${d.hp}</span></div>
-    <div class="row" style="margin-top:6px"><label class="muted">현재</label><input type="number" id="hp-cur" value="${state.hpCurrent == null ? d.hp : state.hpCurrent}" style="width:80px">
-      <label class="muted">임시</label><input type="number" id="hp-temp" value="${state.hpTemp}" style="width:70px"></div>
+  const cur = state.hpCurrent == null ? d.hp : state.hpCurrent;
+  return `<div class="card"><h2>체력 (HP)</h2>
+    <div class="hp-big"><span class="hp-cur">${cur}</span><span class="hp-sep"> / </span><span class="hp-max">${d.hp}</span>${state.hpTemp ? `<span class="hp-temp">+${state.hpTemp}</span>` : ''}</div>
+    <div class="row" style="justify-content:center;margin-top:8px">
+      <input type="number" id="hp-amt" placeholder="값" style="width:64px;text-align:center">
+      <button class="btn" data-hp="dmg">피해</button>
+      <button class="btn" data-hp="heal">회복</button>
+    </div>
+    <div class="row" style="margin-top:8px;border-top:1px solid var(--border);padding-top:8px">
+      <label class="muted">현재</label><input type="number" id="hp-cur" value="${cur}" style="width:64px">
+      <label class="muted">임시</label><input type="number" id="hp-temp" value="${state.hpTemp}" style="width:56px">
+      <button class="btn sm" data-hp="full">최대로</button>
+    </div>
   </div>`;
 }
-// 중앙 컬럼 전체 = 스탯칩 + 능력/내성/기술 + 체력·방어
-function centerContent() { return statChips() + tabInfo() + centerHP(); }
+// ───────── 중앙: 히트 다이스 박스 (사용 / 긴 휴식) ─────────
+function centerHitDice() {
+  const hd = hitDice();
+  if (!hd.die) return '';
+  return `<div class="card"><h2>히트 다이스</h2>
+    <div class="line"><span>d${hd.die} 풀</span><span class="bonus">${hd.remaining} / ${hd.max}</span></div>
+    <div class="row" style="margin-top:8px">
+      <button class="btn" data-hd="use"${hd.remaining <= 0 ? ' disabled' : ''}>＋ 사용 (회복 ~${hitDieHeal()})</button>
+      <button class="btn gold" data-hd="long">긴 휴식</button>
+    </div>
+  </div>`;
+}
+// 중앙 컬럼 전체 = 스탯칩 + 능력/내성/기술 + HP박스 + 히트다이스박스
+function centerContent() { return statChips() + tabInfo() + centerHP() + centerHitDice(); }
 
 // ───────── 우측 패널: 공격 (장착 무기) ─────────
 function tabAttacks() {

@@ -12,6 +12,40 @@ document.addEventListener('click', (e) => {
   const tabBtn = e.target.closest('[data-tab]');
   if (tabBtn) { setTab(tabBtn.dataset.tab); return; }
 
+  // HP 제어 (피해/회복/최대)
+  const hp = e.target.closest('[data-hp]');
+  if (hp) {
+    const max = maxHP();
+    const amt = Math.abs(+((document.getElementById('hp-amt') || {}).value) || 0);
+    let cur = state.hpCurrent == null ? max : state.hpCurrent;
+    if (hp.dataset.hp === 'dmg') {
+      let dmg = amt;
+      if (state.hpTemp > 0) { const ab = Math.min(state.hpTemp, dmg); state.hpTemp -= ab; dmg -= ab; }
+      state.hpCurrent = cur - dmg;
+    } else if (hp.dataset.hp === 'heal') {
+      state.hpCurrent = Math.min(max, cur + amt);
+    } else if (hp.dataset.hp === 'full') {
+      state.hpCurrent = max; state.hpTemp = 0;
+    }
+    save(); render(); return;
+  }
+  // 히트 다이스 (사용 / 긴 휴식)
+  const hd = e.target.closest('[data-hd]');
+  if (hd) {
+    const max = maxHP();
+    if (hd.dataset.hd === 'use') {
+      if (hitDice().remaining > 0) {
+        state.hdUsed = (state.hdUsed || 0) + 1;
+        const cur = state.hpCurrent == null ? max : state.hpCurrent;
+        state.hpCurrent = Math.min(max, cur + hitDieHeal());
+      }
+    } else if (hd.dataset.hd === 'long') {
+      state.hpCurrent = max; state.hpTemp = 0;
+      state.hdUsed = Math.max(0, (state.hdUsed || 0) - Math.max(1, Math.floor(state.level / 2)));
+    }
+    save(); render(); return;
+  }
+
   // 주문 추가/제거
   const sp = e.target.closest('[data-spell]');
   if (sp) {

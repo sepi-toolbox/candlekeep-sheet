@@ -61,6 +61,17 @@ function maxHP() {
   return Math.max(1, first + (lv - 1) * perLevel);
 }
 
+// 히트 다이스 풀 (레벨 = 최대 개수, 클래스 die)
+function hitDice() {
+  const cls = getClass(state.classId);
+  return { die: cls ? cls.hitDie : null, max: state.level, remaining: Math.max(0, state.level - (state.hdUsed || 0)) };
+}
+// 히트 다이스 1개 사용 시 평균 회복량 (die 절반+1 + conMod, 최소 1)
+function hitDieHeal() {
+  const cls = getClass(state.classId); if (!cls || !cls.hitDie) return 0;
+  return Math.max(1, Math.floor(cls.hitDie / 2) + 1 + mod(state.abilities.con));
+}
+
 // 시전 능력치 (클래스 기반)
 function castingAbility() {
   const cls = getClass(state.classId);
