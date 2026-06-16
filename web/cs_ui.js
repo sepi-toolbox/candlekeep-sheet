@@ -1,14 +1,15 @@
 /* Candlekeep Sheet — 렌더링 + 빌더 UI */
 
-// 패스포지 구성: 빌더 / 기본정보 / 탭별 정보(전투·주문·특성·장비)
-const TABS = [
-  { id: 'build', ko: '빌더', ic: '🛠', group: 'builder' },
-  { id: 'info', ko: '기본정보', ic: '📋', group: 'info' },
-  { id: 'combat', ko: '전투', ic: '⚔️', group: 'detail' },
-  { id: 'spells', ko: '주문', ic: '✨', group: 'detail' },
-  { id: 'features', ko: '특성', ic: '⭐', group: 'detail' },
-  { id: 'inventory', ko: '장비', ic: '🎒', group: 'detail' },
+// 패스포지식 3분할: 좌=빌더 / 중앙=기본정보 stats(항상) / 우=공격·주문·특성·장비(탭 전환)
+const RIGHT_TABS = [
+  { id: 'attacks', ko: '공격' },
+  { id: 'spells', ko: '주문' },
+  { id: 'features', ko: '특성' },
+  { id: 'inventory', ko: '장비' },
 ];
+const RIGHT_IDS = RIGHT_TABS.map(t => t.id);
+// 모바일에선 빌더/기본정보도 탭으로 (PC에선 좌측·중앙 고정이라 제외)
+const MOBILE_TABS = [{ id: 'build', ko: '빌더' }, { id: 'info', ko: '기본정보' }, ...RIGHT_TABS];
 let activeTab = 'info';
 
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -97,8 +98,8 @@ function tabInfo() {
   return h;
 }
 
-// ───────── 전투 ─────────
-function tabCombat() {
+// ───────── 중앙: 방어 + 주문시전 stats (기본정보의 일부, 항상 표시) ─────────
+function centerDefense() {
   const d = derived();
   let h = `<div class="card"><h2>방어</h2>
     <div class="line"><span>AC <span class="muted">(${esc(d.ac.label)})</span></span><span class="bonus">${d.ac.value}</span></div>
@@ -113,11 +114,15 @@ function tabCombat() {
     <div class="line"><span>시전 능력치</span><span>${ABILITY_KO[d.castAbility]}</span></div>
     <div class="line"><span>주문 내성 DC</span><span class="bonus">${d.spellDC}</span></div>
     <div class="line"><span>주문 명중</span><span class="bonus">${sgn(d.spellAtk)}</span></div></div>`;
-  // 공격 (장착 무기)
+  return h;
+}
+
+// ───────── 우측 패널: 공격 (장착 무기) ─────────
+function tabAttacks() {
   const weps = state.inventory.map(i => getEquip(i.id)).filter(e => e && e.kind === 'weapon');
-  h += `<div class="card"><h2>공격</h2>`;
-  h += weps.length ? weps.map(w => { const a = weaponAttack(w); return `<div class="line"><span>${esc(w.ko)}</span><span>명중 <b class="bonus">${sgn(a.hit)}</b> · ${esc(a.dmg)}</span></div>`; }).join('')
-    : `<div class="muted">장비 탭에서 무기를 추가하세요.</div>`;
+  let h = `<div class="card"><h2>공격</h2>`;
+  h += weps.length ? weps.map(w => { const a = weaponAttack(w); return `<div class="line"><span>${esc(w.ko)} <span class="tag">${esc(w.damageType || '')}</span></span><span>명중 <b class="bonus">${sgn(a.hit)}</b> · ${esc(a.dmg)}</span></div>`; }).join('')
+    : `<div class="muted">'장비' 탭에서 무기를 추가하면 여기에 공격이 표시됩니다.</div>`;
   h += `</div>`;
   return h;
 }
@@ -215,22 +220,35 @@ function equipListHTML(q) {
 }
 
 // ───────── 메인 렌더 ─────────
-// 시트 전체(한 컬럼): 기본정보 → 전투 → 주문 → 특성 → 장비
-function renderSheet() {
-  return tabInfo() + tabCombat() + tabSpells() + tabFeatures() + tabInventory();
+// 우측 탭 바: PC=공격·주문·특성·장비, 모바일=빌더·기본정보·공격·주문·특성·장비
+function renderTabs() {
+  const desktop = isDesktop();
+  const tabs = desktop ? RIGHT_TABS : MOBILE_TABS;
+  const hi = desktop ? (RIGHT_IDS.includes(activeTab) ? activeTab : 'attacks') : activeTab;
+  return tabs.map(t => `<button class="tab ${t.id === hi ? 'active' : ''}" data-tab="${t.id}">${t.ko}</button>`).join('');
 }
-
+function panelFor(id) {
+  switch (id) {
+    case 'build': return tabBuild();
+    case 'info': return tabInfo() + centerDefense();
+    case 'attacks': return tabAttacks();
+    case 'spells': return tabSpells();
+    case 'features': return tabFeatures();
+    case 'inventory': return tabInventory();
+    default: return tabAttacks();
+  }
+}
+// 3분할: 좌=빌더(고정) / 중앙=기본정보 stats(고정) / 우=탭 패널. 모바일: 우측 한 컬럼만, 전부 탭.
 function render() {
   renderHeader();
-  document.getElementById('tabs').innerHTML = '';
-  document.getElementById('bnav').innerHTML = '';
-  const builder = document.getElementById('builderPanel');
+  document.getElementById('right-tabs').innerHTML = renderTabs();
   if (isDesktop()) {
-    builder.innerHTML = `<h2 style="margin-top:0">🛠 빌더</h2>` + tabBuild();
-    document.getElementById('view').innerHTML = renderSheet();
+    document.getElementById('sidebar').innerHTML = `<h2 style="margin-top:0">🛠 빌더</h2>` + tabBuild();
+    document.getElementById('center-col').innerHTML = tabInfo() + centerDefense();
+    document.getElementById('right-content').innerHTML = panelFor(RIGHT_IDS.includes(activeTab) ? activeTab : 'attacks');
   } else {
-    builder.innerHTML = '';
-    document.getElementById('view').innerHTML =
-      `<details class="builderAcc"${state.classId ? '' : ' open'}><summary>🛠 빌더 (캐릭터 구성)</summary><div class="accbody">${tabBuild()}</div></details>` + renderSheet();
+    document.getElementById('sidebar').innerHTML = '';
+    document.getElementById('center-col').innerHTML = '';
+    document.getElementById('right-content').innerHTML = panelFor(activeTab);
   }
 }
