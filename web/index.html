@@ -6,9 +6,10 @@
 <title>Candlekeep Sheet — D&D 5e 한국어 캐릭터 시트</title>
 <style>
 :root{
-  --bg:#191512; --bg2:#221d18; --bg3:#2a241d; --bg4:#332b22;
-  --text:#e8e0d4; --text2:#a89a86; --border:#3d342a; --border2:#52463a;
-  --gold:#d4af57; --gold2:#b8943f; --red:#c0563a; --green:#6a9a5b; --blue:#5a8ab0;
+  /* 화이트–레드 라이트 테마 (악센트 변수명은 --gold 유지, 값만 레드) */
+  --bg:#ffffff; --bg2:#fbf8f7; --bg3:#f4eeec; --bg4:#ece3e1; --bg5:#e2d6d3;
+  --text:#2a2220; --text2:#8a7d78; --border:#e7ddda; --border2:#d2c4c0;
+  --gold:#c41e1e; --gold2:#9e1414; --red:#c41e1e; --green:#2f7a3a; --blue:#2c6e9e;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI',Roboto,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:14px;line-height:1.5;padding-bottom:64px}
@@ -38,7 +39,7 @@ header{background:linear-gradient(180deg,var(--bg3),var(--bg2));border-bottom:2p
 .tab-sep{width:1px;align-self:center;height:18px;background:var(--border2);margin:0 4px;flex:0 0 auto}
 
 main{max-width:880px;margin:0 auto;padding:14px}
-.card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:12px;margin-bottom:10px}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:12px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
 .grid{display:grid;gap:8px}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .field{display:flex;flex-direction:column;gap:3px;margin-bottom:8px}
@@ -59,7 +60,7 @@ main{max-width:880px;margin:0 auto;padding:14px}
 .pill{display:inline-block;font-size:10px;padding:1px 6px;border-radius:10px;background:var(--bg4);color:var(--text2);border:1px solid var(--border)}
 .tag{font-size:11px;color:var(--blue)}
 .btn{background:var(--bg4);border:1px solid var(--border2);color:var(--text);border-radius:6px;padding:5px 10px;font-size:13px}
-.btn.gold{background:var(--gold2);color:#1a1410;border-color:var(--gold);font-weight:600}
+.btn.gold{background:var(--gold);color:#fff;border-color:var(--gold2);font-weight:600}
 .btn.sm{padding:3px 8px;font-size:12px}
 .chk{width:18px;height:18px;accent-color:var(--gold2)}
 details{border:1px solid var(--border);border-radius:8px;margin-bottom:6px;background:var(--bg2)}
