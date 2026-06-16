@@ -16,11 +16,17 @@ const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&
 const refs = (s) => esc(s || '').replace(/\{\{ref:[0-9a-f]+\|([^}]+)\}\}/g, (_, l) => `<span class="ref">${esc(l.replace(/^\*+|\*+$/g, ''))}</span>`);
 
 // ───────── 헤더 / 탭 ─────────
+// PC(≥901px)에선 기본정보가 좌측 패널이므로, 뷰에 'info' 대신 상세 기본탭(전투)을 표시
+function isDesktop() { return !!(typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(min-width:901px)').matches); }
+function effectiveTab() { return (isDesktop() && activeTab === 'info') ? 'combat' : activeTab; }
+
 function renderShell() {
+  const eff = effectiveTab();
   let prev = null;
   document.getElementById('tabs').innerHTML = TABS.map(t => {
     const sep = (prev && prev !== t.group) ? '<span class="tab-sep"></span>' : ''; prev = t.group;
-    return sep + `<button class="tab ${t.id === activeTab ? 'active' : ''}" data-tab="${t.id}">${t.ko}</button>`;
+    const cls = ['tab', t.id === 'info' ? 'tab-mobile-only' : '', t.id === eff ? 'active' : ''].filter(Boolean).join(' ');
+    return sep + `<button class="${cls}" data-tab="${t.id}">${t.ko}</button>`;
   }).join('');
   document.getElementById('bnav').innerHTML = TABS.map(t =>
     `<button class="${t.id === activeTab ? 'active' : ''}" data-tab="${t.id}"><span class="ic">${t.ic}</span>${t.ko}</button>`).join('');
@@ -222,6 +228,8 @@ function equipListHTML(q) {
 function render() {
   renderShell(); renderHeader();
   const R = { build: tabBuild, info: tabInfo, combat: tabCombat, spells: tabSpells, features: tabFeatures, inventory: tabInventory };
-  document.getElementById('view').innerHTML = (R[activeTab] || tabInfo)();
+  // 좌측 기본정보 패널(PC 전용 — CSS가 표시/숨김) 항상 채움
+  document.getElementById('infoPanel').innerHTML = tabInfo();
+  document.getElementById('view').innerHTML = (R[effectiveTab()] || tabInfo)();
   if (typeof wireView === 'function') wireView();
 }

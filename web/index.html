@@ -22,7 +22,7 @@ input,select{font-family:inherit;background:var(--bg3);color:var(--text);border:
 input:focus,select:focus{outline:none;border-color:var(--gold2)}
 
 /* 헤더 */
-header{background:linear-gradient(180deg,var(--bg3),var(--bg2));border-bottom:2px solid var(--gold2);padding:10px 14px;position:sticky;top:0;z-index:30}
+header{background:linear-gradient(180deg,var(--bg3),var(--bg2));border-bottom:2px solid var(--gold2);padding:10px 14px}
 .hdr-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .brand{color:var(--gold);font-weight:700;font-size:16px;letter-spacing:.5px}
 .brand small{color:var(--text2);font-weight:400;font-size:11px}
@@ -38,7 +38,13 @@ header{background:linear-gradient(180deg,var(--bg3),var(--bg2));border-bottom:2p
 .tab.active{color:var(--gold);border-bottom-color:var(--gold)}
 .tab-sep{width:1px;align-self:center;height:18px;background:var(--border2);margin:0 4px;flex:0 0 auto}
 
-main{max-width:880px;margin:0 auto;padding:14px}
+/* PC 2단 레이아웃: 좌 기본정보 패널 + 우 상세 뷰 */
+.layout{max-width:1140px;margin:0 auto;padding:14px;display:flex;gap:16px;align-items:flex-start}
+#view{flex:1;min-width:0}
+.infoPanel{flex:0 0 330px;position:sticky;top:14px;max-height:calc(100vh - 28px);overflow:auto}
+.infoPanel .abils{grid-template-columns:repeat(3,1fr)}
+.infoPanel .card{margin-bottom:8px;padding:10px}
+.tab-mobile-only{display:none}  /* PC에선 기본정보가 좌측 패널이므로 탭으로는 숨김 */
 .card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:12px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
 .grid{display:grid;gap:8px}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
@@ -70,10 +76,13 @@ details .body{padding:0 10px 10px;color:var(--text);white-space:pre-wrap;border-
 .ref{color:var(--gold);border-bottom:1px dotted var(--gold2)}
 .search{width:100%;margin-bottom:8px}
 
-/* 모바일 하단 네비 */
+/* 모바일 (≤900px): 단일 컬럼 + 하단 네비, 좌측 패널 숨김, 기본정보=탭 */
 .bnav{display:none}
-@media(max-width:760px){
+@media(max-width:900px){
   .tabs{display:none}
+  .layout{display:block;padding:14px;padding-bottom:0}
+  .infoPanel{display:none}
+  .tab-mobile-only{display:flex}
   .abils{grid-template-columns:repeat(3,1fr)}
   .bnav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--bg2);border-top:1px solid var(--gold2);z-index:40}
   .bnav button{flex:1;background:none;border:none;color:var(--text2);padding:8px 2px;font-size:10px;display:flex;flex-direction:column;align-items:center;gap:2px}
@@ -93,13 +102,16 @@ details .body{padding:0 10px 10px;color:var(--text);white-space:pre-wrap;border-
 </header>
 
 <nav class="tabs" id="tabs"></nav>
-<main id="view"></main>
+<div class="layout">
+  <aside class="infoPanel" id="infoPanel"></aside>
+  <main id="view"></main>
+</div>
 <nav class="bnav" id="bnav"></nav>
 
-<script src="data.js?v=2"></script>
-<script src="cs_data.js?v=2"></script>
-<script src="cs_calc.js?v=2"></script>
-<script src="cs_ui.js?v=2"></script>
-<script src="app.js?v=2"></script>
+<script src="data.js?v=3"></script>
+<script src="cs_data.js?v=3"></script>
+<script src="cs_calc.js?v=3"></script>
+<script src="cs_ui.js?v=3"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>
