@@ -12,7 +12,7 @@
   --gold:#c41e1e; --gold2:#9e1414; --red:#c41e1e; --green:#2f7a3a; --blue:#2c6e9e;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI',Roboto,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:14px;line-height:1.5;padding-bottom:64px}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI',Roboto,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:14px;line-height:1.5;padding-bottom:24px}
 a{color:var(--gold)}
 h2{color:var(--gold);font-size:18px;margin:14px 0 8px;border-bottom:1px solid var(--border);padding-bottom:4px}
 h3{color:var(--gold2);font-size:15px;margin:12px 0 6px}
@@ -41,10 +41,19 @@ header{background:linear-gradient(180deg,var(--bg3),var(--bg2));border-bottom:2p
 /* PC 2단 레이아웃: 좌 기본정보 패널 + 우 상세 뷰 */
 .layout{max-width:1140px;margin:0 auto;padding:14px;display:flex;gap:16px;align-items:flex-start}
 #view{flex:1;min-width:0}
-.infoPanel{flex:0 0 330px;position:sticky;top:14px;max-height:calc(100vh - 28px);overflow:auto}
-.infoPanel .abils{grid-template-columns:repeat(3,1fr)}
-.infoPanel .card{margin-bottom:8px;padding:10px}
-.tab-mobile-only{display:none}  /* PC에선 기본정보가 좌측 패널이므로 탭으로는 숨김 */
+.sidePanel{flex:0 0 360px;position:sticky;top:14px;max-height:calc(100vh - 28px);overflow:auto}
+.sidePanel .abils{grid-template-columns:repeat(3,1fr)}
+.sidePanel .card{margin-bottom:8px;padding:10px}
+.tabs:empty,.bnav:empty{display:none}
+/* 접이식 추가 검색 / 모바일 빌더 아코디언 */
+.addbox{border:1px dashed var(--border2);border-radius:8px;margin-top:8px;background:var(--bg)}
+.addbox>summary{padding:8px 10px;cursor:pointer;color:var(--gold);font-size:13px;list-style:none}
+.addbox>summary::-webkit-details-marker{display:none}
+.addbox .accbody{padding:8px 10px;border-top:1px solid var(--border)}
+.builderAcc{border:1px solid var(--gold2);border-radius:10px;margin-bottom:10px;background:var(--bg2)}
+.builderAcc>summary{padding:11px 12px;cursor:pointer;color:var(--gold);font-weight:600;list-style:none}
+.builderAcc>summary::-webkit-details-marker{display:none}
+.builderAcc .accbody{padding:0 6px}
 .card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:12px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
 .grid{display:grid;gap:8px}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
@@ -80,9 +89,8 @@ details .body{padding:0 10px 10px;color:var(--text);white-space:pre-wrap;border-
 .bnav{display:none}
 @media(max-width:900px){
   .tabs{display:none}
-  .layout{display:block;padding:14px;padding-bottom:0}
-  .infoPanel{display:none}
-  .tab-mobile-only{display:flex}
+  .layout{display:block;padding:14px}
+  .sidePanel{display:none}
   .abils{grid-template-columns:repeat(3,1fr)}
   .bnav{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--bg2);border-top:1px solid var(--gold2);z-index:40}
   .bnav button{flex:1;background:none;border:none;color:var(--text2);padding:8px 2px;font-size:10px;display:flex;flex-direction:column;align-items:center;gap:2px}
@@ -103,15 +111,15 @@ details .body{padding:0 10px 10px;color:var(--text);white-space:pre-wrap;border-
 
 <nav class="tabs" id="tabs"></nav>
 <div class="layout">
-  <aside class="infoPanel" id="infoPanel"></aside>
+  <aside class="sidePanel" id="builderPanel"></aside>
   <main id="view"></main>
 </div>
 <nav class="bnav" id="bnav"></nav>
 
-<script src="data.js?v=3"></script>
-<script src="cs_data.js?v=3"></script>
-<script src="cs_calc.js?v=3"></script>
-<script src="cs_ui.js?v=3"></script>
-<script src="app.js?v=3"></script>
+<script src="data.js?v=4"></script>
+<script src="cs_data.js?v=4"></script>
+<script src="cs_calc.js?v=4"></script>
+<script src="cs_ui.js?v=4"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

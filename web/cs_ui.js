@@ -16,21 +16,9 @@ const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&
 const refs = (s) => esc(s || '').replace(/\{\{ref:[0-9a-f]+\|([^}]+)\}\}/g, (_, l) => `<span class="ref">${esc(l.replace(/^\*+|\*+$/g, ''))}</span>`);
 
 // ───────── 헤더 / 탭 ─────────
-// PC(≥901px)에선 기본정보가 좌측 패널이므로, 뷰에 'info' 대신 상세 기본탭(전투)을 표시
+// 패스빌더식 단일 컬럼: 탭 분할 없음. 모든 시트 정보를 한 컬럼에 스택.
+// PC(≥901px): 좌측=빌더(항상) + 우측=시트 한 컬럼. 모바일: 빌더(접이식) + 시트 한 컬럼.
 function isDesktop() { return !!(typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(min-width:901px)').matches); }
-function effectiveTab() { return (isDesktop() && activeTab === 'info') ? 'combat' : activeTab; }
-
-function renderShell() {
-  const eff = effectiveTab();
-  let prev = null;
-  document.getElementById('tabs').innerHTML = TABS.map(t => {
-    const sep = (prev && prev !== t.group) ? '<span class="tab-sep"></span>' : ''; prev = t.group;
-    const cls = ['tab', t.id === 'info' ? 'tab-mobile-only' : '', t.id === eff ? 'active' : ''].filter(Boolean).join(' ');
-    return sep + `<button class="${cls}" data-tab="${t.id}">${t.ko}</button>`;
-  }).join('');
-  document.getElementById('bnav').innerHTML = TABS.map(t =>
-    `<button class="${t.id === activeTab ? 'active' : ''}" data-tab="${t.id}"><span class="ic">${t.ic}</span>${t.ko}</button>`).join('');
-}
 function renderHeader() {
   const d = derived();
   const cls = getClass(state.classId), sp = getSpecies(state.speciesId);
@@ -144,12 +132,12 @@ function tabSpells() {
   const clsKo = cls && cls.ko;
   let pool = DB.spells;
   if (clsKo) pool = DB.spells.filter(s => (s.classes || []).some(c => c.includes(clsKo)));
-  h += `<input class="search" id="spell-search" placeholder="주문 검색 (${clsKo ? clsKo + ' ' : ''}${pool.length}개)">`;
   const known = new Set(state.spells.map(x => String(x.id)));
-  // 알고 있는 주문 먼저
-  h += `<div class="card"><h2>준비/습득 (${state.spells.length})</h2>` +
-    (state.spells.length ? state.spells.map(x => { const s = getSpell(x.id); return s ? spellRow(s, true) : ''; }).join('') : `<div class="muted">아래 목록에서 주문을 추가하세요.</div>`) + `</div>`;
-  h += `<div id="spell-list">` + spellListHTML(pool, known, '') + `</div>`;
+  h += `<div class="card"><h2>주문 (${state.spells.length})</h2>` +
+    (state.spells.length ? state.spells.map(x => { const s = getSpell(x.id); return s ? spellRow(s, true) : ''; }).join('') : `<div class="muted">아래 '주문 추가'에서 선택하세요.</div>`) +
+    `<details class="addbox"><summary>＋ 주문 추가 / 찾아보기${clsKo ? ' (' + clsKo + ' ' + pool.length + ')' : ''}</summary><div class="accbody">
+      <input class="search" id="spell-search" placeholder="주문 검색">
+      <div id="spell-list">${spellListHTML(pool, known, '')}</div></div></details></div>`;
   return h;
 }
 function spellListHTML(pool, known, q) {
@@ -191,9 +179,10 @@ function tabFeatures() {
   // 재주
   const myFeats = new Set(state.feats.map(String));
   h += `<div class="card"><h2>재주 (${state.feats.length})</h2>`;
-  h += state.feats.map(id => { const f = getFeat(id); return f ? featRow(f, true) : ''; }).join('');
-  h += `<input class="search" id="feat-search" placeholder="재주 검색 (${DB.feats.length}개)" style="margin-top:8px">`;
-  h += `<div id="feat-list">${DB.feats.slice(0, 30).map(f => featRow(f, myFeats.has(String(f.id)))).join('')}</div></div>`;
+  h += state.feats.length ? state.feats.map(id => { const f = getFeat(id); return f ? featRow(f, true) : ''; }).join('') : `<div class="muted">아래 '재주 추가'에서 선택하세요.</div>`;
+  h += `<details class="addbox"><summary>＋ 재주 추가 / 찾아보기 (${DB.feats.length})</summary><div class="accbody">
+    <input class="search" id="feat-search" placeholder="재주 검색">
+    <div id="feat-list">${DB.feats.slice(0, 30).map(f => featRow(f, myFeats.has(String(f.id)))).join('')}</div></div></details></div>`;
   return h;
 }
 function featRow(f, mine) {
@@ -212,9 +201,10 @@ function tabInventory() {
       <span>${canEquip ? `<button class="btn sm ${it.equipped ? 'gold' : ''}" data-equip-idx="${idx}">${it.equipped ? '장착됨' : '장착'}</button>` : ''}
       <button class="btn sm" data-rm-idx="${idx}">✕</button></span></div>`;
   }).join('') : `<div class="muted">아래에서 장비를 추가하세요.</div>`;
+  h += `<details class="addbox"><summary>＋ 장비 추가 / 찾아보기 (무기·갑옷·장비·마법)</summary><div class="accbody">
+    <input class="search" id="equip-search" placeholder="장비 검색">
+    <div id="equip-list">${equipListHTML('')}</div></div></details>`;
   h += `</div>`;
-  h += `<input class="search" id="equip-search" placeholder="장비 검색 (무기/갑옷/장비/마법아이템)">`;
-  h += `<div id="equip-list">${equipListHTML('')}</div>`;
   return h;
 }
 function equipListHTML(q) {
@@ -225,11 +215,22 @@ function equipListHTML(q) {
 }
 
 // ───────── 메인 렌더 ─────────
+// 시트 전체(한 컬럼): 기본정보 → 전투 → 주문 → 특성 → 장비
+function renderSheet() {
+  return tabInfo() + tabCombat() + tabSpells() + tabFeatures() + tabInventory();
+}
+
 function render() {
-  renderShell(); renderHeader();
-  const R = { build: tabBuild, info: tabInfo, combat: tabCombat, spells: tabSpells, features: tabFeatures, inventory: tabInventory };
-  // 좌측 기본정보 패널(PC 전용 — CSS가 표시/숨김) 항상 채움
-  document.getElementById('infoPanel').innerHTML = tabInfo();
-  document.getElementById('view').innerHTML = (R[effectiveTab()] || tabInfo)();
-  if (typeof wireView === 'function') wireView();
+  renderHeader();
+  document.getElementById('tabs').innerHTML = '';
+  document.getElementById('bnav').innerHTML = '';
+  const builder = document.getElementById('builderPanel');
+  if (isDesktop()) {
+    builder.innerHTML = `<h2 style="margin-top:0">🛠 빌더</h2>` + tabBuild();
+    document.getElementById('view').innerHTML = renderSheet();
+  } else {
+    builder.innerHTML = '';
+    document.getElementById('view').innerHTML =
+      `<details class="builderAcc"${state.classId ? '' : ' open'}><summary>🛠 빌더 (캐릭터 구성)</summary><div class="accbody">${tabBuild()}</div></details>` + renderSheet();
+  }
 }
